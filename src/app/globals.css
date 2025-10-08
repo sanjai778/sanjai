@@ -1,0 +1,43 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define brand colors and fonts */
+:root {
+  --primary-green: #10c469;
+  --primary-green-dark: #0d9d55;
+  --text-dark: #2c3e50;
+  --text-light: #5a6a7a;
+  --border-color: #e5e7eb;
+  --background-light: #f8f9fa;
+  --font-family: 'Inter', sans-serif;
+  --footer-bg: #f7f8fa; /* A clean, modern font similar to Onfra's */
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Helper class to visually hide content but keep it accessible for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

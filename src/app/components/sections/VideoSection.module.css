@@ -1,0 +1,107 @@
+.videoSection {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videoMain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.promoVideo {
+  position: absolute;
+}
+.wavesBlock {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wave1, .wave2, .wave3 {
+  position: absolute;
+  border: 2px solid var(--primary-green);
+  border-radius: 50%;
+  animation: waves 3s infinite linear;
+}
+.wave1 { width: 100px; height: 100px; }
+.wave2 { width: 150px; height: 150px; animation-delay: 1s; }
+.wave3 { width: 200px; height: 200px; animation-delay: 2s; }
+
+@keyframes waves {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.playButton {
+  width: 80px;
+  height: 80px;
+  background-color: var(--primary-green);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.2s ease;
+}
+.playButton:hover {
+  transform: scale(1.1);
+}
+
+/* Modal Styles */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+.modalContent {
+  position: relative;
+  width: 90%;
+  max-width: 900px;
+}
+.closeButton {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  cursor: pointer;
+}
+.iframeContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+}
+.iframeContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

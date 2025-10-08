@@ -1,0 +1,87 @@
+.faqSection {
+  padding: 80px 0;
+  background-color: #fff;
+}
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.tagline {
+  color: var(--primary-green);
+  font-weight: 500;
+}
+.title {
+  font-size: 2rem;
+  color: var(--text-dark);
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+.accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.card {
+  border: 1px solid var(--border-color, #e5e7eb);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.cardHeader {
+  padding: 0;
+}
+.button {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid var(--text-light);
+  border-bottom: 2px solid var(--text-light);
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+.icon.open {
+  transform: rotate(-135deg);
+}
+.contentWrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+.contentWrapper.open {
+  max-height: 500px; /* A large enough value to show content */
+}
+.cardBody {
+  padding: 0 20px 20px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+.readMoreWrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+.generalBtn {
+  background-color: var(--primary-green);
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+.generalBtn:hover {
+  background-color: var(--primary-green-dark);
+}

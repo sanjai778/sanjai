@@ -1,0 +1,234 @@
+/* --- Base Header & Navigation --- */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand img {
+  height: 40px;
+  width: auto;
+}
+.navMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navMenu a {
+  color: var(--text-light, #555);
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.navMenu li a:hover {
+  color: var(--primary-green);
+  background-color: #f7f9fa;
+}
+.ctaItem a.signupButton {
+  background-color: var(--primary-green);
+  color: #fff !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-green);
+}
+.ctaItem a.signupButton:hover {
+  background-color: var(--primary-green-dark);
+  color: #fff !important;
+}
+.toggleNavbar {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2.2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+/* --- Desktop Mega Menu --- */
+.hasDropdown {
+  position: relative;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 150%; /* Start position for animation */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90vw;
+  max-width: 950px; /* Wider menu */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.hasDropdown:hover > .dropdownMenu {
+  top: calc(100% + 10px); /* Final position with gap */
+  opacity: 1;
+  visibility: visible;
+}
+.dropdownGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Right section is wider */
+  gap: 1rem;
+}
+.leftSection {
+  background-color: #f7f9fa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.dropdownLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.5rem;
+}
+.rightSection .dropdownLinks {
+  grid-template-columns: 1fr 1fr;
+}
+.dropdownLinks a {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  align-items: flex-start;
+}
+.dropdownLinks a:hover {
+  background-color: #eef2f5;
+}
+.dropdownLinks .menuTitle {
+  font-weight: 600;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+}
+.dropdownLinks p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin: 4px 0 0;
+  line-height: 1.5;
+}
+.dropdownLinks i {
+  font-size: 1.5rem;
+  color: var(--primary-green);
+}
+.dropdownClose {
+  display: none;
+}
+
+/* --- Responsive Mobile Styles --- */
+@media (max-width: 991px) {
+  .navMenu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px 20px 20px;
+    transition: left 0.3s ease-in-out;
+  }
+  .navMenu.show {
+    left: 0;
+  }
+  .navMenu ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 0;
+  }
+  .navMenu li {
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .navMenu li:last-child {
+    border-bottom: none;
+  }
+  .navMenu a {
+    padding: 1rem 0;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 0;
+  }
+  .toggleNavbar {
+    display: block;
+    z-index: 1001;
+  }
+  .ctaItem {
+    padding-top: 1.5rem;
+  }
+  .ctaItem a.signupButton {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+
+  /* Mobile Dropdown Behavior */
+  .hasDropdown:hover > .dropdownMenu {
+    display: none;
+  }
+  .dropdownMenu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: left 0.3s ease-in-out;
+    overflow-y: auto;
+    padding: 0;
+  }
+  .dropdownMenu.show {
+    left: 0;
+  }
+  .dropdownClose {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+  .dropdownGrid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .rightSection, .leftSection {
+    padding: 1rem;
+    border-radius: 0;
+  }
+  .rightSection .dropdownLinks,
+  .leftSection .dropdownLinks {
+    grid-template-columns: 1fr;
+  }
+  .leftSection {
+    background-color: #fff;
+    border-top: 1px solid #eee;
+  }
+}

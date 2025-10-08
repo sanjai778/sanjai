@@ -1,0 +1,138 @@
+.blogSection {
+  padding: 80px 0;
+  background-color: var(--background-light, #f8f9fa);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tagline {
+  color: var(--primary-green);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.blogSlider {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+/* This is needed for the fade effect to work correctly */
+:global(.swiper-slide) {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease !important;
+}
+:global(.swiper-slide-active) {
+  opacity: 1 !important;
+}
+
+.slideItem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.slideImage {
+  width: 45%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slideImage img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slideContent {
+  flex: 1;
+}
+
+.slideDate {
+  color: var(--text-light);
+  margin-bottom: 15px;
+  display: block;
+  font-size: 0.9rem;
+}
+
+.slideTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.slideExcerpt {
+  color: var(--text-light);
+  margin-bottom: 30px;
+  line-height: 1.7;
+  /* Style for the nested <p> tag */
+  composes: font-styles from global; /* If you have global styles */
+}
+.slideExcerpt p {
+    margin: 0;
+}
+
+.slideButton {
+  display: inline-block;
+  background: var(--primary-green);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.slideButton:hover {
+  background-color: var(--primary-green-dark);
+}
+
+/* Pagination styles */
+:global(.swiper-pagination) {
+  position: absolute;
+  bottom: 15px !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: auto !important;
+}
+
+:global(.swiper-pagination-bullet) {
+  background: #ccc;
+  opacity: 1;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background: var(--primary-green);
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .slideItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  .slideImage {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .slideTitle {
+      font-size: 1.25rem;
+  }
+}

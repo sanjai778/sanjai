@@ -1,0 +1,174 @@
+.footer {
+  background-color: var(--footer-bg, #f7f8fa);
+  padding: 80px 0 0;
+  font-size: 14px;
+}
+
+.footerContainer {
+  max-width: 1400px; /* Wider container to match the spacious design */
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr; /* First column is wider */
+  gap: 48px;
+  padding-bottom: 48px;
+}
+
+/* --- Column 1: Brand --- */
+.brandColumn {
+  color: var(--text-light, #6b7280);
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logoText {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--text-dark, #111827);
+}
+
+.description {
+  line-height: 1.7;
+  max-width: 350px;
+}
+
+.infoLinks {
+  list-style: none;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.infoLinks a {
+  text-decoration: none;
+  color: var(--text-light, #6b7280);
+  transition: color 0.2s ease;
+}
+.infoLinks a:hover {
+  color: var(--primary-green);
+}
+
+.contactInfo {
+  margin: 20px 0;
+  line-height: 1.8;
+}
+.contactInfo strong {
+  color: var(--text-dark, #111827);
+  font-weight: 500;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 12px;
+}
+
+.socialLinks a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-green);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.socialLinks a:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* --- Columns 2, 3, 4: Links --- */
+.linkTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-dark, #111827);
+  margin-bottom: 24px;
+}
+
+.linkColumn ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.linkColumn a {
+  text-decoration: none;
+  color: var(--text-light, #6b7280);
+  transition: color 0.2s ease;
+}
+.linkColumn a:hover {
+  color: var(--primary-green);
+}
+
+/* --- Footer Bottom Bar --- */
+.footerBottom {
+  border-top: 1px solid var(--border-color, #e5e7eb);
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-light, #6b7280);
+}
+
+.madeWith {
+  font-weight: 500;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+}
+
+.legalLinks a {
+  text-decoration: none;
+  color: var(--text-light, #6b7280);
+  padding: 0 8px;
+  border-right: 1px solid #dcdfe3;
+  transition: color 0.2s ease;
+}
+.legalLinks a:last-child {
+  border-right: none;
+}
+.legalLinks a:hover {
+  color: var(--primary-green);
+}
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 1024px) {
+  .footerGrid {
+    grid-template-columns: 1fr 1fr; /* 2 columns on tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .footerGrid {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+    text-align: center;
+  }
+  .brandColumn {
+    align-items: center;
+  }
+  .logoWrapper, .socialLinks {
+    justify-content: center;
+  }
+  .description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footerBottom {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.marqueeContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100px; /* Adjust as needed */
+}
+.marqueeTrack {
+  display: flex;
+  width: fit-content;
+  animation: scroll 60s linear infinite;
+}
+.marqueeTrack img {
+  height: 100px;
+  width: auto;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Optional fade effect */
+.marqueeContainer::before,
+.marqueeContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 2;
+}
+.marqueeContainer::before {
+  left: 0;
+  background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+}
+.marqueeContainer::after {
+  right: 0;
+  background: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
+}

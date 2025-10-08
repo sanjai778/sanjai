@@ -1,0 +1,22 @@
+.infoSection { padding: 80px 0; background: #fff; }
+.infoSection:nth-child(even) { background-color: var(--background-light); }
+.infoContainer {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.textContent { flex: 1; }
+.imageContent { flex: 1; }
+.tagline { color: var(--primary-green); font-weight: 500; }
+.title { font-size: 2.25rem; color: var(--text-dark); margin: 10px 0 20px; }
+.description { color: var(--text-light); line-height: 1.7; }
+.infoImage { width: 100%; height: auto; border-radius: 8px; }
+
+/* Reversed Layout */
+.reversed .textContent { order: 2; }
+.reversed .imageContent { order: 1; }
+
+@media (max-width: 992px) {
+  .infoContainer { flex-direction: column; }
+  .reversed .textContent, .reversed .imageContent { order: initial; }
+}

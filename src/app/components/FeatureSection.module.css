@@ -1,0 +1,106 @@
+.featureSection {
+  padding: 100px 0;
+  background-color: var(--background-light);
+}
+/* Style for every other section to have a white background for contrast */
+.featureSection:nth-child(even) {
+  background-color: #fff;
+}
+
+.featureContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.textContent {
+  max-width: 500px;
+}
+
+.tagline {
+  color: var(--primary-green);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.description {
+  font-size: 16px;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.featureList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.featureList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-dark);
+}
+
+.featureList i {
+  color: var(--primary-green);
+  font-size: 22px;
+}
+
+.imageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the reversed layout */
+.reversed .textContent {
+  order: 2; /* Puts the text on the right */
+}
+.reversed .imageContent {
+  order: 1; /* Puts the image on the left */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .featureContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .featureList {
+    align-items: center;
+  }
+  
+  .reversed .textContent,
+  .reversed .imageContent {
+    order: initial; /* Resets the order on mobile */
+  }
+
+  /* Add space above the image on mobile */
+  .textContent {
+    margin-bottom: 40px;
+  }
+}

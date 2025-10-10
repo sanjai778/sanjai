@@ -65,9 +65,6 @@ export default function FaqSection() {
             />
           ))}
         </div>
-        <div className={styles.readMoreWrapper}>
-          <Link href="/faq" className={styles.generalBtn}>Read More</Link>
-        </div>
       </div>
     </section>
   );

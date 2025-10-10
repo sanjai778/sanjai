@@ -1,138 +1,107 @@
 .blogSection {
   padding: 80px 0;
-  background-color: var(--background-light, #f8f9fa);
+  background-color: #f7f8fa;
 }
-
 .header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-
 .tagline {
-  color: var(--primary-green);
-  font-weight: 500;
+  color: #4caf50;
+  font-weight: 600;
   margin-bottom: 10px;
 }
-
 .title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--text-dark);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
 }
-
-.blogSlider {
-  position: relative;
+.blogSwiperWrapper {
+  height: 450px;
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.swiperInstance {
+  height: 100%;
+  width: 100%;
+}
+.swiperSlide {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.3s, transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
   background: #fff;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  padding: 25px;
-}
-
-/* This is needed for the fade effect to work correctly */
-:global(.swiper-slide) {
-  opacity: 0 !important;
-  transition: opacity 0.5s ease !important;
-}
-:global(.swiper-slide-active) {
-  opacity: 1 !important;
-}
-
-.slideItem {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
-  gap: 30px;
-}
-
-.slideImage {
-  width: 45%;
-  flex-shrink: 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.slideImage img {
+  height: 80%;
   width: 100%;
-  height: auto;
-  display: block;
+  max-width: 800px;
+  position: relative;
 }
-
-.slideContent {
-  flex: 1;
+.imageWrapper {
+  width: 40%;
+  height: 100%;
+  flex-shrink: 0;
 }
-
-.slideDate {
-  color: var(--text-light);
-  margin-bottom: 15px;
-  display: block;
+.postImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contentWrapper {
+  padding: 30px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.postDate {
+  color: #666;
   font-size: 0.9rem;
+  margin-bottom: 10px;
 }
-
-.slideTitle {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 20px;
+.postTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
   line-height: 1.4;
+  margin-bottom: 15px;
+  color: #333;
 }
-
-.slideExcerpt {
-  color: var(--text-light);
-  margin-bottom: 30px;
-  line-height: 1.7;
-  /* Style for the nested <p> tag */
-  composes: font-styles from global; /* If you have global styles */
+.postExcerpt {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
-.slideExcerpt p {
-    margin: 0;
-}
-
-.slideButton {
-  display: inline-block;
-  background: var(--primary-green);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+.readMoreButton {
+  color: #4caf50;
   text-decoration: none;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
+  font-weight: 600;
 }
-
-.slideButton:hover {
-  background-color: var(--primary-green-dark);
-}
-
-/* Pagination styles */
-:global(.swiper-pagination) {
+:global(.swiper-pagination-custom) {
   position: absolute;
-  bottom: 15px !important;
-  left: 50% !important;
-  transform: translateX(-50%);
-  width: auto !important;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-
-:global(.swiper-pagination-bullet) {
-  background: #ccc;
+:global(.swiper-pagination-custom .swiper-pagination-bullet) {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
   opacity: 1;
+  transition: background-color 0.3s;
 }
-
-:global(.swiper-pagination-bullet-active) {
-  background: var(--primary-green);
-}
-
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .slideItem {
-    flex-direction: column;
-    text-align: center;
-  }
-  .slideImage {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .slideTitle {
-      font-size: 1.25rem;
-  }
+:global(.swiper-pagination-custom .swiper-pagination-bullet-active) {
+  background-color: #4caf50;
 }

@@ -1,11 +1,11 @@
-/* Reset default styles */
+/* styles/globals.css */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Define brand colors and fonts */
 :root {
   --primary-green: #10c469;
   --primary-green-dark: #0d9d55;
@@ -14,7 +14,7 @@
   --border-color: #e5e7eb;
   --background-light: #f8f9fa;
   --font-family: 'Inter', sans-serif;
-  --footer-bg: #f7f8fa; /* A clean, modern font similar to Onfra's */
+  --footer-bg: #f7f8fa;
 }
 
 body {
@@ -29,15 +29,18 @@ body {
   padding: 0 24px;
 }
 
-/* Helper class to visually hide content but keep it accessible for screen readers */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+.section_header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section_tagline {
+  color: var(--primary-green);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.section_title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0;
 }

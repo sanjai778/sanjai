@@ -5,16 +5,37 @@
   align-items: center;
   gap: 60px;
 }
-.textContent { flex: 1; }
+.textContent { flex: 1; position: relative; }
 .imageContent { flex: 1; }
 .tagline { color: var(--primary-green); font-weight: 500; }
 .title { font-size: 2.25rem; color: var(--text-dark); margin: 10px 0 20px; }
 .description { color: var(--text-light); line-height: 1.7; }
 .infoImage { width: 100%; height: auto; border-radius: 8px; }
 
+.arrowImage {
+    animation: bounce 2s infinite;
+    position: absolute;
+    top: -100px;
+    left: 200px;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 /* Reversed Layout */
 .reversed .textContent { order: 2; }
 .reversed .imageContent { order: 1; }
+.reversed .arrowImage {
+  left: 0;
+  right: 0;
+  transform: scaleX(-1); /* Flip the image horizontally */
+}
 
 @media (max-width: 992px) {
   .infoContainer { flex-direction: column; }

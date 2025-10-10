@@ -1,18 +1,18 @@
-import './globals.css'; // Make sure this is imported
+import './globals.css'
 
-// ... other imports
+export const metadata = {
+  title: 'Testimonial Slider',
+  description: 'A beautiful testimonial slider in Next.js',
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* ADD THIS LINE IF IT'S NOT THERE */}
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
+        <link href='/styles/visitdesk_icons.css' rel='stylesheet' />
       </head>
-      <body>
-        {/* ... */}
-        {children}
-        {/* ... */}
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }

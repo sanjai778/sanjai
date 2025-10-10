@@ -1,190 +1,188 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import styles from './Header.module.css';
 
-// --- Data for Navigation (Extracted from your PHP for easy updates) ---
-const menuData = {
-  platform: {
-    products: [
-      { title: 'Visitor', description: 'Manage visitor check-ins and track data securely.', icon: 'icon-visitdesk_icons_0140', href: 'https://onfra.io/platform/visitors/' },
-      { title: 'Flexipass', description: 'Streamline contractor access and pass management.', icon: 'icon-visitdesk_icons_0125', href: 'https://onfra.io/platform/flexipass/' },
-      { title: 'Attendance & Time Tracking', description: 'Track employee attendance effortlessly and securely.', icon: 'icon-visitdesk_icons_0091', href: 'https://onfra.io/platform/employees/' },
-      { title: 'Queue', description: 'Enhance customer experience with efficient queues.', icon: 'icon-visitdesk_icons_0085', href: 'https://onfra.io/platform/queue-management/' },
-      { title: 'Deliveries', description: 'Streamline package tracking and delivery notifications.', icon: 'icon-visitdesk_icons_0045', href: 'https://onfra.io/platform/deliveries/' },
-      { title: 'Material Pass', description: 'Track all material movements with ease and accuracy.', icon: 'icon-visitdesk_icons_0148', href: 'https://onfra.io/platform/material-pass/' },
-      { title: 'Rooms', description: 'Simplify meeting room bookings for better collaboration.', icon: 'icon-visitdesk_icons_0106', href: 'https://onfra.io/platform/rooms/' },
-      { title: 'Desks', description: 'Manage desk reservations for a flexible workspace.', icon: 'icon-visitdesk_icons_0101', href: 'https://onfra.io/platform/desk/' },
-      { title: 'Vehicle Pass', description: 'Control vehicle access with effective pass management.', icon: 'icon-visitdesk_icons_0112', href: 'https://onfra.io/platform/vehicles/' },
-      { title: 'Signage', description: 'Use digital signage for real-time information sharing.', icon: 'icon-visitdesk_icons_0070', href: '#' },
-    ],
-    resources: [
-      { title: 'Download Apps', icon: 'icon-visitdesk_icons_0065', href: 'https://onfra.io/download-apps/' },
-      { title: 'API', icon: 'icon-visitdesk_icons_0144', href: 'https://onfra.io/api/' },
-      { title: 'Integrations', icon: 'icon-visitdesk_icons_0152', href: 'https://onfra.io/integrations/' },
-    ]
-  },
-  solutions: {
-    main: [
-      { title: 'Hybrid Office Management', description: 'Spanning the Gap Between Office and Remote Work', href: 'https://onfra.io/solutions/hybrid-office-management/' },
-      { title: 'Co Working Management', description: 'Simplify Operations, Enhance Experience', href: 'https://onfra.io/solutions/co-working-management/' },
-      { title: 'Facility Management', description: 'Transforming Spaces into Efficient Workplaces', href: 'https://onfra.io/solutions/facility-management/' },
-      { title: 'Tech Park Management', description: 'The Future of Workplace Management', href: 'https://onfra.io/solutions/tech-park-management/' },
-      { title: 'Centralize Workplace Management', description: 'Streamline Your Operations Centralize Workplace Management', href: 'https://onfra.io/solutions/centralize-workplace-management/' },
-      { title: 'Employee, tenant and visitor experience', description: 'Efficiently manage desk assignments', href: 'https://onfra.io/solutions/employee-tenant-and-visitor-experience/' },
-      { title: 'Safety, security and compliance', description: 'Track and resolve facility maintenance', href: 'https://onfra.io/solutions/safety-security-and-compliance/' },
-      { title: 'Workplace utilization and insights', description: 'Optimize Your Workspace - Unlock Efficiency and Insights', href: 'https://onfra.io/solutions/workplace-utilization-and-insights/' },
-      { title: 'Workplaces and buildings', description: 'Revolutionizing Workplace and Building Management', href: 'https://onfra.io/solutions/workplaces-and-buildings/' },
-      { title: 'Sustainable Workplace', description: 'Building Sustainability into Every Corner', href: 'https://onfra.io/solutions/sustainable-workplace/' },
-    ],
-    secondary: [
-      { title: 'Commercial Real Estate Management', description: 'Revolutionize Your Commercial Real Estate Operations', href: 'https://onfra.io/solutions/commercial-real-estate-management/' },
-      { title: 'Manufacturing Plant Management', description: 'Transform Your Manufacturing Plant Management', href: 'https://onfra.io/solutions/manufacturing-plant-management/' },
-      { title: 'Industrial Security Management', description: 'Empowering Your Industry\'s Security', href: 'https://onfra.io/solutions/industrial-security-management/' },
-      { title: 'Real estate digital twin', description: 'Transform Your Properties into Interactive Digital Twins', href: 'https://onfra.io/solutions/real-estate-digital-twin/' },
-      { title: 'Proptech Solutions', description: 'Transform Your Property Management', href: 'https://onfra.io/solutions/proptech-solutions/' },
-    ]
-  }
-};
-
-export default function Header() {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [openDropdown, setOpenDropdown] = useState('');
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const pathname = usePathname();
 
-  // Toggles the main mobile menu
-  const handleToggle = () => setIsMenuOpen(!isMenuOpen);
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
-  // Opens a specific dropdown on mobile
-  const handleDropdown = (menuName) => {
+  const handleDropdownToggle = (dropdown) => {
     if (window.innerWidth < 992) {
-      setOpenDropdown(menuName);
+      setOpenDropdown(openDropdown === dropdown ? null : dropdown);
     }
   };
-  
-  // Closes any open dropdown on mobile
-  const closeDropdown = () => setOpenDropdown('');
 
-  // Effect to lock body scroll when mobile menu is open
   useEffect(() => {
-    if (isMenuOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-    return () => {
-      document.body.style.overflow = 'auto';
+    setIsMenuOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 992) {
+        setIsMenuOpen(false);
+        setOpenDropdown(null);
+      }
     };
-  }, [isMenuOpen]);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // Your navigation data (platformLinks, solutionsLinks, etc.) remains here...
+  const platformLinks = [
+    { href: "/platform/visitors/", icon: "icon-visitdesk_icons_0140", title: "Visitor", description: "Manage visitor check-ins and track data securely." },
+    { href: "/platform/flexipass/", icon: "icon-visitdesk_icons_0125", title: "Flexipass", description: "Streamline contractor access and pass management." },
+    { href: "/platform/employees/", icon: "icon-visitdesk_icons_0091", title: "Attendance & Time Tracking", description: "Track employee attendance effortlessly and securely." },
+    { href: "/platform/queue-management/", icon: "icon-visitdesk_icons_0085", title: "Queue", description: "Enhance customer experience with efficient queues." },
+    { href: "/platform/deliveries/", icon: "icon-visitdesk_icons_0045", title: "Deliveries", description: "Streamline package tracking and delivery notifications." },
+    { href: "/platform/material-pass/", icon: "icon-visitdesk_icons_0148", title: "Material Pass", description: "Track all material movements with ease and accuracy." },
+    { href: "/platform/rooms/", icon: "icon-visitdesk_icons_0106", title: "Rooms", description: "Simplify meeting room bookings for better collaboration." },
+    { href: "/platform/desk/", icon: "icon-visitdesk_icons_0101", title: "Desks", description: "Manage desk reservations for a flexible workspace." },
+    { href: "/platform/vehicles/", icon: "icon-visitdesk_icons_0112", title: "Vehicle Pass", description: "Control vehicle access with effective pass management." },
+    { href: "#", icon: "icon-visitdesk_icons_0070", title: "Signage", description: "Use digital signage for real-time information sharing." },
+  ];
+  const platformSecondaryLinks = [
+      { href: "/download-apps/", icon: "icon-visitdesk_icons_0065", title: "Download Apps" },
+      { href: "/api/", icon: "icon-visitdesk_icons_0144", title: "Api" },
+      { href: "/integrations/", icon: "icon-visitdesk_icons_0152", title: "Intergrations" },
+  ];
+  const solutionsLinks = [
+    { href: "/solutions/hybrid-office-management/", title: "Hybrid Office Management", description: "Spanning the Gap Between Office and Remote Work" },
+    { href: "/solutions/co-working-management/", title: "Co Working Management", description: "Simplify Operations, Enhance Experience" },
+    { href: "/solutions/facility-management/", title: "Facility Management", description: "Transforming Spaces into Efficient Workplaces" },
+    { href: "/solutions/tech-park-management/", title: "Tech Park Management", description: "The Future of Workplace Management" },
+    { href: "/solutions/centralize-workplace-management/", title: "Centralize Workplace Management", description: "Streamline Your Operations Centralize Workplace Management" },
+    { href: "/solutions/employee-tenant-and-visitor-experience/", title: "Employee, tenant and visitor experience", description: "Efficiently manage desk assignments" },
+    { href: "/solutions/safety-security-and-compliance/", title: "Safety, security and compliance", description: "Track and resolve facility maintenance" },
+    { href: "/solutions/workplace-utilization-and-insights/", title: "Workplace utilization and insights", description: "Optimize Your Workspace - Unlock Efficiency and Insights" },
+    { href: "/solutions/workplaces-and-buildings/", title: "Workplaces and buildings", description: "Revolutionizing Workplace and Building Management" },
+    { href: "/solutions/sustainable-workplace/", title: "Sustainable Workplace", description: "Building Sustainability into Every Corner" },
+  ];
+  const solutionsSecondaryLinks = [
+    { href: "/solutions/commercial-real-estate-management/", title: "Commerical Real Estate Management", description: "Revolutionize Your Commercial Real Estate Operations" },
+    { href: "/solutions/manufacturing-plant-management/", title: "Manufacturing Plant Management", description: "Transform Your Manufacturing Plant Management" },
+    { href: "/solutions/industrial-security-management/", title: "Industrial Security Management", description: "Empowering Your Industry's Security" },
+    { href: "/solutions/real-estate-digital-twin/", title: "Real estate digital twin", description: "Transform Your Properties into Interactive Digital Twins" },
+    { href: "/solutions/proptech-solutions/", title: "Proptech Solutions", description: "Transform Your Property Management" },
+  ];
+
 
   return (
-    <header className={styles.header}>
-      <div className={`container ${styles.navContainer}`}>
-        <Link href="https://onfra.io/" className={styles.brand}>
-          <Image src="https://onfra.io/wp-content/uploads/2024/05/onfra-logo.png" alt="Onfra Logo" width={130} height={40} priority />
-        </Link>
-
-        <nav className={`${styles.navMenu} ${isMenuOpen ? styles.show : ''}`}>
-          <ul className={styles.navList}>
+    <>
+      <Head>
+        {/* --- ADD THIS LINE FOR ICONS --- */}
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
+      </Head>
+      
+      <nav className={styles.top_main_header}>
+        {/* ... The rest of your JSX remains the same ... */}
+        {/* Make sure your logo path is correct, e.g., <img src="/onfra-logo.png" ... /> if the logo is in the `public` folder */}
+        <div className={styles.container}>
+          <Link href="/" className={styles.brand}>
+            <img src="/images/logos/onfra-logo.png" style={{ height: '55px' }} alt="Best Workplace Management Platform" />
+          </Link>
+          <ul className={`${styles.nav_menu} ${isMenuOpen ? styles.show : ''}`}>
             
-            {/* --- Platform Mega Menu --- */}
-            <li className={styles.hasDropdown}>
-              <a onClick={() => handleDropdown('platform')}>
+            {/* Platform Dropdown */}
+            <li>
+              <a href="#" onClick={() => handleDropdownToggle('platform')}>
                 Platform <i className='bx bx-chevron-down'></i>
               </a>
-              <div className={`${styles.dropdownMenu} ${openDropdown === 'platform' ? styles.show : ''}`}>
-                <div className="container">
-                  <span className={styles.dropdownClose} onClick={closeDropdown}><i className='bx bx-chevron-left'></i> Back</span>
-                  <div className={styles.dropdownGrid}>
-                    <div className={styles.rightSection}>
-                       <ul className={styles.dropdownLinks}>
-                        {menuData.platform.products.map(item => (
-                          <li key={item.title}>
-                            <Link href={item.href}>
-                              <i className={`bx ${item.icon}`}></i>
-                              <div className={styles.subDiv}>
-                                <div className={styles.menuTitle}>{item.title}</div>
-                                <p>{item.description}</p>
+              <div className={`${styles.dropdown_menu} ${openDropdown === 'platform' ? styles.show : ''}`}>
+                <div className={styles.container}>
+                  <div className={styles.right_section}>
+                    <span className={styles.dropdown_close} onClick={() => handleDropdownToggle('platform')}><i className='bx bx-chevron-left'></i> Back</span>
+                    <ul className={styles.dropdown_links}>
+                      {platformLinks.map((link, index) => (
+                        <li key={index}>
+                          <Link href={link.href}>
+                              <i className={`bx ${link.icon}`}></i>
+                              <div>
+                                <div className={styles.menu_title_o}>{link.title}</div>
+                                <p>{link.description}</p>
                               </div>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                    <div className={styles.leftSection}>
-                      <ul className={styles.dropdownLinks}>
-                        {menuData.platform.resources.map(item => (
-                          <li key={item.title}>
-                            <Link href={item.href}>
-                              <i className={`bx ${item.icon}`}></i>
-                              <div className={styles.subDiv}>
-                                <div className={styles.menuTitle}>{item.title}</div>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className={styles.left_section}>
+                    <ul className={styles.dropdown_links}>
+                      {platformSecondaryLinks.map((link, index) => (
+                        <li key={index}>
+                           <Link href={link.href}>
+                              <i className={`bx ${link.icon}`}></i>
+                              <div>
+                                <div className={styles.menu_title_o}>{link.title}</div>
                               </div>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
             </li>
 
-            {/* --- Solutions Mega Menu --- */}
-            <li className={styles.hasDropdown}>
-              <a onClick={() => handleDropdown('solutions')}>
+            {/* Solutions Dropdown */}
+            <li>
+              <a href="#" onClick={() => handleDropdownToggle('solutions')}>
                 Solutions <i className='bx bx-chevron-down'></i>
               </a>
-              <div className={`${styles.dropdownMenu} ${openDropdown === 'solutions' ? styles.show : ''}`}>
-                 <div className="container">
-                  <span className={styles.dropdownClose} onClick={closeDropdown}><i className='bx bx-chevron-left'></i> Back</span>
-                  <div className={styles.dropdownGrid}>
-                    <div className={styles.rightSection}>
-                       <ul className={styles.dropdownLinks}>
-                        {menuData.solutions.main.map(item => (
-                          <li key={item.title}>
-                            <Link href={item.href}>
-                              <div className={styles.subDiv}>
-                                <div className={styles.menuTitle}>{item.title}</div>
-                                <p>{item.description}</p>
-                              </div>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
+              <div className={`${styles.dropdown_menu} ${openDropdown === 'solutions' ? styles.show : ''}`}>
+                 <div className={styles.container}>
+                    <div className={styles.right_section}>
+                        <span className={styles.dropdown_close} onClick={() => handleDropdownToggle('solutions')}><i className='bx bx-chevron-left' ></i> Back</span>
+                        <ul className={styles.dropdown_links}>
+                            {solutionsLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Link href={link.href}>
+                                        <div>
+                                            <div className={styles.menu_title_o}>{link.title}</div>
+                                            <p>{link.description}</p>
+                                        </div>
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
-                    <div className={styles.leftSection}>
-                      <ul className={styles.dropdownLinks}>
-                        {menuData.solutions.secondary.map(item => (
-                          <li key={item.title}>
-                            <Link href={item.href}>
-                              <div className={styles.subDiv}>
-                                <div className={styles.menuTitle}>{item.title}</div>
-                                <p>{item.description}</p>
-                              </div>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
+                    <div className={styles.left_section} style={{background: '#fff !important'}}>
+                        <ul className={styles.dropdown_links}>
+                             {solutionsSecondaryLinks.map((link, index) => (
+                                <li key={index}>
+                                    <Link href={link.href}>
+                                        <div>
+                                            <div className={styles.menu_title_o}>{link.title}</div>
+                                            <p>{link.description}</p>
+                                        </div>
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
-                  </div>
                 </div>
               </div>
             </li>
-            
-            <li><Link href="https://onfra.io/blogs/">Blogs</Link></li>
-            <li><Link href="https://onfra.io/contact-us/">Contact Us</Link></li>
-            <li className={styles.ctaItem}>
-              <Link href="https://app.onfra.io/signup" className={styles.signupButton}>Signup Now</Link>
+
+            <li><Link href="/blogs">Blogs</Link></li>
+            <li><Link href="/contact-us">Contact Us</Link></li>
+            <li>
+              <a href="https://app.onfra.io/signup">Signup Now</a>
             </li>
           </ul>
-        </nav>
-
-        <button className={styles.toggleNavbar} onClick={handleToggle} aria-label="Toggle Navigation">
-          <i className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'}`}></i>
-        </button>
-      </div>
-    </header>
+          <i className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'} ${styles.toggle_navbar}`} onClick={handleMenuToggle}></i>
+        </div>
+      </nav>
+    </>
   );
-}
+};
+
+export default Header;

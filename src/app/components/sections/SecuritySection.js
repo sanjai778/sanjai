@@ -6,8 +6,13 @@ export default function SecuritySection() {
     <section className={styles.securitySection}>
       <div className={`container ${styles.securityContainer}`}>
         <div className={styles.iconsColumn}>
-            <Image src="/images/logos/iso.png" alt="ISO Certified" width={90} height={90} />
-          
+          {/* A single composite image representing all security badges and icons */}
+          <Image 
+            src="/images/logos/iso.png" 
+            alt="Security certifications including SOC 2, ISO, and GDPR compliance" 
+            width={500} 
+            height={300} 
+          />
         </div>
         <div className={styles.contentColumn}>
           <p className={styles.tagline}>Security</p>

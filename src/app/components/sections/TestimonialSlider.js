@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
@@ -10,56 +10,59 @@ import 'swiper/css/pagination';
 
 import styles from './TestimonialSlider.module.css';
 
-const testimonials = [
-  { name: "Mani Bharathi", role: "Engineer", text: "Onfra revolutionized our workforce and visitor management...", avatar: "/images/avatars/avatar.png" },
-  { name: "Thameem ansari", role: "Manager", text: "Onfra streamlines security management with robust tracking and access control...", avatar: "/images/avatars/avatar.png" },
-  { name: "Skandha", role: "Owner", text: "Onfra enhances efficiency with its user-friendly interface and streamlined processes...", avatar: "/images/avatars/avatar.png" },
-  { name: "Mani Bharathi", role: "Engineer", text: "Onfra revolutionized our workforce and visitor management...", avatar: "/images/avatars/avatar.png" },
-  { name: "Thameem ansari", role: "Manager", text: "Onfra streamlines security management with robust tracking and access control...", avatar: "/images/avatars/avatar.png" },
-  { name: "Skandha", role: "Owner", text: "Onfra enhances efficiency with its user-friendly interface and streamlined processes...", avatar: "/images/avatars/avatar.png" },
-  // ... add more testimonials
-];
+export default function TestimonialSlider({ testimonials }) {
+  if (!testimonials || testimonials.length === 0) {
+    return <p>No testimonials to display.</p>;
+  }
 
-export default function TestimonialSlider() {
+  // Best practice: If you have a small number of slides, duplicate them to ensure
+  // the loop is seamless and there are always enough slides to show in the "peek" view.
+  const displayTestimonials = testimonials.length <= 5 
+    ? [...testimonials, ...testimonials] 
+    : testimonials;
+
   return (
-    <section className={styles.testimonialSection}>
-      <div className="container">
-        <div className={styles.header}>
-          <p className={styles.tagline}>Testimonial</p>
-          <h2 className={styles.title}>Hear from our satisfied clients</h2>
-        </div>
-        <Swiper
-          modules={[Pagination, Autoplay]}
-          loop={true}
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
-          pagination={{ clickable: true }}
-          spaceBetween={30}
-          slidesPerView={1}
-          breakpoints={{
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          className={styles.swiperContainer}
-        >
-          {testimonials.map((t, index) => (
-            <SwiperSlide key={index} className={styles.swiperSlide}>
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <Image src="/images/icons/quotes.png" alt="quote" width={50} height={50} />
-                </div>
-                <p className={styles.cardText}>{t.text}</p>
-                <div className={styles.cardFooter}>
-                  <Image src={t.avatar} alt={t.name} width={50} height={50} className={styles.avatar} />
-                  <div className={styles.authorInfo}>
-                    <h4>{t.name}</h4>
-                    <p>{t.role}</p>
-                  </div>
+    <div className={styles.testimonialSwiperWrapper}>
+      <Swiper
+        modules={[Pagination, Autoplay]}
+        loop={true}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        pagination={{ clickable: true }}
+        spaceBetween={20}
+        centeredSlides={true}
+        // Default view for mobile
+        slidesPerView={1.3} 
+        // Responsive breakpoints
+        breakpoints={{
+          // when window width is >= 768px (tablets)
+          768: {
+            slidesPerView: 2.5,
+            spaceBetween: 30
+          },
+          // when window width is >= 1200px (desktops)
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 40
+          }
+        }}
+        className={styles.swiperContainer}
+      >
+        {displayTestimonials.map((t, index) => (
+          <SwiperSlide key={`${t.id}-${index}`} className={styles.swiperSlide}>
+            <div className={styles.card}>
+              <Image src="/uploads/2025/06/onfra2.png" alt="quote icon" width={32} height={32} className={styles.quoteIcon} />
+              <p className={styles.cardText}>{t.content}</p>
+              <div className={styles.cardFooter}>
+                <Image src={t.img} alt={t.name} width={55} height={55} className={styles.avatar} />
+                <div className={styles.authorInfo}>
+                  <h4>{t.name}</h4>
+                  <p>{t.position}</p>
                 </div>
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-    </section>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 }

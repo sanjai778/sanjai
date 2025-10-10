@@ -1,18 +1,18 @@
 .faqSection {
   padding: 80px 0;
-  background-color: #fff;
+  background-color: #f7f8fa;
 }
 .header {
   text-align: center;
   margin-bottom: 50px;
 }
 .tagline {
-  color: var(--primary-green);
+  color: #4caf50;
   font-weight: 500;
 }
 .title {
   font-size: 2rem;
-  color: var(--text-dark);
+  color: #333;
   max-width: 700px;
   margin: 10px auto 0;
 }
@@ -21,10 +21,12 @@
   margin: 0 auto;
 }
 .card {
-  border: 1px solid var(--border-color, #e5e7eb);
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
   margin-bottom: 15px;
   overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 .cardHeader {
   padding: 0;
@@ -35,7 +37,7 @@
   padding: 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--text-dark);
+  color: #333;
   background: none;
   border: none;
   cursor: pointer;
@@ -46,8 +48,8 @@
 .icon {
   width: 12px;
   height: 12px;
-  border-right: 2px solid var(--text-light);
-  border-bottom: 2px solid var(--text-light);
+  border-right: 2px solid #4caf50;
+  border-bottom: 2px solid #4caf50;
   transform: rotate(45deg);
   transition: transform 0.3s ease-in-out;
   flex-shrink: 0;
@@ -66,7 +68,7 @@
 }
 .cardBody {
   padding: 0 20px 20px;
-  color: var(--text-light);
+  color: #666;
   line-height: 1.7;
 }
 .readMoreWrapper {
@@ -74,7 +76,7 @@
   margin-top: 40px;
 }
 .generalBtn {
-  background-color: var(--primary-green);
+  background-color: #4caf50;
   color: #fff;
   padding: 12px 28px;
   border-radius: 6px;
@@ -83,5 +85,5 @@
   transition: background-color 0.2s ease;
 }
 .generalBtn:hover {
-  background-color: var(--primary-green-dark);
+  background-color: #45a049;
 }

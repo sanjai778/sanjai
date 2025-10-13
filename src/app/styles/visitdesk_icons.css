@@ -1,0 +1,43 @@
+/* src/app/styles/visitdesk_icons.css */
+
+/*
+ * This is a placeholder for the actual visitdesk_icons.css content.
+ * The original file at https://ifelsetechno.com/demo/visitdesk_deskpal/wp-content/themes/visitdesk/css/visitdesk_icons.css
+ * was inaccessible (500 Internal Server Error).
+ *
+ * To make the icons work correctly, you will need to:
+ * 1. Provide the actual font files (e.g., .woff, .ttf) for the 'visitdesk_icons' font.
+ * 2. Update the @font-face src URL to point to the correct local path of these font files.
+ * 3. Populate this file with the correct CSS rules for each icon class (e.g., .icon-visitdesk_icons_0140:before { content: "\e001"; }).
+ */
+
+@font-face {
+  font-family: 'visitdesk_icons';
+  src: url('/fonts/visitdesk_icons.woff') format('woff'),
+       url('/fonts/visitdesk_icons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-visitdesk_icons_"], [class*=" icon-visitdesk_icons_"] {
+  font-family: 'visitdesk_icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Placeholder for specific icon classes - replace with actual content */
+.icon-visitdesk_icons_0140:before { content: "\e001"; }
+.icon-visitdesk_icons_0125:before { content: "\e002"; }
+.icon-visitdesk_icons_0091:before { content: "\e003"; }
+.icon-visitdesk_icons_0085:before { content: "\e004"; }
+.icon-visitdesk_icons_0045:before { content: "\e005"; }
+.icon-visitdesk_icons_0148:before { content: "\e006"; }
+.icon-visitdesk_icons_0106:before { content: "\e007"; }
+.icon-visitdesk_icons_0101:before { content: "\e008"; }

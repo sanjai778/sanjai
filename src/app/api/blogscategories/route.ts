@@ -1,7 +1,15 @@
 // src/app/api/blogscategories/route.js
 
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
+
+interface Category extends RowDataPacket {
+  term_id: number;
+  name: string;
+  slug: string;
+  count: number;
+}
 
 export async function GET() {
   let connection;
@@ -23,7 +31,7 @@ export async function GET() {
       ORDER BY t.name ASC;
     `;
     
-    const [categories] = await connection.query(query);
+    const [categories] = await connection.query<Category[]>(query);
     await connection.end();
 
     return NextResponse.json({ success: true, data: categories });

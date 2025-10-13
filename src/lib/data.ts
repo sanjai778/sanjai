@@ -1,8 +1,23 @@
 // src/lib/data.js
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
+import { Connection } from 'mysql2/promise';
+
+interface Post extends RowDataPacket {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: Date;
+  post_name: string;
+  featured_image_url: string;
+}
+
+interface Slug extends RowDataPacket {
+  post_name: string;
+}
 
 // Reusable database connection function
-async function createDbConnection() {
+async function createDbConnection(): Promise<Connection> {
   return await mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -12,7 +27,7 @@ async function createDbConnection() {
 }
 
 // Function to get all post slugs for generateStaticParams
-export async function getAllPostSlugs() {
+export async function getAllPostSlugs(): Promise<Slug[]> {
   const connection = await createDbConnection();
   try {
     const query = `
@@ -20,7 +35,7 @@ export async function getAllPostSlugs() {
       FROM wpsw_posts
       WHERE post_type = 'post' AND post_status = 'publish';
     `;
-    const [rows] = await connection.query(query);
+    const [rows] = await connection.query<Slug[]>(query);
     await connection.end();
     return rows;
   } catch (error) {
@@ -31,7 +46,7 @@ export async function getAllPostSlugs() {
 }
 
 // Function to get a single post's data by its slug
-export async function getPostBySlug(slug) {
+export async function getPostBySlug(slug: string): Promise<Post | null> {
   const connection = await createDbConnection();
   try {
     const query = `
@@ -44,7 +59,7 @@ export async function getPostBySlug(slug) {
       WHERE p.post_type = 'post' AND p.post_status = 'publish' AND p.post_name = ?
       LIMIT 1;
     `;
-    const [rows] = await connection.query(query, [slug]);
+    const [rows] = await connection.query<Post[]>(query, [slug]);
     await connection.end();
     return rows.length > 0 ? rows[0] : null;
   } catch (error) {

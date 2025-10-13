@@ -3,25 +3,34 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 // Import your new data functions
-import { getAllPostSlugs, getPostBySlug } from 'src/lib/data.js';
+import { getAllPostSlugs, getPostBySlug } from 'src/lib/data';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+
+interface Post {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: Date;
+  post_name: string;
+  featured_image_url: string | null;
+}
 
 export async function generateStaticParams() {
   // Call the database function directly
   const posts = await getAllPostSlugs();
-  return posts.map(post => ({
+  return posts.map((post: { post_name: string }) => ({
     slug: post.post_name,
   }));
 }
 
-async function getPost(slug) {
+async function getPost(slug: string): Promise<Post | null> {
   // Call the database function directly
   const post = await getPostBySlug(slug);
   return post;
 }
 
-export default async function SinglePostPage({ params }) {
+export default async function SinglePostPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
   const post = await getPost(slug);
 

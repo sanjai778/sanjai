@@ -8,7 +8,19 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import styles from './TestimonialSlider.module.css';
 
-export default function TestimonialSlider({ testimonials }) {
+interface Testimonial {
+  id: number;
+  name: string;
+  position: string;
+  content: string;
+  img: string;
+}
+
+interface TestimonialSliderProps {
+  testimonials: Testimonial[];
+}
+
+const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonials }) => {
   if (!testimonials || testimonials.length === 0) {
     return <p>No testimonials to display.</p>;
   }
@@ -56,4 +68,6 @@ export default function TestimonialSlider({ testimonials }) {
       </Swiper>
     </div>
   );
-}
+};
+
+export default TestimonialSlider;

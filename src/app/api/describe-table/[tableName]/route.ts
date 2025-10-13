@@ -1,9 +1,10 @@
 // src/app/api/describe-table/[tableName]/route.js
 
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
 
-export async function GET(request, { params }) {
+export async function GET(request: Request, { params }: { params: { tableName: string } }) {
   const { tableName } = params;
 
   if (!tableName) {
@@ -27,7 +28,7 @@ export async function GET(request, { params }) {
     const query = 'DESCRIBE ??;';
     
     // Use .query() for identifier substitution (??), not .execute()
-    const [rows] = await connection.query(query, [tableName]);
+    const [rows] = await connection.query<RowDataPacket[]>(query, [tableName]);
     
     await connection.end();
 
@@ -37,7 +38,7 @@ export async function GET(request, { params }) {
       structure: rows,
     });
 
-  } catch (error) {
+  } catch (error: any) {
     console.error(`DATABASE ERROR for table ${tableName}:`, error);
 
     if (error.code === 'ER_NO_SUCH_TABLE') {

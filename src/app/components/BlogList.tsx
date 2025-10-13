@@ -5,9 +5,23 @@
 import React, { useState, useMemo } from 'react';
 import useDebounce from '../hooks/useDebounce'; // Your existing hook
 
+interface Post {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: string;
+  post_name: string;
+  featured_image_url: string | null;
+}
+
+interface HighlightProps {
+  text: string;
+  highlight: string;
+}
+
 // --- Child Components (Memoized for Performance) ---
 
-const Highlight = React.memo(function Highlight({ text, highlight }) {
+const Highlight: React.FC<HighlightProps> = React.memo(function Highlight({ text, highlight }) {
   if (!highlight.trim()) {
     return <span>{text}</span>;
   }
@@ -22,8 +36,13 @@ const Highlight = React.memo(function Highlight({ text, highlight }) {
   );
 });
 
-const PostCard = React.memo(function PostCard({ post, highlight }) {
-  const createExcerpt = (html, length) => {
+interface PostCardProps {
+  post: Post;
+  highlight: string;
+}
+
+const PostCard: React.FC<PostCardProps> = React.memo(function PostCard({ post, highlight }) {
+  const createExcerpt = (html: string, length: number) => {
     if (!html) return '';
     const text = html.replace(/<[^>]+>/g, '');
     return text.length <= length ? text : text.substring(0, length) + '...';
@@ -57,10 +76,14 @@ const PostCard = React.memo(function PostCard({ post, highlight }) {
 
 // --- Main Interactive Component ---
 
-export default function BlogList({ posts }) {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(6);
+interface BlogListProps {
+  posts: Post[];
+}
+
+export default function BlogList({ posts }: BlogListProps) {
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [postsPerPage] = useState<number>(6);
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
 
   const filteredPosts = useMemo(() => {
@@ -74,7 +97,7 @@ export default function BlogList({ posts }) {
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = filteredPosts.slice(indexOfFirstPost, indexOfLastPost);
 
-  const paginate = pageNumber => setCurrentPage(pageNumber);
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
     <>

@@ -1,7 +1,18 @@
 // src/app/api/posts/route.js
 
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
+
+interface Post extends RowDataPacket {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_excerpt: string;
+  post_date: Date;
+  post_name: string;
+  featured_image_url: string;
+}
 
 export async function GET() {
   let connection;
@@ -37,7 +48,7 @@ export async function GET() {
         p.post_date DESC;
     `;
     
-    const [posts] = await connection.query(query);
+    const [posts] = await connection.query<Post[]>(query);
     await connection.end();
 
     return NextResponse.json({ success: true, data: posts });

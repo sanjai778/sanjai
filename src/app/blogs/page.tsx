@@ -4,8 +4,17 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import BlogList from '../components/BlogList'; // Import the new client component
 
+interface Post {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: string;
+  post_name: string;
+  featured_image_url: string | null;
+}
+
 // --- Data Fetching on the Server ---
-async function getPosts() {
+async function getPosts(): Promise<Post[]> {
   try {
     // Use the absolute URL of your API. Revalidate to get new posts periodically.
     const response = await fetch('http://localhost:3000/api/posts', { next: { revalidate: 60 } });
@@ -18,7 +27,7 @@ async function getPosts() {
 
     if (result.success) {
       // Ensure no duplicates before returning
-      return Array.from(new Map(result.data.map(post => [post.ID, post])).values());
+      return Array.from(new Map(result.data.map((post: Post) => [post.ID, post])).values());
     } else {
       throw new Error(result.error || 'An API error occurred.');
     }

@@ -2,7 +2,7 @@ import TestimonialSlider from './TestimonialSlider';
 import { testimonials } from '../../data/testimonials';
 import styles from './TestimonialSection.module.css';
 
-export default function TestimonialSection() {
+const TestimonialSection: React.FC = () => {
   return (
     <section className={styles.testimonialSection}>
       <div className="container">
@@ -14,4 +14,6 @@ export default function TestimonialSection() {
       </div>
     </section>
   );
-}
+};
+
+export default TestimonialSection;

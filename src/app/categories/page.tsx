@@ -5,10 +5,17 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+interface Category {
+  term_id: number;
+  name: string;
+  slug: string;
+  count: number;
+}
+
 export default function CategoriesPage() {
-  const [categories, setCategories] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [categories, setCategories] = useState<Category[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchCategories = async () => {
@@ -22,7 +29,7 @@ export default function CategoriesPage() {
         } else {
           throw new Error(result.error || 'Failed to fetch categories.');
         }
-      } catch (err) {
+      } catch (err: any) {
         setError(err.message);
       } finally {
         setLoading(false);

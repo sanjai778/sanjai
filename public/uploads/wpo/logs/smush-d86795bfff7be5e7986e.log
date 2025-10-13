@@ -1,0 +1,1335 @@
+[2025-06-06 13:31:45 : INFO] - Re_Smush_It_Task server status: Online 
+[2025-06-06 13:31:46 : INFO] - A total of 142 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:31:46 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-06 13:31:46 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-06 13:31:46 : INFO] - Processing task with ID : 33441, and type 'smush' 
+[2025-06-06 13:31:46 : INFO] - Re_Smush_It_Task - Attachment ID : 572, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:31:46 : INFO] - File: welcomevisitors.png, Compression quality: 92 
+[2025-06-06 13:31:47 : INFO] - Backing up the original image - 2020/10/welcomevisitors-updraft-pre-smush-original.png 
+[2025-06-06 13:31:50 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/10/welcomevisitors.png.The file was compressed from 18.78 KB to 8.40 KB, saving 55.26 percent, using WP-Optimize 
+[2025-06-06 13:31:50 : INFO] - Completed processing task with ID : 33441, and type 'smush' 
+[2025-06-06 13:31:50 : INFO] - Processing task with ID : 33442, and type 'smush' 
+[2025-06-06 13:31:50 : INFO] - Re_Smush_It_Task - Attachment ID : 573, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:31:50 : INFO] - File: reception.png, Compression quality: 92 
+[2025-06-06 13:31:51 : INFO] - Backing up the original image - 2020/10/reception-updraft-pre-smush-original.png 
+[2025-06-06 13:31:56 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/10/reception.png.The file was compressed from 29.23 KB to 11.09 KB, saving 62.07 percent, using WP-Optimize 
+[2025-06-06 13:31:56 : INFO] - Completed processing task with ID : 33442, and type 'smush' 
+[2025-06-06 13:31:56 : INFO] - Processing task with ID : 33443, and type 'smush' 
+[2025-06-06 13:31:56 : INFO] - Re_Smush_It_Task - Attachment ID : 574, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:31:56 : INFO] - File: fire.png, Compression quality: 92 
+[2025-06-06 13:31:57 : INFO] - Backing up the original image - 2020/10/fire-updraft-pre-smush-original.png 
+[2025-06-06 13:32:02 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/10/fire.png.The file was compressed from 38.16 KB to 14.22 KB, saving 62.75 percent, using WP-Optimize 
+[2025-06-06 13:32:02 : INFO] - Completed processing task with ID : 33443, and type 'smush' 
+[2025-06-06 13:32:02 : INFO] - Processing task with ID : 33444, and type 'smush' 
+[2025-06-06 13:32:02 : INFO] - Re_Smush_It_Task - Attachment ID : 575, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:02 : INFO] - File: queue.png, Compression quality: 92 
+[2025-06-06 13:32:04 : INFO] - Backing up the original image - 2020/09/queue-updraft-pre-smush-original.png 
+[2025-06-06 13:32:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/09/queue.png.The file was compressed from 58.29 KB to 22.90 KB, saving 60.72 percent, using WP-Optimize 
+[2025-06-06 13:32:09 : INFO] - Completed processing task with ID : 33444, and type 'smush' 
+[2025-06-06 13:32:09 : INFO] - Processing task with ID : 33445, and type 'smush' 
+[2025-06-06 13:32:09 : INFO] - Re_Smush_It_Task - Attachment ID : 588, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:09 : INFO] - File: mailgifs_kb-min.png, Compression quality: 92 
+[2025-06-06 13:32:12 : INFO] - Backing up the original image - 2020/11/mailgifs_kb-min-updraft-pre-smush-original.png 
+[2025-06-06 13:32:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_kb-min.png.The file was compressed from 205.63 KB to 205.63 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:32:21 : INFO] - Completed processing task with ID : 33445, and type 'smush' 
+[2025-06-06 13:32:21 : INFO] - Processing task with ID : 33446, and type 'smush' 
+[2025-06-06 13:32:21 : INFO] - Re_Smush_It_Task - Attachment ID : 589, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:21 : INFO] - File: mailgifs_autoprint-min.png, Compression quality: 92 
+[2025-06-06 13:32:23 : INFO] - Backing up the original image - 2020/11/mailgifs_autoprint-min-updraft-pre-smush-original.png 
+[2025-06-06 13:32:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_autoprint-min.png.The file was compressed from 152.58 KB to 152.58 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:32:31 : INFO] - Completed processing task with ID : 33446, and type 'smush' 
+[2025-06-06 13:32:31 : INFO] - Processing task with ID : 33447, and type 'smush' 
+[2025-06-06 13:32:31 : INFO] - Re_Smush_It_Task - Attachment ID : 590, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:31 : INFO] - File: mailgifs_customcolor-min.png, Compression quality: 92 
+[2025-06-06 13:32:33 : INFO] - Backing up the original image - 2020/11/mailgifs_customcolor-min-updraft-pre-smush-original.png 
+[2025-06-06 13:32:40 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_customcolor-min.png.The file was compressed from 43.68 KB to 43.68 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:32:40 : INFO] - Completed processing task with ID : 33447, and type 'smush' 
+[2025-06-06 13:32:40 : INFO] - Processing task with ID : 33448, and type 'smush' 
+[2025-06-06 13:32:40 : INFO] - Re_Smush_It_Task - Attachment ID : 591, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:40 : INFO] - File: mailgifs_tour-min.png, Compression quality: 92 
+[2025-06-06 13:32:41 : INFO] - Backing up the original image - 2020/11/mailgifs_tour-min-updraft-pre-smush-original.png 
+[2025-06-06 13:32:45 : INFO] - A total of 135 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:32:45 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:32:45 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:32:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:32:45 : INFO] - Cleaning up tasks of type (smush). A total of 7 tasks will be deleted. 
+[2025-06-06 13:32:47 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_tour-min.png.The file was compressed from 32.44 KB to 32.44 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:32:47 : INFO] - Completed processing task with ID : 33448, and type 'smush' 
+[2025-06-06 13:32:47 : INFO] - Processing task with ID : 33449, and type 'smush' 
+[2025-06-06 13:32:47 : INFO] - Re_Smush_It_Task - Attachment ID : 592, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:47 : INFO] - File: mailgifs_qrcheckin-min.png, Compression quality: 92 
+[2025-06-06 13:32:49 : INFO] - Backing up the original image - 2020/11/mailgifs_qrcheckin-min-updraft-pre-smush-original.png 
+[2025-06-06 13:32:55 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_qrcheckin-min.png.The file was compressed from 27.54 KB to 27.54 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:32:55 : INFO] - Completed processing task with ID : 33449, and type 'smush' 
+[2025-06-06 13:32:55 : INFO] - Processing task with ID : 33450, and type 'smush' 
+[2025-06-06 13:32:55 : INFO] - Re_Smush_It_Task - Attachment ID : 593, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:32:55 : INFO] - File: mailgifs_nda-min.png, Compression quality: 92 
+[2025-06-06 13:32:57 : INFO] - Backing up the original image - 2020/11/mailgifs_nda-min-updraft-pre-smush-original.png 
+[2025-06-06 13:33:04 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_nda-min.png.The file was compressed from 63.84 KB to 63.84 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:33:04 : INFO] - Completed processing task with ID : 33450, and type 'smush' 
+[2025-06-06 13:33:04 : INFO] - Processing task with ID : 33451, and type 'smush' 
+[2025-06-06 13:33:04 : INFO] - Re_Smush_It_Task - Attachment ID : 594, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:04 : INFO] - File: mailgifs_deliveries-min.png, Compression quality: 92 
+[2025-06-06 13:33:06 : INFO] - Backing up the original image - 2020/11/mailgifs_deliveries-min-updraft-pre-smush-original.png 
+[2025-06-06 13:33:13 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/mailgifs_deliveries-min.png.The file was compressed from 65.46 KB to 65.46 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:33:13 : INFO] - Completed processing task with ID : 33451, and type 'smush' 
+[2025-06-06 13:33:13 : INFO] - Processing task with ID : 33452, and type 'smush' 
+[2025-06-06 13:33:13 : INFO] - Re_Smush_It_Task - Attachment ID : 595, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:13 : INFO] - File: icons8-webhook-100-3.png, Compression quality: 92 
+[2025-06-06 13:33:14 : INFO] - Backing up the original image - 2020/11/icons8-webhook-100-3-updraft-pre-smush-original.png 
+[2025-06-06 13:33:15 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-webhook-100-3.png.The file was compressed from 5.13 KB to 2.94 KB, saving 42.82 percent, using WP-Optimize 
+[2025-06-06 13:33:15 : INFO] - Completed processing task with ID : 33452, and type 'smush' 
+[2025-06-06 13:33:15 : INFO] - Processing task with ID : 33453, and type 'smush' 
+[2025-06-06 13:33:15 : INFO] - Re_Smush_It_Task - Attachment ID : 596, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:15 : INFO] - File: icons8-webhook-100-2.png, Compression quality: 92 
+[2025-06-06 13:33:16 : INFO] - Backing up the original image - 2020/11/icons8-webhook-100-2-updraft-pre-smush-original.png 
+[2025-06-06 13:33:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-webhook-100-2.png.The file was compressed from 4.42 KB to 2.45 KB, saving 44.52 percent, using WP-Optimize 
+[2025-06-06 13:33:16 : INFO] - Completed processing task with ID : 33453, and type 'smush' 
+[2025-06-06 13:33:16 : INFO] - Processing task with ID : 33454, and type 'smush' 
+[2025-06-06 13:33:16 : INFO] - Re_Smush_It_Task - Attachment ID : 597, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:16 : INFO] - File: icons8-successful-delivery-100.png, Compression quality: 92 
+[2025-06-06 13:33:17 : INFO] - Backing up the original image - 2020/11/icons8-successful-delivery-100-updraft-pre-smush-original.png 
+[2025-06-06 13:33:18 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-successful-delivery-100.png.The file was compressed from 4.31 KB to 2.45 KB, saving 43.23 percent, using WP-Optimize 
+[2025-06-06 13:33:18 : INFO] - Completed processing task with ID : 33454, and type 'smush' 
+[2025-06-06 13:33:18 : INFO] - Processing task with ID : 33455, and type 'smush' 
+[2025-06-06 13:33:18 : INFO] - Re_Smush_It_Task - Attachment ID : 598, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:18 : INFO] - File: icons8-webhook-100.png, Compression quality: 92 
+[2025-06-06 13:33:19 : INFO] - Backing up the original image - 2020/11/icons8-webhook-100-updraft-pre-smush-original.png 
+[2025-06-06 13:33:19 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-webhook-100.png.The file was compressed from 4.10 KB to 2.36 KB, saving 42.42 percent, using WP-Optimize 
+[2025-06-06 13:33:19 : INFO] - Completed processing task with ID : 33455, and type 'smush' 
+[2025-06-06 13:33:19 : INFO] - Processing task with ID : 33456, and type 'smush' 
+[2025-06-06 13:33:19 : INFO] - Re_Smush_It_Task - Attachment ID : 599, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:19 : INFO] - File: icons8-translation-100-2.png, Compression quality: 92 
+[2025-06-06 13:33:20 : INFO] - Backing up the original image - 2020/11/icons8-translation-100-2-updraft-pre-smush-original.png 
+[2025-06-06 13:33:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-translation-100-2.png.The file was compressed from 3.44 KB to 2.03 KB, saving 41.06 percent, using WP-Optimize 
+[2025-06-06 13:33:21 : INFO] - Completed processing task with ID : 33456, and type 'smush' 
+[2025-06-06 13:33:21 : INFO] - Processing task with ID : 33457, and type 'smush' 
+[2025-06-06 13:33:21 : INFO] - Re_Smush_It_Task - Attachment ID : 600, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:21 : INFO] - File: icons8-translation-100.png, Compression quality: 92 
+[2025-06-06 13:33:22 : INFO] - Backing up the original image - 2020/11/icons8-translation-100-updraft-pre-smush-original.png 
+[2025-06-06 13:33:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-translation-100.png.The file was compressed from 3.34 KB to 2.06 KB, saving 38.35 percent, using WP-Optimize 
+[2025-06-06 13:33:23 : INFO] - Completed processing task with ID : 33457, and type 'smush' 
+[2025-06-06 13:33:23 : INFO] - Processing task with ID : 33458, and type 'smush' 
+[2025-06-06 13:33:23 : INFO] - Re_Smush_It_Task - Attachment ID : 601, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:23 : INFO] - File: icons8-name-tag-100.png, Compression quality: 92 
+[2025-06-06 13:33:23 : INFO] - Backing up the original image - 2020/11/icons8-name-tag-100-updraft-pre-smush-original.png 
+[2025-06-06 13:33:24 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-name-tag-100.png.The file was compressed from 2.14 KB to 1.31 KB, saving 38.56 percent, using WP-Optimize 
+[2025-06-06 13:33:24 : INFO] - Completed processing task with ID : 33458, and type 'smush' 
+[2025-06-06 13:33:24 : INFO] - Processing task with ID : 33459, and type 'smush' 
+[2025-06-06 13:33:24 : INFO] - Re_Smush_It_Task - Attachment ID : 602, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:24 : INFO] - File: icons8-map-pinpoint-96-min.png, Compression quality: 92 
+[2025-06-06 13:33:25 : INFO] - Backing up the original image - 2020/11/icons8-map-pinpoint-96-min-updraft-pre-smush-original.png 
+[2025-06-06 13:33:26 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/icons8-map-pinpoint-96-min.png.The file was compressed from 1.47 KB to 1.47 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:33:26 : INFO] - Completed processing task with ID : 33459, and type 'smush' 
+[2025-06-06 13:33:26 : INFO] - Processing task with ID : 33460, and type 'smush' 
+[2025-06-06 13:33:26 : INFO] - Re_Smush_It_Task - Attachment ID : 615, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:26 : INFO] - File: visitorspass.png, Compression quality: 92 
+[2025-06-06 13:33:27 : INFO] - Backing up the original image - 2020/11/visitorspass-updraft-pre-smush-original.png 
+[2025-06-06 13:33:32 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2020/11/visitorspass.png.The file was compressed from 39.27 KB to 14.29 KB, saving 63.6 percent, using WP-Optimize 
+[2025-06-06 13:33:32 : INFO] - Completed processing task with ID : 33460, and type 'smush' 
+[2025-06-06 13:33:32 : INFO] - Processing task with ID : 33461, and type 'smush' 
+[2025-06-06 13:33:32 : INFO] - Re_Smush_It_Task - Attachment ID : 680, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:32 : INFO] - File: receptionst1.png, Compression quality: 92 
+[2025-06-06 13:33:33 : INFO] - Backing up the original image - 2021/02/receptionst1-updraft-pre-smush-original.png 
+[2025-06-06 13:33:38 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/receptionst1.png.The file was compressed from 28.21 KB to 10.83 KB, saving 61.59 percent, using WP-Optimize 
+[2025-06-06 13:33:38 : INFO] - Completed processing task with ID : 33461, and type 'smush' 
+[2025-06-06 13:33:38 : INFO] - Processing task with ID : 33462, and type 'smush' 
+[2025-06-06 13:33:38 : INFO] - Re_Smush_It_Task - Attachment ID : 681, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:38 : INFO] - File: clutterlessdesk.png, Compression quality: 92 
+[2025-06-06 13:33:39 : INFO] - Backing up the original image - 2021/02/clutterlessdesk-updraft-pre-smush-original.png 
+[2025-06-06 13:33:43 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/clutterlessdesk.png.The file was compressed from 21.88 KB to 9.90 KB, saving 54.75 percent, using WP-Optimize 
+[2025-06-06 13:33:43 : INFO] - Completed processing task with ID : 33462, and type 'smush' 
+[2025-06-06 13:33:43 : INFO] - Processing task with ID : 33463, and type 'smush' 
+[2025-06-06 13:33:43 : INFO] - Re_Smush_It_Task - Attachment ID : 682, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:43 : INFO] - File: ecooffice.png, Compression quality: 92 
+[2025-06-06 13:33:44 : INFO] - Backing up the original image - 2021/02/ecooffice-updraft-pre-smush-original.png 
+[2025-06-06 13:33:45 : INFO] - A total of 120 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:33:45 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:33:45 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:33:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:33:45 : INFO] - Cleaning up tasks of type (smush). A total of 15 tasks will be deleted. 
+[2025-06-06 13:33:49 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/ecooffice.png.The file was compressed from 31.80 KB to 13.45 KB, saving 57.69 percent, using WP-Optimize 
+[2025-06-06 13:33:49 : INFO] - Completed processing task with ID : 33463, and type 'smush' 
+[2025-06-06 13:33:49 : INFO] - Processing task with ID : 33464, and type 'smush' 
+[2025-06-06 13:33:49 : INFO] - Re_Smush_It_Task - Attachment ID : 683, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:49 : INFO] - File: plants.png, Compression quality: 92 
+[2025-06-06 13:33:50 : INFO] - Backing up the original image - 2021/02/plants-updraft-pre-smush-original.png 
+[2025-06-06 13:33:55 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/plants.png.The file was compressed from 51.48 KB to 19.37 KB, saving 62.38 percent, using WP-Optimize 
+[2025-06-06 13:33:55 : INFO] - Completed processing task with ID : 33464, and type 'smush' 
+[2025-06-06 13:33:55 : INFO] - Processing task with ID : 33465, and type 'smush' 
+[2025-06-06 13:33:55 : INFO] - Re_Smush_It_Task - Attachment ID : 684, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:33:55 : INFO] - File: homeoffice.png, Compression quality: 92 
+[2025-06-06 13:33:56 : INFO] - Backing up the original image - 2021/02/homeoffice-updraft-pre-smush-original.png 
+[2025-06-06 13:34:00 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/homeoffice.png.The file was compressed from 30.27 KB to 11.76 KB, saving 61.15 percent, using WP-Optimize 
+[2025-06-06 13:34:00 : INFO] - Completed processing task with ID : 33465, and type 'smush' 
+[2025-06-06 13:34:00 : INFO] - Processing task with ID : 33466, and type 'smush' 
+[2025-06-06 13:34:00 : INFO] - Re_Smush_It_Task - Attachment ID : 685, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:00 : INFO] - File: confused_emplyee.png, Compression quality: 92 
+[2025-06-06 13:34:02 : INFO] - Backing up the original image - 2021/02/confused_emplyee-updraft-pre-smush-original.png 
+[2025-06-06 13:34:06 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/02/confused_emplyee.png.The file was compressed from 32.22 KB to 13.52 KB, saving 58.04 percent, using WP-Optimize 
+[2025-06-06 13:34:06 : INFO] - Completed processing task with ID : 33466, and type 'smush' 
+[2025-06-06 13:34:06 : INFO] - Processing task with ID : 33467, and type 'smush' 
+[2025-06-06 13:34:06 : INFO] - Re_Smush_It_Task - Attachment ID : 706, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:06 : INFO] - File: hardware_requirements.png, Compression quality: 92 
+[2025-06-06 13:34:07 : INFO] - Backing up the original image - 2021/03/hardware_requirements-updraft-pre-smush-original.png 
+[2025-06-06 13:34:12 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/03/hardware_requirements.png.The file was compressed from 34.21 KB to 13.50 KB, saving 60.55 percent, using WP-Optimize 
+[2025-06-06 13:34:12 : INFO] - Completed processing task with ID : 33467, and type 'smush' 
+[2025-06-06 13:34:12 : INFO] - Processing task with ID : 33468, and type 'smush' 
+[2025-06-06 13:34:12 : INFO] - Re_Smush_It_Task - Attachment ID : 734, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:12 : INFO] - File: hybrid.png, Compression quality: 92 
+[2025-06-06 13:34:13 : INFO] - Backing up the original image - 2021/08/hybrid-updraft-pre-smush-original.png 
+[2025-06-06 13:34:18 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/08/hybrid.png.The file was compressed from 38.38 KB to 14.12 KB, saving 63.2 percent, using WP-Optimize 
+[2025-06-06 13:34:18 : INFO] - Completed processing task with ID : 33468, and type 'smush' 
+[2025-06-06 13:34:18 : INFO] - Processing task with ID : 33469, and type 'smush' 
+[2025-06-06 13:34:18 : INFO] - Re_Smush_It_Task - Attachment ID : 738, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:18 : INFO] - File: visitorcheckinsheet.png, Compression quality: 92 
+[2025-06-06 13:34:19 : INFO] - Backing up the original image - 2021/08/visitorcheckinsheet-updraft-pre-smush-original.png 
+[2025-06-06 13:34:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2021/08/visitorcheckinsheet.png.The file was compressed from 28.04 KB to 13.39 KB, saving 52.26 percent, using WP-Optimize 
+[2025-06-06 13:34:23 : INFO] - Completed processing task with ID : 33469, and type 'smush' 
+[2025-06-06 13:34:23 : INFO] - Processing task with ID : 33470, and type 'smush' 
+[2025-06-06 13:34:23 : INFO] - Re_Smush_It_Task - Attachment ID : 802, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:23 : INFO] - File: Group-222.png, Compression quality: 92 
+[2025-06-06 13:34:25 : INFO] - Backing up the original image - 2022/08/Group-222-updraft-pre-smush-original.png 
+[2025-06-06 13:34:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/08/Group-222.png.The file was compressed from 189.60 KB to 96.81 KB, saving 48.94 percent, using WP-Optimize 
+[2025-06-06 13:34:31 : INFO] - Completed processing task with ID : 33470, and type 'smush' 
+[2025-06-06 13:34:31 : INFO] - Processing task with ID : 33471, and type 'smush' 
+[2025-06-06 13:34:31 : INFO] - Re_Smush_It_Task - Attachment ID : 803, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:31 : INFO] - File: Group-223.png, Compression quality: 92 
+[2025-06-06 13:34:33 : INFO] - Backing up the original image - 2022/08/Group-223-updraft-pre-smush-original.png 
+[2025-06-06 13:34:38 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/08/Group-223.png.The file was compressed from 193.66 KB to 94.38 KB, saving 51.27 percent, using WP-Optimize 
+[2025-06-06 13:34:38 : INFO] - Completed processing task with ID : 33471, and type 'smush' 
+[2025-06-06 13:34:38 : INFO] - Processing task with ID : 33472, and type 'smush' 
+[2025-06-06 13:34:38 : INFO] - Re_Smush_It_Task - Attachment ID : 820, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:38 : INFO] - File: bluetooth.png, Compression quality: 92 
+[2025-06-06 13:34:39 : INFO] - Backing up the original image - 2022/09/bluetooth-updraft-pre-smush-original.png 
+[2025-06-06 13:34:41 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/09/bluetooth.png.The file was compressed from 4.06 KB to 3.30 KB, saving 18.6 percent, using WP-Optimize 
+[2025-06-06 13:34:41 : INFO] - Completed processing task with ID : 33472, and type 'smush' 
+[2025-06-06 13:34:41 : INFO] - Processing task with ID : 33473, and type 'smush' 
+[2025-06-06 13:34:41 : INFO] - Re_Smush_It_Task - Attachment ID : 821, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:41 : INFO] - File: wifi.png, Compression quality: 92 
+[2025-06-06 13:34:42 : INFO] - Backing up the original image - 2022/09/wifi-updraft-pre-smush-original.png 
+[2025-06-06 13:34:43 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/09/wifi.png.The file was compressed from 5.69 KB to 5.34 KB, saving 6.14 percent, using WP-Optimize 
+[2025-06-06 13:34:43 : INFO] - Completed processing task with ID : 33473, and type 'smush' 
+[2025-06-06 13:34:43 : INFO] - Processing task with ID : 33474, and type 'smush' 
+[2025-06-06 13:34:43 : INFO] - Re_Smush_It_Task - Attachment ID : 822, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:43 : INFO] - File: apple1.png, Compression quality: 92 
+[2025-06-06 13:34:44 : INFO] - Backing up the original image - 2022/09/apple1-updraft-pre-smush-original.png 
+[2025-06-06 13:34:45 : INFO] - A total of 109 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:34:45 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:34:45 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:34:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:34:45 : INFO] - Cleaning up tasks of type (smush). A total of 11 tasks will be deleted. 
+[2025-06-06 13:34:46 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/09/apple1.png.The file was compressed from 4.91 KB to 4.91 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:34:46 : INFO] - Completed processing task with ID : 33474, and type 'smush' 
+[2025-06-06 13:34:46 : INFO] - Processing task with ID : 33475, and type 'smush' 
+[2025-06-06 13:34:46 : INFO] - Re_Smush_It_Task - Attachment ID : 823, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:46 : INFO] - File: android.png, Compression quality: 92 
+[2025-06-06 13:34:47 : INFO] - Backing up the original image - 2022/09/android-updraft-pre-smush-original.png 
+[2025-06-06 13:34:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/09/android.png.The file was compressed from 5.47 KB to 4.31 KB, saving 21.21 percent, using WP-Optimize 
+[2025-06-06 13:34:48 : INFO] - Completed processing task with ID : 33475, and type 'smush' 
+[2025-06-06 13:34:48 : INFO] - Processing task with ID : 33476, and type 'smush' 
+[2025-06-06 13:34:48 : INFO] - Re_Smush_It_Task - Attachment ID : 857, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:48 : INFO] - File: delivereis.png, Compression quality: 92 
+[2025-06-06 13:34:50 : INFO] - Backing up the original image - 2022/12/delivereis-updraft-pre-smush-original.png 
+[2025-06-06 13:34:54 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/delivereis.png.The file was compressed from 34.01 KB to 13.25 KB, saving 61.02 percent, using WP-Optimize 
+[2025-06-06 13:34:54 : INFO] - Completed processing task with ID : 33476, and type 'smush' 
+[2025-06-06 13:34:54 : INFO] - Processing task with ID : 33477, and type 'smush' 
+[2025-06-06 13:34:54 : INFO] - Re_Smush_It_Task - Attachment ID : 862, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:34:54 : INFO] - File: employee_contractro_checkin_checkout.png, Compression quality: 92 
+[2025-06-06 13:34:55 : INFO] - Backing up the original image - 2022/12/employee_contractro_checkin_checkout-updraft-pre-smush-original.png 
+[2025-06-06 13:35:00 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/employee_contractro_checkin_checkout.png.The file was compressed from 39.51 KB to 16.53 KB, saving 58.16 percent, using WP-Optimize 
+[2025-06-06 13:35:00 : INFO] - Completed processing task with ID : 33477, and type 'smush' 
+[2025-06-06 13:35:00 : INFO] - Processing task with ID : 33478, and type 'smush' 
+[2025-06-06 13:35:00 : INFO] - Re_Smush_It_Task - Attachment ID : 878, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:35:00 : INFO] - File: Employees-love-your-workplace.png, Compression quality: 92 
+[2025-06-06 13:35:02 : INFO] - Backing up the original image - 2022/12/Employees-love-your-workplace-updraft-pre-smush-original.png 
+[2025-06-06 13:35:10 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/Employees-love-your-workplace.png.The file was compressed from 80.22 KB to 34.53 KB, saving 56.96 percent, using WP-Optimize 
+[2025-06-06 13:35:10 : INFO] - Completed processing task with ID : 33478, and type 'smush' 
+[2025-06-06 13:35:10 : INFO] - Processing task with ID : 33479, and type 'smush' 
+[2025-06-06 13:35:10 : INFO] - Re_Smush_It_Task - Attachment ID : 882, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:35:10 : INFO] - File: Seamlessly-manage-visitors.png, Compression quality: 92 
+[2025-06-06 13:35:13 : INFO] - Backing up the original image - 2022/12/Seamlessly-manage-visitors-updraft-pre-smush-original.png 
+[2025-06-06 13:35:22 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/Seamlessly-manage-visitors.png.The file was compressed from 168.91 KB to 57.31 KB, saving 66.07 percent, using WP-Optimize 
+[2025-06-06 13:35:22 : INFO] - Completed processing task with ID : 33479, and type 'smush' 
+[2025-06-06 13:35:22 : INFO] - Processing task with ID : 33480, and type 'smush' 
+[2025-06-06 13:35:22 : INFO] - Re_Smush_It_Task - Attachment ID : 900, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:35:22 : INFO] - File: istockphoto-1365562800-2048x2048-1.jpg, Compression quality: 92 
+[2025-06-06 13:35:28 : INFO] - Backing up the original image - 2022/12/istockphoto-1365562800-2048x2048-1-updraft-pre-smush-original.jpg 
+[2025-06-06 13:35:39 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/istockphoto-1365562800-2048x2048-1.jpg.The file was compressed from 386.61 KB to 378.28 KB, saving 2.15 percent, using WP-Optimize 
+[2025-06-06 13:35:39 : INFO] - Completed processing task with ID : 33480, and type 'smush' 
+[2025-06-06 13:35:39 : INFO] - Processing task with ID : 33481, and type 'smush' 
+[2025-06-06 13:35:39 : INFO] - Re_Smush_It_Task - Attachment ID : 901, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:35:39 : INFO] - File: jason-goodman-bzqU01v-G54-unsplash-scaled.jpg, Compression quality: 92 
+[2025-06-06 13:35:45 : INFO] - A total of 102 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:35:45 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:35:45 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:35:45 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:35:45 : INFO] - Cleaning up tasks of type (smush). A total of 7 tasks will be deleted. 
+[2025-06-06 13:35:47 : INFO] - Backing up the original image - 2022/12/jason-goodman-bzqU01v-G54-unsplash-scaled-updraft-pre-smush-original.jpg 
+[2025-06-06 13:36:02 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/jason-goodman-bzqU01v-G54-unsplash-scaled.jpg.The file was compressed from 432.00 KB to 410.04 KB, saving 5.08 percent, using WP-Optimize 
+[2025-06-06 13:36:02 : INFO] - Completed processing task with ID : 33481, and type 'smush' 
+[2025-06-06 13:36:02 : INFO] - Processing task with ID : 33482, and type 'smush' 
+[2025-06-06 13:36:02 : INFO] - Re_Smush_It_Task - Attachment ID : 907, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:02 : INFO] - File: Best-recptionist-app.png, Compression quality: 92 
+[2025-06-06 13:36:04 : INFO] - Backing up the original image - 2022/12/Best-recptionist-app-updraft-pre-smush-original.png 
+[2025-06-06 13:36:11 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/Best-recptionist-app.png.The file was compressed from 63.91 KB to 28.56 KB, saving 55.31 percent, using WP-Optimize 
+[2025-06-06 13:36:11 : INFO] - Completed processing task with ID : 33482, and type 'smush' 
+[2025-06-06 13:36:11 : INFO] - Processing task with ID : 33483, and type 'smush' 
+[2025-06-06 13:36:11 : INFO] - Re_Smush_It_Task - Attachment ID : 911, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:11 : INFO] - File: Workplace-betterment-platform.png, Compression quality: 92 
+[2025-06-06 13:36:13 : INFO] - Backing up the original image - 2022/12/Workplace-betterment-platform-updraft-pre-smush-original.png 
+[2025-06-06 13:36:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/Workplace-betterment-platform.png.The file was compressed from 250.32 KB to 88.19 KB, saving 64.77 percent, using WP-Optimize 
+[2025-06-06 13:36:23 : INFO] - Completed processing task with ID : 33483, and type 'smush' 
+[2025-06-06 13:36:23 : INFO] - Processing task with ID : 33484, and type 'smush' 
+[2025-06-06 13:36:23 : INFO] - Re_Smush_It_Task - Attachment ID : 917, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:23 : INFO] - File: FOMO.png, Compression quality: 92 
+[2025-06-06 13:36:25 : INFO] - Backing up the original image - 2022/12/FOMO-updraft-pre-smush-original.png 
+[2025-06-06 13:36:33 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/FOMO.png.The file was compressed from 79.81 KB to 31.90 KB, saving 60.03 percent, using WP-Optimize 
+[2025-06-06 13:36:33 : INFO] - Completed processing task with ID : 33484, and type 'smush' 
+[2025-06-06 13:36:33 : INFO] - Processing task with ID : 33485, and type 'smush' 
+[2025-06-06 13:36:33 : INFO] - Re_Smush_It_Task - Attachment ID : 941, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:33 : INFO] - File: Top-10-tips-for-hybrid-workplaces.png, Compression quality: 92 
+[2025-06-06 13:36:35 : INFO] - Backing up the original image - 2022/12/Top-10-tips-for-hybrid-workplaces-updraft-pre-smush-original.png 
+[2025-06-06 13:36:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2022/12/Top-10-tips-for-hybrid-workplaces.png.The file was compressed from 107.16 KB to 45.13 KB, saving 57.89 percent, using WP-Optimize 
+[2025-06-06 13:36:44 : INFO] - Completed processing task with ID : 33485, and type 'smush' 
+[2025-06-06 13:36:44 : INFO] - Processing task with ID : 33486, and type 'smush' 
+[2025-06-06 13:36:44 : INFO] - Re_Smush_It_Task - Attachment ID : 957, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:44 : INFO] - File: your-Front-desk.png, Compression quality: 92 
+[2025-06-06 13:36:46 : INFO] - Backing up the original image - 2023/01/your-Front-desk-updraft-pre-smush-original.png 
+[2025-06-06 13:36:53 : INFO] - A total of 97 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:36:53 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired 
+[2025-06-06 13:36:55 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/your-Front-desk.png.The file was compressed from 93.28 KB to 41.99 KB, saving 54.99 percent, using WP-Optimize 
+[2025-06-06 13:36:55 : INFO] - Completed processing task with ID : 33486, and type 'smush' 
+[2025-06-06 13:36:55 : INFO] - Processing task with ID : 33487, and type 'smush' 
+[2025-06-06 13:36:55 : INFO] - Re_Smush_It_Task - Attachment ID : 959, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:55 : INFO] - File: your-Front-desk-1.png, Compression quality: 92 
+[2025-06-06 13:36:55 : INFO] - Processing task with ID : 33486, and type 'smush' 
+[2025-06-06 13:36:55 : INFO] - Re_Smush_It_Task - Attachment ID : 957, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:36:55 : INFO] - File: your-Front-desk.png, Compression quality: 92 
+[2025-06-06 13:36:57 : INFO] - Backing up the original image - 2023/01/your-Front-desk-1-updraft-pre-smush-original.png 
+[2025-06-06 13:36:57 : INFO] - Backing up the original image - 2023/01/your-Front-desk-updraft-pre-smush-original.png 
+[2025-06-06 13:37:03 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/your-Front-desk.png.The file was compressed from 41.99 KB to 41.99 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:37:03 : INFO] - Completed processing task with ID : 33486, and type 'smush' 
+[2025-06-06 13:37:05 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/your-Front-desk-1.png.The file was compressed from 75.86 KB to 33.81 KB, saving 55.44 percent, using WP-Optimize 
+[2025-06-06 13:37:05 : INFO] - Completed processing task with ID : 33487, and type 'smush' 
+[2025-06-06 13:37:05 : INFO] - Processing task with ID : 33488, and type 'smush' 
+[2025-06-06 13:37:05 : INFO] - Re_Smush_It_Task - Attachment ID : 968, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:05 : INFO] - File: low-productivity-at-work.png, Compression quality: 92 
+[2025-06-06 13:37:05 : INFO] - Processing task with ID : 33487, and type 'smush' 
+[2025-06-06 13:37:05 : INFO] - Re_Smush_It_Task - Attachment ID : 959, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:05 : INFO] - File: your-Front-desk-1.png, Compression quality: 92 
+[2025-06-06 13:37:06 : INFO] - Backing up the original image - 2023/01/low-productivity-at-work-updraft-pre-smush-original.png 
+[2025-06-06 13:37:07 : INFO] - Backing up the original image - 2023/01/your-Front-desk-1-updraft-pre-smush-original.png 
+[2025-06-06 13:37:13 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/your-Front-desk-1.png.The file was compressed from 33.81 KB to 33.81 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:37:13 : INFO] - Completed processing task with ID : 33487, and type 'smush' 
+[2025-06-06 13:37:14 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/low-productivity-at-work.png.The file was compressed from 61.02 KB to 24.78 KB, saving 59.39 percent, using WP-Optimize 
+[2025-06-06 13:37:14 : INFO] - Completed processing task with ID : 33488, and type 'smush' 
+[2025-06-06 13:37:14 : INFO] - Processing task with ID : 33489, and type 'smush' 
+[2025-06-06 13:37:14 : INFO] - Re_Smush_It_Task - Attachment ID : 969, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:14 : INFO] - File: hybrid-workplace.png, Compression quality: 92 
+[2025-06-06 13:37:14 : INFO] - Processing task with ID : 33488, and type 'smush' 
+[2025-06-06 13:37:14 : INFO] - Re_Smush_It_Task - Attachment ID : 968, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:14 : INFO] - File: low-productivity-at-work.png, Compression quality: 92 
+[2025-06-06 13:37:15 : INFO] - Backing up the original image - 2023/01/hybrid-workplace-updraft-pre-smush-original.png 
+[2025-06-06 13:37:15 : INFO] - Backing up the original image - 2023/01/low-productivity-at-work-updraft-pre-smush-original.png 
+[2025-06-06 13:37:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/low-productivity-at-work.png.The file was compressed from 24.78 KB to 24.77 KB, saving 0.04 percent, using WP-Optimize 
+[2025-06-06 13:37:21 : INFO] - Completed processing task with ID : 33488, and type 'smush' 
+[2025-06-06 13:37:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/hybrid-workplace.png.The file was compressed from 67.60 KB to 28.28 KB, saving 58.17 percent, using WP-Optimize 
+[2025-06-06 13:37:23 : INFO] - Completed processing task with ID : 33489, and type 'smush' 
+[2025-06-06 13:37:23 : INFO] - Processing task with ID : 33490, and type 'smush' 
+[2025-06-06 13:37:23 : INFO] - Re_Smush_It_Task - Attachment ID : 992, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:23 : INFO] - File: 10-Indoor-Office-Plants-.png, Compression quality: 92 
+[2025-06-06 13:37:23 : INFO] - Processing task with ID : 33489, and type 'smush' 
+[2025-06-06 13:37:23 : INFO] - Re_Smush_It_Task - Attachment ID : 969, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:23 : INFO] - File: hybrid-workplace.png, Compression quality: 92 
+[2025-06-06 13:37:25 : INFO] - Backing up the original image - 2023/01/hybrid-workplace-updraft-pre-smush-original.png 
+[2025-06-06 13:37:25 : INFO] - Backing up the original image - 2023/01/10-Indoor-Office-Plants--updraft-pre-smush-original.png 
+[2025-06-06 13:37:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/hybrid-workplace.png.The file was compressed from 28.28 KB to 28.28 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:37:31 : INFO] - Completed processing task with ID : 33489, and type 'smush' 
+[2025-06-06 13:37:33 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/01/10-Indoor-Office-Plants-.png.The file was compressed from 99.00 KB to 39.46 KB, saving 60.14 percent, using WP-Optimize 
+[2025-06-06 13:37:33 : INFO] - Completed processing task with ID : 33490, and type 'smush' 
+[2025-06-06 13:37:33 : INFO] - Processing task with ID : 33491, and type 'smush' 
+[2025-06-06 13:37:33 : INFO] - Re_Smush_It_Task - Attachment ID : 1017, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:33 : INFO] - File: g2748.png, Compression quality: 92 
+[2025-06-06 13:37:34 : INFO] - Task with ID 33490 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:37:36 : INFO] - Backing up the original image - 2023/02/g2748-updraft-pre-smush-original.png 
+[2025-06-06 13:37:37 : INFO] - Task with ID 33491 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:37:37 : INFO] - Processing task with ID : 33492, and type 'smush' 
+[2025-06-06 13:37:37 : INFO] - Re_Smush_It_Task - Attachment ID : 1022, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:37 : INFO] - File: g19.png, Compression quality: 92 
+[2025-06-06 13:37:40 : INFO] - Backing up the original image - 2023/02/g19-updraft-pre-smush-original.png 
+[2025-06-06 13:37:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/02/g2748.png.The file was compressed from 91.02 KB to 35.95 KB, saving 60.5 percent, using WP-Optimize 
+[2025-06-06 13:37:44 : INFO] - Completed processing task with ID : 33491, and type 'smush' 
+[2025-06-06 13:37:47 : INFO] - Task with ID 33492 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:37:47 : INFO] - Processing task with ID : 33493, and type 'smush' 
+[2025-06-06 13:37:47 : INFO] - Re_Smush_It_Task - Attachment ID : 1031, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:47 : INFO] - File: Group-143.png, Compression quality: 92 
+[2025-06-06 13:37:48 : INFO] - Backing up the original image - 2023/02/Group-143-updraft-pre-smush-original.png 
+[2025-06-06 13:37:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/02/g19.png.The file was compressed from 156.71 KB to 63.74 KB, saving 59.33 percent, using WP-Optimize 
+[2025-06-06 13:37:48 : INFO] - Completed processing task with ID : 33492, and type 'smush' 
+[2025-06-06 13:37:51 : INFO] - Task with ID 33493 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:37:51 : INFO] - Processing task with ID : 33494, and type 'smush' 
+[2025-06-06 13:37:51 : INFO] - Re_Smush_It_Task - Attachment ID : 1056, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:51 : INFO] - File: paperless_africa_smart_africa_tech.png, Compression quality: 92 
+[2025-06-06 13:37:53 : INFO] - Backing up the original image - 2023/03/paperless_africa_smart_africa_tech-updraft-pre-smush-original.png 
+[2025-06-06 13:37:55 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/02/Group-143.png.The file was compressed from 35.66 KB to 14.83 KB, saving 58.4 percent, using WP-Optimize 
+[2025-06-06 13:37:55 : INFO] - Completed processing task with ID : 33493, and type 'smush' 
+[2025-06-06 13:37:58 : INFO] - Task with ID 33494 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:37:58 : INFO] - Processing task with ID : 33495, and type 'smush' 
+[2025-06-06 13:37:58 : INFO] - Re_Smush_It_Task - Attachment ID : 1078, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:37:58 : INFO] - File: Workplace_Violence_Causes_Prevention_and_Solutions.png, Compression quality: 92 
+[2025-06-06 13:37:59 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/03/paperless_africa_smart_africa_tech.png.The file was compressed from 40.82 KB to 17.52 KB, saving 57.08 percent, using WP-Optimize 
+[2025-06-06 13:37:59 : INFO] - Completed processing task with ID : 33494, and type 'smush' 
+[2025-06-06 13:38:00 : INFO] - Backing up the original image - 2023/03/Workplace_Violence_Causes_Prevention_and_Solutions-updraft-pre-smush-original.png 
+[2025-06-06 13:38:02 : INFO] - Task with ID 33495 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:02 : INFO] - Processing task with ID : 33496, and type 'smush' 
+[2025-06-06 13:38:02 : INFO] - Re_Smush_It_Task - Attachment ID : 1104, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:02 : INFO] - File: Pharmaceutical-Industry.png, Compression quality: 92 
+[2025-06-06 13:38:04 : INFO] - Backing up the original image - 2023/03/Pharmaceutical-Industry-updraft-pre-smush-original.png 
+[2025-06-06 13:38:08 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/03/Workplace_Violence_Causes_Prevention_and_Solutions.png.The file was compressed from 62.78 KB to 26.70 KB, saving 57.48 percent, using WP-Optimize 
+[2025-06-06 13:38:08 : INFO] - Completed processing task with ID : 33495, and type 'smush' 
+[2025-06-06 13:38:11 : INFO] - Task with ID 33496 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:11 : INFO] - Processing task with ID : 33497, and type 'smush' 
+[2025-06-06 13:38:11 : INFO] - Re_Smush_It_Task - Attachment ID : 1105, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:11 : INFO] - File: Real-Estate-and-Facility-Management.png, Compression quality: 92 
+[2025-06-06 13:38:11 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/03/Pharmaceutical-Industry.png.The file was compressed from 63.35 KB to 30.48 KB, saving 51.89 percent, using WP-Optimize 
+[2025-06-06 13:38:11 : INFO] - Completed processing task with ID : 33496, and type 'smush' 
+[2025-06-06 13:38:12 : INFO] - A total of 86 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:38:12 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:38:12 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:38:12 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:38:12 : INFO] - Cleaning up tasks of type (smush). A total of 15 tasks will be deleted. 
+[2025-06-06 13:38:13 : INFO] - Backing up the original image - 2023/03/Real-Estate-and-Facility-Management-updraft-pre-smush-original.png 
+[2025-06-06 13:38:14 : INFO] - Task with ID 33497 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:14 : INFO] - Processing task with ID : 33498, and type 'smush' 
+[2025-06-06 13:38:14 : INFO] - Re_Smush_It_Task - Attachment ID : 1106, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:14 : INFO] - File: Modern-Office-with-Tech-Innovations.png, Compression quality: 92 
+[2025-06-06 13:38:17 : INFO] - Backing up the original image - 2023/03/Modern-Office-with-Tech-Innovations-updraft-pre-smush-original.png 
+[2025-06-06 13:38:22 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/03/Real-Estate-and-Facility-Management.png.The file was compressed from 138.45 KB to 48.51 KB, saving 64.96 percent, using WP-Optimize 
+[2025-06-06 13:38:22 : INFO] - Completed processing task with ID : 33497, and type 'smush' 
+[2025-06-06 13:38:25 : INFO] - Task with ID 33498 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:25 : INFO] - Processing task with ID : 33499, and type 'smush' 
+[2025-06-06 13:38:25 : INFO] - Re_Smush_It_Task - Attachment ID : 1147, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:25 : INFO] - File: pexels-ketut-subiyanto-4907454-scaled.jpg, Compression quality: 92 
+[2025-06-06 13:38:28 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/03/Modern-Office-with-Tech-Innovations.png.The file was compressed from 228.94 KB to 82.16 KB, saving 64.11 percent, using WP-Optimize 
+[2025-06-06 13:38:28 : INFO] - Completed processing task with ID : 33498, and type 'smush' 
+[2025-06-06 13:38:31 : INFO] - Task with ID 33499 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:31 : INFO] - Processing task with ID : 33500, and type 'smush' 
+[2025-06-06 13:38:31 : INFO] - Re_Smush_It_Task - Attachment ID : 1148, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:31 : INFO] - File: pexels-mikhail-nilov-7821349-scaled.jpg, Compression quality: 92 
+[2025-06-06 13:38:33 : INFO] - Backing up the original image - 2023/04/pexels-ketut-subiyanto-4907454-scaled-updraft-pre-smush-original.jpg 
+[2025-06-06 13:38:39 : INFO] - Backing up the original image - 2023/04/pexels-mikhail-nilov-7821349-scaled-updraft-pre-smush-original.jpg 
+[2025-06-06 13:38:52 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/pexels-ketut-subiyanto-4907454-scaled.jpg.The file was compressed from 663.95 KB to 623.31 KB, saving 6.12 percent, using WP-Optimize 
+[2025-06-06 13:38:52 : INFO] - Completed processing task with ID : 33499, and type 'smush' 
+[2025-06-06 13:38:55 : INFO] - Task with ID 33500 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:38:55 : INFO] - Processing task with ID : 33501, and type 'smush' 
+[2025-06-06 13:38:55 : INFO] - Re_Smush_It_Task - Attachment ID : 1154, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:55 : INFO] - File: communication.png, Compression quality: 92 
+[2025-06-06 13:38:57 : INFO] - Backing up the original image - 2023/04/communication-updraft-pre-smush-original.png 
+[2025-06-06 13:38:58 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/pexels-mikhail-nilov-7821349-scaled.jpg.The file was compressed from 517.30 KB to 484.76 KB, saving 6.29 percent, using WP-Optimize 
+[2025-06-06 13:38:58 : INFO] - Completed processing task with ID : 33500, and type 'smush' 
+[2025-06-06 13:38:59 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/communication.png.The file was compressed from 17.60 KB to 12.37 KB, saving 29.71 percent, using WP-Optimize 
+[2025-06-06 13:38:59 : INFO] - Completed processing task with ID : 33501, and type 'smush' 
+[2025-06-06 13:38:59 : INFO] - Processing task with ID : 33502, and type 'smush' 
+[2025-06-06 13:38:59 : INFO] - Re_Smush_It_Task - Attachment ID : 1155, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:59 : INFO] - File: credit-card-payment.png, Compression quality: 92 
+[2025-06-06 13:38:59 : INFO] - Processing task with ID : 33501, and type 'smush' 
+[2025-06-06 13:38:59 : INFO] - Re_Smush_It_Task - Attachment ID : 1154, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:38:59 : INFO] - File: communication.png, Compression quality: 92 
+[2025-06-06 13:39:00 : INFO] - Backing up the original image - 2023/04/credit-card-payment-updraft-pre-smush-original.png 
+[2025-06-06 13:39:00 : INFO] - Backing up the original image - 2023/04/communication-updraft-pre-smush-original.png 
+[2025-06-06 13:39:02 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/credit-card-payment.png.The file was compressed from 5.38 KB to 3.83 KB, saving 28.76 percent, using WP-Optimize 
+[2025-06-06 13:39:02 : INFO] - Completed processing task with ID : 33502, and type 'smush' 
+[2025-06-06 13:39:02 : INFO] - Processing task with ID : 33503, and type 'smush' 
+[2025-06-06 13:39:02 : INFO] - Re_Smush_It_Task - Attachment ID : 1156, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:02 : INFO] - File: credit-card-payment-1.png, Compression quality: 92 
+[2025-06-06 13:39:03 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/communication.png.The file was compressed from 12.37 KB to 12.37 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:39:03 : INFO] - Completed processing task with ID : 33501, and type 'smush' 
+[2025-06-06 13:39:03 : INFO] - Processing task with ID : 33502, and type 'smush' 
+[2025-06-06 13:39:03 : INFO] - Re_Smush_It_Task - Attachment ID : 1155, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:03 : INFO] - File: credit-card-payment.png, Compression quality: 92 
+[2025-06-06 13:39:03 : INFO] - Backing up the original image - 2023/04/credit-card-payment-1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:03 : INFO] - Backing up the original image - 2023/04/credit-card-payment-updraft-pre-smush-original.png 
+[2025-06-06 13:39:06 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/credit-card-payment-1.png.The file was compressed from 13.82 KB to 3.81 KB, saving 72.44 percent, using WP-Optimize 
+[2025-06-06 13:39:06 : INFO] - Completed processing task with ID : 33503, and type 'smush' 
+[2025-06-06 13:39:06 : INFO] - Processing task with ID : 33504, and type 'smush' 
+[2025-06-06 13:39:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1157, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:06 : INFO] - File: communication-1.png, Compression quality: 92 
+[2025-06-06 13:39:06 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/credit-card-payment.png.The file was compressed from 3.83 KB to 3.83 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:39:06 : INFO] - Completed processing task with ID : 33502, and type 'smush' 
+[2025-06-06 13:39:06 : INFO] - Processing task with ID : 33503, and type 'smush' 
+[2025-06-06 13:39:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1156, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:06 : INFO] - File: credit-card-payment-1.png, Compression quality: 92 
+[2025-06-06 13:39:07 : INFO] - Backing up the original image - 2023/04/credit-card-payment-1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:07 : INFO] - Backing up the original image - 2023/04/communication-1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/credit-card-payment-1.png.The file was compressed from 3.81 KB to 3.81 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:39:09 : INFO] - Completed processing task with ID : 33503, and type 'smush' 
+[2025-06-06 13:39:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/communication-1.png.The file was compressed from 28.82 KB to 11.63 KB, saving 59.66 percent, using WP-Optimize 
+[2025-06-06 13:39:09 : INFO] - Completed processing task with ID : 33504, and type 'smush' 
+[2025-06-06 13:39:09 : INFO] - Processing task with ID : 33505, and type 'smush' 
+[2025-06-06 13:39:09 : INFO] - Re_Smush_It_Task - Attachment ID : 1172, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:09 : INFO] - File: check-mark.png, Compression quality: 92 
+[2025-06-06 13:39:10 : INFO] - Processing task with ID : 33504, and type 'smush' 
+[2025-06-06 13:39:10 : INFO] - Re_Smush_It_Task - Attachment ID : 1157, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:10 : INFO] - File: communication-1.png, Compression quality: 92 
+[2025-06-06 13:39:11 : INFO] - Backing up the original image - 2023/04/check-mark-updraft-pre-smush-original.png 
+[2025-06-06 13:39:11 : INFO] - Backing up the original image - 2023/04/communication-1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:12 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/check-mark.png.The file was compressed from 35.62 KB to 7.59 KB, saving 78.7 percent, using WP-Optimize 
+[2025-06-06 13:39:12 : INFO] - Completed processing task with ID : 33505, and type 'smush' 
+[2025-06-06 13:39:12 : INFO] - Processing task with ID : 33506, and type 'smush' 
+[2025-06-06 13:39:12 : INFO] - Re_Smush_It_Task - Attachment ID : 1174, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:12 : INFO] - File: visitdesk-popup-image.png, Compression quality: 92 
+[2025-06-06 13:39:14 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/communication-1.png.The file was compressed from 11.63 KB to 11.63 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:39:14 : INFO] - Completed processing task with ID : 33504, and type 'smush' 
+[2025-06-06 13:39:14 : INFO] - Processing task with ID : 33505, and type 'smush' 
+[2025-06-06 13:39:14 : INFO] - Re_Smush_It_Task - Attachment ID : 1172, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:14 : INFO] - File: check-mark.png, Compression quality: 92 
+[2025-06-06 13:39:15 : INFO] - Backing up the original image - 2023/04/check-mark-updraft-pre-smush-original.png 
+[2025-06-06 13:39:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/check-mark.png.The file was compressed from 7.59 KB to 7.59 KB, saving 0.03 percent, using WP-Optimize 
+[2025-06-06 13:39:16 : INFO] - Completed processing task with ID : 33505, and type 'smush' 
+[2025-06-06 13:39:17 : INFO] - Backing up the original image - 2023/04/visitdesk-popup-image-updraft-pre-smush-original.png 
+[2025-06-06 13:39:19 : INFO] - Task with ID 33506 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:39:19 : INFO] - Processing task with ID : 33507, and type 'smush' 
+[2025-06-06 13:39:19 : INFO] - Re_Smush_It_Task - Attachment ID : 1195, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:19 : INFO] - File: Deskpal_icon.png, Compression quality: 92 
+[2025-06-06 13:39:20 : INFO] - Backing up the original image - 2023/04/Deskpal_icon-updraft-pre-smush-original.png 
+[2025-06-06 13:39:22 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/Deskpal_icon.png.The file was compressed from 14.36 KB to 6.55 KB, saving 54.36 percent, using WP-Optimize 
+[2025-06-06 13:39:22 : INFO] - Completed processing task with ID : 33507, and type 'smush' 
+[2025-06-06 13:39:22 : INFO] - Processing task with ID : 33508, and type 'smush' 
+[2025-06-06 13:39:22 : INFO] - Re_Smush_It_Task - Attachment ID : 1196, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:22 : INFO] - File: cropped-Deskpal_icon.png, Compression quality: 92 
+[2025-06-06 13:39:23 : INFO] - Backing up the original image - 2023/04/cropped-Deskpal_icon-updraft-pre-smush-original.png 
+[2025-06-06 13:39:28 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/cropped-Deskpal_icon.png.The file was compressed from 15.04 KB to 6.47 KB, saving 56.98 percent, using WP-Optimize 
+[2025-06-06 13:39:28 : INFO] - Completed processing task with ID : 33508, and type 'smush' 
+[2025-06-06 13:39:28 : INFO] - Processing task with ID : 33509, and type 'smush' 
+[2025-06-06 13:39:28 : INFO] - Re_Smush_It_Task - Attachment ID : 1201, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:28 : INFO] - File: sample-person.jpg, Compression quality: 92 
+[2025-06-06 13:39:29 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/visitdesk-popup-image.png.The file was compressed from 160.75 KB to 67.19 KB, saving 58.2 percent, using WP-Optimize 
+[2025-06-06 13:39:29 : INFO] - Completed processing task with ID : 33506, and type 'smush' 
+[2025-06-06 13:39:29 : INFO] - Processing task with ID : 33507, and type 'smush' 
+[2025-06-06 13:39:29 : INFO] - Re_Smush_It_Task - Attachment ID : 1195, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:29 : INFO] - File: Deskpal_icon.png, Compression quality: 92 
+[2025-06-06 13:39:29 : INFO] - Backing up the original image - 2023/04/Deskpal_icon-updraft-pre-smush-original.png 
+[2025-06-06 13:39:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/Deskpal_icon.png.The file was compressed from 6.55 KB to 6.55 KB, saving 0.09 percent, using WP-Optimize 
+[2025-06-06 13:39:31 : INFO] - Completed processing task with ID : 33507, and type 'smush' 
+[2025-06-06 13:39:31 : INFO] - Processing task with ID : 33508, and type 'smush' 
+[2025-06-06 13:39:31 : INFO] - Re_Smush_It_Task - Attachment ID : 1196, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:31 : INFO] - File: cropped-Deskpal_icon.png, Compression quality: 92 
+[2025-06-06 13:39:32 : INFO] - Backing up the original image - 2023/04/cropped-Deskpal_icon-updraft-pre-smush-original.png 
+[2025-06-06 13:39:33 : INFO] - Backing up the original image - 2023/11/sample-person-updraft-pre-smush-original.jpg 
+[2025-06-06 13:39:37 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/04/cropped-Deskpal_icon.png.The file was compressed from 6.47 KB to 6.46 KB, saving 0.18 percent, using WP-Optimize 
+[2025-06-06 13:39:37 : INFO] - Completed processing task with ID : 33508, and type 'smush' 
+[2025-06-06 13:39:40 : INFO] - Task with ID 33509 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:39:40 : INFO] - Processing task with ID : 33510, and type 'smush' 
+[2025-06-06 13:39:40 : INFO] - Re_Smush_It_Task - Attachment ID : 1202, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:40 : INFO] - File: landscape-pass1.png, Compression quality: 92 
+[2025-06-06 13:39:40 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/sample-person.jpg.The file was compressed from 282.89 KB to 282.89 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:39:40 : INFO] - Completed processing task with ID : 33509, and type 'smush' 
+[2025-06-06 13:39:43 : INFO] - Backing up the original image - 2023/11/landscape-pass1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:43 : INFO] - Task with ID 33510 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:39:43 : INFO] - Processing task with ID : 33511, and type 'smush' 
+[2025-06-06 13:39:43 : INFO] - Re_Smush_It_Task - Attachment ID : 1203, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:43 : INFO] - File: landscape-pass2.png, Compression quality: 92 
+[2025-06-06 13:39:45 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/landscape-pass1.png.The file was compressed from 111.09 KB to 30.69 KB, saving 72.37 percent, using WP-Optimize 
+[2025-06-06 13:39:45 : INFO] - Completed processing task with ID : 33510, and type 'smush' 
+[2025-06-06 13:39:47 : INFO] - Backing up the original image - 2023/11/landscape-pass2-updraft-pre-smush-original.png 
+[2025-06-06 13:39:48 : INFO] - Task with ID 33511 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:39:48 : INFO] - Processing task with ID : 33512, and type 'smush' 
+[2025-06-06 13:39:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1204, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:48 : INFO] - File: landscape-pass3.png, Compression quality: 92 
+[2025-06-06 13:39:49 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/landscape-pass2.png.The file was compressed from 110.51 KB to 31.70 KB, saving 71.32 percent, using WP-Optimize 
+[2025-06-06 13:39:49 : INFO] - Completed processing task with ID : 33511, and type 'smush' 
+[2025-06-06 13:39:51 : INFO] - Backing up the original image - 2023/11/landscape-pass3-updraft-pre-smush-original.png 
+[2025-06-06 13:39:52 : INFO] - Task with ID 33512 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:39:52 : INFO] - Processing task with ID : 33513, and type 'smush' 
+[2025-06-06 13:39:52 : INFO] - Re_Smush_It_Task - Attachment ID : 1205, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:52 : INFO] - File: Portrait-pass1.png, Compression quality: 92 
+[2025-06-06 13:39:54 : INFO] - Backing up the original image - 2023/11/Portrait-pass1-updraft-pre-smush-original.png 
+[2025-06-06 13:39:56 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/landscape-pass3.png.The file was compressed from 111.18 KB to 30.99 KB, saving 72.13 percent, using WP-Optimize 
+[2025-06-06 13:39:56 : INFO] - Completed processing task with ID : 33512, and type 'smush' 
+[2025-06-06 13:39:56 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass1.png.The file was compressed from 119.22 KB to 32.62 KB, saving 72.64 percent, using WP-Optimize 
+[2025-06-06 13:39:56 : INFO] - Completed processing task with ID : 33513, and type 'smush' 
+[2025-06-06 13:39:56 : INFO] - Processing task with ID : 33514, and type 'smush' 
+[2025-06-06 13:39:56 : INFO] - Re_Smush_It_Task - Attachment ID : 1206, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:56 : INFO] - File: Portrait-pass2.png, Compression quality: 92 
+[2025-06-06 13:39:57 : INFO] - Processing task with ID : 33513, and type 'smush' 
+[2025-06-06 13:39:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1205, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:39:57 : INFO] - File: Portrait-pass1.png, Compression quality: 92 
+[2025-06-06 13:39:59 : INFO] - Backing up the original image - 2023/11/Portrait-pass2-updraft-pre-smush-original.png 
+[2025-06-06 13:39:59 : INFO] - Backing up the original image - 2023/11/Portrait-pass1-updraft-pre-smush-original.png 
+[2025-06-06 13:40:00 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass1.png.The file was compressed from 32.62 KB to 32.56 KB, saving 0.17 percent, using WP-Optimize 
+[2025-06-06 13:40:00 : INFO] - Completed processing task with ID : 33513, and type 'smush' 
+[2025-06-06 13:40:01 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass2.png.The file was compressed from 115.09 KB to 33.07 KB, saving 71.26 percent, using WP-Optimize 
+[2025-06-06 13:40:01 : INFO] - Completed processing task with ID : 33514, and type 'smush' 
+[2025-06-06 13:40:01 : INFO] - Processing task with ID : 33515, and type 'smush' 
+[2025-06-06 13:40:01 : INFO] - Re_Smush_It_Task - Attachment ID : 1207, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:01 : INFO] - File: Portrait-pass3.png, Compression quality: 92 
+[2025-06-06 13:40:01 : INFO] - Processing task with ID : 33514, and type 'smush' 
+[2025-06-06 13:40:01 : INFO] - Re_Smush_It_Task - Attachment ID : 1206, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:01 : INFO] - File: Portrait-pass2.png, Compression quality: 92 
+[2025-06-06 13:40:03 : INFO] - Backing up the original image - 2023/11/Portrait-pass3-updraft-pre-smush-original.png 
+[2025-06-06 13:40:03 : INFO] - Backing up the original image - 2023/11/Portrait-pass2-updraft-pre-smush-original.png 
+[2025-06-06 13:40:05 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass2.png.The file was compressed from 33.07 KB to 33.07 KB, saving 0.01 percent, using WP-Optimize 
+[2025-06-06 13:40:05 : INFO] - Completed processing task with ID : 33514, and type 'smush' 
+[2025-06-06 13:40:05 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass3.png.The file was compressed from 118.11 KB to 32.59 KB, saving 72.41 percent, using WP-Optimize 
+[2025-06-06 13:40:05 : INFO] - Completed processing task with ID : 33515, and type 'smush' 
+[2025-06-06 13:40:05 : INFO] - Processing task with ID : 33516, and type 'smush' 
+[2025-06-06 13:40:05 : INFO] - Re_Smush_It_Task - Attachment ID : 1208, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:05 : INFO] - File: Portrait-pass4.png, Compression quality: 92 
+[2025-06-06 13:40:06 : INFO] - Processing task with ID : 33515, and type 'smush' 
+[2025-06-06 13:40:06 : INFO] - Re_Smush_It_Task - Attachment ID : 1207, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:06 : INFO] - File: Portrait-pass3.png, Compression quality: 92 
+[2025-06-06 13:40:07 : INFO] - Backing up the original image - 2023/11/Portrait-pass3-updraft-pre-smush-original.png 
+[2025-06-06 13:40:07 : INFO] - Backing up the original image - 2023/11/Portrait-pass4-updraft-pre-smush-original.png 
+[2025-06-06 13:40:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass3.png.The file was compressed from 32.59 KB to 32.59 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:40:09 : INFO] - Completed processing task with ID : 33515, and type 'smush' 
+[2025-06-06 13:40:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass4.png.The file was compressed from 94.12 KB to 27.87 KB, saving 70.39 percent, using WP-Optimize 
+[2025-06-06 13:40:09 : INFO] - Completed processing task with ID : 33516, and type 'smush' 
+[2025-06-06 13:40:09 : INFO] - Processing task with ID : 33517, and type 'smush' 
+[2025-06-06 13:40:09 : INFO] - Re_Smush_It_Task - Attachment ID : 1209, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:09 : INFO] - File: Portrait-pass5.png, Compression quality: 92 
+[2025-06-06 13:40:10 : INFO] - Processing task with ID : 33516, and type 'smush' 
+[2025-06-06 13:40:10 : INFO] - Re_Smush_It_Task - Attachment ID : 1208, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:10 : INFO] - File: Portrait-pass4.png, Compression quality: 92 
+[2025-06-06 13:40:11 : INFO] - Backing up the original image - 2023/11/Portrait-pass5-updraft-pre-smush-original.png 
+[2025-06-06 13:40:11 : INFO] - Backing up the original image - 2023/11/Portrait-pass4-updraft-pre-smush-original.png 
+[2025-06-06 13:40:13 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass5.png.The file was compressed from 50.46 KB to 15.91 KB, saving 68.47 percent, using WP-Optimize 
+[2025-06-06 13:40:13 : INFO] - Completed processing task with ID : 33517, and type 'smush' 
+[2025-06-06 13:40:13 : INFO] - Processing task with ID : 33518, and type 'smush' 
+[2025-06-06 13:40:13 : INFO] - Re_Smush_It_Task - Attachment ID : 1210, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:13 : INFO] - File: square-pass.png, Compression quality: 92 
+[2025-06-06 13:40:13 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass4.png.The file was compressed from 27.87 KB to 27.87 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:40:13 : INFO] - Completed processing task with ID : 33516, and type 'smush' 
+[2025-06-06 13:40:13 : INFO] - Processing task with ID : 33517, and type 'smush' 
+[2025-06-06 13:40:13 : INFO] - Re_Smush_It_Task - Attachment ID : 1209, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:13 : INFO] - File: Portrait-pass5.png, Compression quality: 92 
+[2025-06-06 13:40:14 : INFO] - Backing up the original image - 2023/11/Portrait-pass5-updraft-pre-smush-original.png 
+[2025-06-06 13:40:14 : INFO] - Backing up the original image - 2023/11/square-pass-updraft-pre-smush-original.png 
+[2025-06-06 13:40:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/Portrait-pass5.png.The file was compressed from 15.91 KB to 15.90 KB, saving 0.05 percent, using WP-Optimize 
+[2025-06-06 13:40:16 : INFO] - Completed processing task with ID : 33517, and type 'smush' 
+[2025-06-06 13:40:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/square-pass.png.The file was compressed from 45.15 KB to 14.43 KB, saving 68.05 percent, using WP-Optimize 
+[2025-06-06 13:40:16 : INFO] - Completed processing task with ID : 33518, and type 'smush' 
+[2025-06-06 13:40:16 : INFO] - Processing task with ID : 33519, and type 'smush' 
+[2025-06-06 13:40:16 : INFO] - Re_Smush_It_Task - Attachment ID : 1229, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:16 : INFO] - File: dashboard-v.png, Compression quality: 92 
+[2025-06-06 13:40:17 : INFO] - Processing task with ID : 33518, and type 'smush' 
+[2025-06-06 13:40:17 : INFO] - Re_Smush_It_Task - Attachment ID : 1210, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:17 : INFO] - File: square-pass.png, Compression quality: 92 
+[2025-06-06 13:40:18 : INFO] - Backing up the original image - 2023/11/square-pass-updraft-pre-smush-original.png 
+[2025-06-06 13:40:19 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2023/11/square-pass.png.The file was compressed from 14.43 KB to 14.41 KB, saving 0.1 percent, using WP-Optimize 
+[2025-06-06 13:40:19 : INFO] - Completed processing task with ID : 33518, and type 'smush' 
+[2025-06-06 13:40:20 : INFO] - Backing up the original image - 2024/01/dashboard-v-updraft-pre-smush-original.png 
+[2025-06-06 13:40:20 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/01/dashboard-v.png.The file was compressed from 171.50 KB to 61.83 KB, saving 63.95 percent, using WP-Optimize 
+[2025-06-06 13:40:20 : INFO] - Completed processing task with ID : 33519, and type 'smush' 
+[2025-06-06 13:40:20 : INFO] - Processing task with ID : 33520, and type 'smush' 
+[2025-06-06 13:40:20 : INFO] - Re_Smush_It_Task - Attachment ID : 1244, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:20 : INFO] - File: deskpal-v2.png, Compression quality: 92 
+[2025-06-06 13:40:20 : INFO] - Processing task with ID : 33519, and type 'smush' 
+[2025-06-06 13:40:20 : INFO] - Re_Smush_It_Task - Attachment ID : 1229, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:20 : INFO] - File: dashboard-v.png, Compression quality: 92 
+[2025-06-06 13:40:23 : INFO] - Backing up the original image - 2024/01/dashboard-v-updraft-pre-smush-original.png 
+[2025-06-06 13:40:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/01/dashboard-v.png.The file was compressed from 61.83 KB to 61.50 KB, saving 0.53 percent, using WP-Optimize 
+[2025-06-06 13:40:23 : INFO] - Completed processing task with ID : 33519, and type 'smush' 
+[2025-06-06 13:40:26 : INFO] - Task with ID 33520 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:40:26 : INFO] - Processing task with ID : 33521, and type 'smush' 
+[2025-06-06 13:40:26 : INFO] - Re_Smush_It_Task - Attachment ID : 1245, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:26 : INFO] - File: deskpal-banner.png, Compression quality: 92 
+[2025-06-06 13:40:28 : INFO] - Backing up the original image - 2024/01/deskpal-v2-updraft-pre-smush-original.png 
+[2025-06-06 13:40:34 : INFO] - Backing up the original image - 2024/01/deskpal-banner-updraft-pre-smush-original.png 
+[2025-06-06 13:40:38 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/01/deskpal-v2.png.The file was compressed from 724.09 KB to 290.97 KB, saving 59.82 percent, using WP-Optimize 
+[2025-06-06 13:40:38 : INFO] - Completed processing task with ID : 33520, and type 'smush' 
+[2025-06-06 13:40:41 : INFO] - Task with ID 33521 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:40:41 : INFO] - Processing task with ID : 33522, and type 'smush' 
+[2025-06-06 13:40:41 : INFO] - Re_Smush_It_Task - Attachment ID : 1671, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:41 : INFO] - File: onfra-logo.png, Compression quality: 92 
+[2025-06-06 13:40:42 : INFO] - Backing up the original image - 2024/05/onfra-logo-updraft-pre-smush-original.png 
+[2025-06-06 13:40:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/01/deskpal-banner.png.The file was compressed from 710.80 KB to 285.82 KB, saving 59.79 percent, using WP-Optimize 
+[2025-06-06 13:40:44 : INFO] - Completed processing task with ID : 33521, and type 'smush' 
+[2025-06-06 13:40:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/onfra-logo.png.The file was compressed from 10.45 KB to 4.71 KB, saving 54.94 percent, using WP-Optimize 
+[2025-06-06 13:40:44 : INFO] - Completed processing task with ID : 33522, and type 'smush' 
+[2025-06-06 13:40:44 : INFO] - Processing task with ID : 33523, and type 'smush' 
+[2025-06-06 13:40:44 : INFO] - Re_Smush_It_Task - Attachment ID : 1683, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:44 : INFO] - File: user.png, Compression quality: 92 
+[2025-06-06 13:40:45 : INFO] - Backing up the original image - 2024/05/user-updraft-pre-smush-original.png 
+[2025-06-06 13:40:45 : INFO] - Processing task with ID : 33522, and type 'smush' 
+[2025-06-06 13:40:45 : INFO] - Re_Smush_It_Task - Attachment ID : 1671, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:45 : INFO] - File: onfra-logo.png, Compression quality: 92 
+[2025-06-06 13:40:46 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/user.png.The file was compressed from 8.51 KB to 5.93 KB, saving 30.33 percent, using WP-Optimize 
+[2025-06-06 13:40:46 : INFO] - Completed processing task with ID : 33523, and type 'smush' 
+[2025-06-06 13:40:46 : INFO] - Processing task with ID : 33524, and type 'smush' 
+[2025-06-06 13:40:46 : INFO] - Re_Smush_It_Task - Attachment ID : 1684, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:46 : INFO] - File: Thameem-Ansari-1.png, Compression quality: 92 
+[2025-06-06 13:40:46 : INFO] - Backing up the original image - 2024/05/onfra-logo-updraft-pre-smush-original.png 
+[2025-06-06 13:40:47 : INFO] - Backing up the original image - 2024/05/Thameem-Ansari-1-updraft-pre-smush-original.png 
+[2025-06-06 13:40:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/onfra-logo.png.The file was compressed from 4.71 KB to 4.71 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:40:48 : INFO] - Completed processing task with ID : 33522, and type 'smush' 
+[2025-06-06 13:40:48 : INFO] - Processing task with ID : 33523, and type 'smush' 
+[2025-06-06 13:40:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1683, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:48 : INFO] - File: user.png, Compression quality: 92 
+[2025-06-06 13:40:48 : INFO] - Backing up the original image - 2024/05/user-updraft-pre-smush-original.png 
+[2025-06-06 13:40:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Thameem-Ansari-1.png.The file was compressed from 95.96 KB to 33.37 KB, saving 65.23 percent, using WP-Optimize 
+[2025-06-06 13:40:48 : INFO] - Completed processing task with ID : 33524, and type 'smush' 
+[2025-06-06 13:40:48 : INFO] - Processing task with ID : 33525, and type 'smush' 
+[2025-06-06 13:40:48 : INFO] - Re_Smush_It_Task - Attachment ID : 1685, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:48 : INFO] - File: Imran-Khan-1.png, Compression quality: 92 
+[2025-06-06 13:40:49 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/user.png.The file was compressed from 5.93 KB to 5.93 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:40:49 : INFO] - Completed processing task with ID : 33523, and type 'smush' 
+[2025-06-06 13:40:49 : INFO] - Processing task with ID : 33524, and type 'smush' 
+[2025-06-06 13:40:49 : INFO] - Re_Smush_It_Task - Attachment ID : 1684, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:49 : INFO] - File: Thameem-Ansari-1.png, Compression quality: 92 
+[2025-06-06 13:40:50 : INFO] - Backing up the original image - 2024/05/Imran-Khan-1-updraft-pre-smush-original.png 
+[2025-06-06 13:40:50 : INFO] - Backing up the original image - 2024/05/Thameem-Ansari-1-updraft-pre-smush-original.png 
+[2025-06-06 13:40:51 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Thameem-Ansari-1.png.The file was compressed from 33.37 KB to 33.36 KB, saving 0.02 percent, using WP-Optimize 
+[2025-06-06 13:40:51 : INFO] - Completed processing task with ID : 33524, and type 'smush' 
+[2025-06-06 13:40:51 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Imran-Khan-1.png.The file was compressed from 98.97 KB to 33.64 KB, saving 66.01 percent, using WP-Optimize 
+[2025-06-06 13:40:51 : INFO] - Completed processing task with ID : 33525, and type 'smush' 
+[2025-06-06 13:40:51 : INFO] - Processing task with ID : 33526, and type 'smush' 
+[2025-06-06 13:40:51 : INFO] - Re_Smush_It_Task - Attachment ID : 1686, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:51 : INFO] - File: delivery.png, Compression quality: 92 
+[2025-06-06 13:40:52 : INFO] - Processing task with ID : 33525, and type 'smush' 
+[2025-06-06 13:40:52 : INFO] - Re_Smush_It_Task - Attachment ID : 1685, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:52 : INFO] - File: Imran-Khan-1.png, Compression quality: 92 
+[2025-06-06 13:40:53 : INFO] - Backing up the original image - 2024/05/delivery-updraft-pre-smush-original.png 
+[2025-06-06 13:40:53 : INFO] - Backing up the original image - 2024/05/Imran-Khan-1-updraft-pre-smush-original.png 
+[2025-06-06 13:40:54 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Imran-Khan-1.png.The file was compressed from 33.64 KB to 33.64 KB, saving 0.01 percent, using WP-Optimize 
+[2025-06-06 13:40:54 : INFO] - Completed processing task with ID : 33525, and type 'smush' 
+[2025-06-06 13:40:57 : INFO] - Task with ID 33526 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:40:57 : INFO] - Processing task with ID : 33527, and type 'smush' 
+[2025-06-06 13:40:57 : INFO] - Re_Smush_It_Task - Attachment ID : 1687, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:40:57 : INFO] - File: delivery-1.png, Compression quality: 92 
+[2025-06-06 13:40:58 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/delivery.png.The file was compressed from 60.23 KB to 26.68 KB, saving 55.71 percent, using WP-Optimize 
+[2025-06-06 13:40:58 : INFO] - Completed processing task with ID : 33526, and type 'smush' 
+[2025-06-06 13:40:59 : INFO] - Backing up the original image - 2024/05/delivery-1-updraft-pre-smush-original.png 
+[2025-06-06 13:41:01 : INFO] - Task with ID 33527 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:01 : INFO] - Processing task with ID : 33528, and type 'smush' 
+[2025-06-06 13:41:01 : INFO] - Re_Smush_It_Task - Attachment ID : 1688, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:01 : INFO] - File: desk.png, Compression quality: 92 
+[2025-06-06 13:41:04 : INFO] - Backing up the original image - 2024/05/desk-updraft-pre-smush-original.png 
+[2025-06-06 13:41:04 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/delivery-1.png.The file was compressed from 61.63 KB to 25.70 KB, saving 58.3 percent, using WP-Optimize 
+[2025-06-06 13:41:04 : INFO] - Completed processing task with ID : 33527, and type 'smush' 
+[2025-06-06 13:41:07 : INFO] - Task with ID 33528 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:07 : INFO] - Processing task with ID : 33529, and type 'smush' 
+[2025-06-06 13:41:07 : INFO] - Re_Smush_It_Task - Attachment ID : 1689, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:07 : INFO] - File: onfra-icon.png, Compression quality: 92 
+[2025-06-06 13:41:08 : INFO] - Backing up the original image - 2024/05/onfra-icon-updraft-pre-smush-original.png 
+[2025-06-06 13:41:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/onfra-icon.png.The file was compressed from 6.13 KB to 2.69 KB, saving 56.13 percent, using WP-Optimize 
+[2025-06-06 13:41:09 : INFO] - Completed processing task with ID : 33529, and type 'smush' 
+[2025-06-06 13:41:09 : INFO] - Processing task with ID : 33530, and type 'smush' 
+[2025-06-06 13:41:09 : INFO] - Re_Smush_It_Task - Attachment ID : 1693, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:09 : INFO] - File: newsletter.png, Compression quality: 92 
+[2025-06-06 13:41:10 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/desk.png.The file was compressed from 180.75 KB to 59.70 KB, saving 66.97 percent, using WP-Optimize 
+[2025-06-06 13:41:10 : INFO] - Completed processing task with ID : 33528, and type 'smush' 
+[2025-06-06 13:41:10 : INFO] - Processing task with ID : 33529, and type 'smush' 
+[2025-06-06 13:41:10 : INFO] - Re_Smush_It_Task - Attachment ID : 1689, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:10 : INFO] - File: onfra-icon.png, Compression quality: 92 
+[2025-06-06 13:41:11 : INFO] - Backing up the original image - 2024/05/newsletter-updraft-pre-smush-original.png 
+[2025-06-06 13:41:11 : INFO] - Backing up the original image - 2024/05/onfra-icon-updraft-pre-smush-original.png 
+[2025-06-06 13:41:12 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/onfra-icon.png.The file was compressed from 2.69 KB to 2.69 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:41:12 : INFO] - Completed processing task with ID : 33529, and type 'smush' 
+[2025-06-06 13:41:15 : INFO] - Task with ID 33530 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:15 : INFO] - A total of 52 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:41:15 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:41:15 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:41:15 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:41:15 : INFO] - Cleaning up tasks of type (smush). A total of 33 tasks will be deleted. 
+[2025-06-06 13:41:15 : INFO] - Processing task with ID : 33531, and type 'smush' 
+[2025-06-06 13:41:15 : INFO] - Re_Smush_It_Task - Attachment ID : 1697, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:15 : INFO] - File: Rajesh-Kumar.jpg, Compression quality: 92 
+[2025-06-06 13:41:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/newsletter.png.The file was compressed from 84.46 KB to 35.35 KB, saving 58.14 percent, using WP-Optimize 
+[2025-06-06 13:41:16 : INFO] - Completed processing task with ID : 33530, and type 'smush' 
+[2025-06-06 13:41:16 : INFO] - Backing up the original image - 2024/05/Rajesh-Kumar-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:17 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Rajesh-Kumar.jpg.The file was compressed from 17.60 KB to 13.75 KB, saving 21.88 percent, using WP-Optimize 
+[2025-06-06 13:41:17 : INFO] - Completed processing task with ID : 33531, and type 'smush' 
+[2025-06-06 13:41:17 : INFO] - Processing task with ID : 33532, and type 'smush' 
+[2025-06-06 13:41:17 : INFO] - Re_Smush_It_Task - Attachment ID : 1698, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:17 : INFO] - File: Carlos-Ramirez.jpg, Compression quality: 92 
+[2025-06-06 13:41:17 : INFO] - Processing task with ID : 33531, and type 'smush' 
+[2025-06-06 13:41:17 : INFO] - Re_Smush_It_Task - Attachment ID : 1697, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:17 : INFO] - File: Rajesh-Kumar.jpg, Compression quality: 92 
+[2025-06-06 13:41:18 : INFO] - Backing up the original image - 2024/05/Carlos-Ramirez-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:18 : INFO] - Backing up the original image - 2024/05/Rajesh-Kumar-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:19 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Rajesh-Kumar.jpg.The file was compressed from 13.75 KB to 13.73 KB, saving 0.13 percent, using WP-Optimize 
+[2025-06-06 13:41:19 : INFO] - Completed processing task with ID : 33531, and type 'smush' 
+[2025-06-06 13:41:19 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Carlos-Ramirez.jpg.The file was compressed from 16.82 KB to 13.47 KB, saving 19.93 percent, using WP-Optimize 
+[2025-06-06 13:41:19 : INFO] - Completed processing task with ID : 33532, and type 'smush' 
+[2025-06-06 13:41:19 : INFO] - Processing task with ID : 33533, and type 'smush' 
+[2025-06-06 13:41:19 : INFO] - Re_Smush_It_Task - Attachment ID : 1704, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:19 : INFO] - File: v3_0048938.jpg, Compression quality: 92 
+[2025-06-06 13:41:20 : INFO] - Backing up the original image - 2024/05/v3_0048938-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:20 : INFO] - Processing task with ID : 33532, and type 'smush' 
+[2025-06-06 13:41:20 : INFO] - Re_Smush_It_Task - Attachment ID : 1698, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:20 : INFO] - File: Carlos-Ramirez.jpg, Compression quality: 92 
+[2025-06-06 13:41:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/v3_0048938.jpg.The file was compressed from 15.41 KB to 12.23 KB, saving 20.67 percent, using WP-Optimize 
+[2025-06-06 13:41:21 : INFO] - Completed processing task with ID : 33533, and type 'smush' 
+[2025-06-06 13:41:21 : INFO] - Processing task with ID : 33534, and type 'smush' 
+[2025-06-06 13:41:21 : INFO] - Re_Smush_It_Task - Attachment ID : 1732, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:21 : INFO] - File: Group-340.png, Compression quality: 92 
+[2025-06-06 13:41:21 : INFO] - Backing up the original image - 2024/05/Carlos-Ramirez-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/Carlos-Ramirez.jpg.The file was compressed from 13.47 KB to 13.47 KB, saving 0.01 percent, using WP-Optimize 
+[2025-06-06 13:41:21 : INFO] - Completed processing task with ID : 33532, and type 'smush' 
+[2025-06-06 13:41:21 : INFO] - Processing task with ID : 33533, and type 'smush' 
+[2025-06-06 13:41:21 : INFO] - Re_Smush_It_Task - Attachment ID : 1704, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:21 : INFO] - File: v3_0048938.jpg, Compression quality: 92 
+[2025-06-06 13:41:22 : INFO] - Backing up the original image - 2024/07/Group-340-updraft-pre-smush-original.png 
+[2025-06-06 13:41:22 : INFO] - Backing up the original image - 2024/05/v3_0048938-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:23 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/05/v3_0048938.jpg.The file was compressed from 12.23 KB to 12.22 KB, saving 0.05 percent, using WP-Optimize 
+[2025-06-06 13:41:23 : INFO] - Completed processing task with ID : 33533, and type 'smush' 
+[2025-06-06 13:41:25 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/07/Group-340.png.The file was compressed from 53.58 KB to 33.67 KB, saving 37.16 percent, using WP-Optimize 
+[2025-06-06 13:41:25 : INFO] - Completed processing task with ID : 33534, and type 'smush' 
+[2025-06-06 13:41:25 : INFO] - Processing task with ID : 33535, and type 'smush' 
+[2025-06-06 13:41:25 : INFO] - Re_Smush_It_Task - Attachment ID : 1733, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:25 : INFO] - File: Group-339.png, Compression quality: 92 
+[2025-06-06 13:41:25 : INFO] - Processing task with ID : 33534, and type 'smush' 
+[2025-06-06 13:41:25 : INFO] - Re_Smush_It_Task - Attachment ID : 1732, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:25 : INFO] - File: Group-340.png, Compression quality: 92 
+[2025-06-06 13:41:26 : INFO] - Backing up the original image - 2024/07/Group-339-updraft-pre-smush-original.png 
+[2025-06-06 13:41:27 : INFO] - Backing up the original image - 2024/07/Group-340-updraft-pre-smush-original.png 
+[2025-06-06 13:41:28 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/07/Group-339.png.The file was compressed from 30.63 KB to 14.90 KB, saving 51.37 percent, using WP-Optimize 
+[2025-06-06 13:41:28 : INFO] - Completed processing task with ID : 33535, and type 'smush' 
+[2025-06-06 13:41:28 : INFO] - Processing task with ID : 33536, and type 'smush' 
+[2025-06-06 13:41:28 : INFO] - Re_Smush_It_Task - Attachment ID : 3865, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:28 : INFO] - File: SALES.png, Compression quality: 92 
+[2025-06-06 13:41:29 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/07/Group-340.png.The file was compressed from 33.67 KB to 33.65 KB, saving 0.05 percent, using WP-Optimize 
+[2025-06-06 13:41:29 : INFO] - Completed processing task with ID : 33534, and type 'smush' 
+[2025-06-06 13:41:29 : INFO] - Processing task with ID : 33535, and type 'smush' 
+[2025-06-06 13:41:29 : INFO] - Re_Smush_It_Task - Attachment ID : 1733, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:29 : INFO] - File: Group-339.png, Compression quality: 92 
+[2025-06-06 13:41:30 : INFO] - Backing up the original image - 2024/07/Group-339-updraft-pre-smush-original.png 
+[2025-06-06 13:41:30 : INFO] - Backing up the original image - 2024/08/SALES-updraft-pre-smush-original.png 
+[2025-06-06 13:41:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/07/Group-339.png.The file was compressed from 14.90 KB to 14.89 KB, saving 0.03 percent, using WP-Optimize 
+[2025-06-06 13:41:31 : INFO] - Completed processing task with ID : 33535, and type 'smush' 
+[2025-06-06 13:41:34 : INFO] - Task with ID 33536 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:34 : INFO] - Processing task with ID : 33537, and type 'smush' 
+[2025-06-06 13:41:34 : INFO] - Re_Smush_It_Task - Attachment ID : 4114, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:34 : INFO] - File: 404.png, Compression quality: 92 
+[2025-06-06 13:41:35 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/08/SALES.png.The file was compressed from 71.42 KB to 27.99 KB, saving 60.8 percent, using WP-Optimize 
+[2025-06-06 13:41:35 : INFO] - Completed processing task with ID : 33536, and type 'smush' 
+[2025-06-06 13:41:36 : INFO] - Backing up the original image - 2024/08/404-updraft-pre-smush-original.png 
+[2025-06-06 13:41:38 : INFO] - Task with ID 33537 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:38 : INFO] - Processing task with ID : 33538, and type 'smush' 
+[2025-06-06 13:41:38 : INFO] - Re_Smush_It_Task - Attachment ID : 4553, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:38 : INFO] - File: Group-20539-1.png, Compression quality: 92 
+[2025-06-06 13:41:41 : INFO] - Backing up the original image - 2024/09/Group-20539-1-updraft-pre-smush-original.png 
+[2025-06-06 13:41:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/08/404.png.The file was compressed from 96.63 KB to 37.92 KB, saving 60.76 percent, using WP-Optimize 
+[2025-06-06 13:41:44 : INFO] - Completed processing task with ID : 33537, and type 'smush' 
+[2025-06-06 13:41:46 : INFO] - A total of 45 tasks of type smush found and will be processed in this iteration 
+[2025-06-06 13:41:46 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) already existed in the database 
+[2025-06-06 13:41:46 : INFO] - Lock (updraft_lock_smush, wpsw_options) could not be acquired (it is locked) 
+[2025-06-06 13:41:46 : INFO] - Failed to gain semaphore lock (smush) - another process is already processing the queue - aborting (if this is wrong - i.e. if the other process crashed without removing the lock, then another can be started after 1 minute 
+[2025-06-06 13:41:46 : INFO] - Cleaning up tasks of type (smush). A total of 8 tasks will be deleted. 
+[2025-06-06 13:41:47 : INFO] - Task with ID 33538 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:47 : INFO] - Processing task with ID : 33539, and type 'smush' 
+[2025-06-06 13:41:47 : INFO] - Re_Smush_It_Task - Attachment ID : 4556, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:47 : INFO] - File: Group-20540-1.png, Compression quality: 92 
+[2025-06-06 13:41:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20539-1.png.The file was compressed from 48.70 KB to 17.12 KB, saving 64.85 percent, using WP-Optimize 
+[2025-06-06 13:41:48 : INFO] - Completed processing task with ID : 33538, and type 'smush' 
+[2025-06-06 13:41:49 : INFO] - Backing up the original image - 2024/09/Group-20540-1-updraft-pre-smush-original.png 
+[2025-06-06 13:41:51 : INFO] - Task with ID 33539 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:51 : INFO] - Processing task with ID : 33540, and type 'smush' 
+[2025-06-06 13:41:51 : INFO] - Re_Smush_It_Task - Attachment ID : 4569, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:51 : INFO] - File: GBC2024Logos.jpg, Compression quality: 92 
+[2025-06-06 13:41:54 : INFO] - Backing up the original image - 2024/09/GBC2024Logos-updraft-pre-smush-original.jpg 
+[2025-06-06 13:41:56 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20540-1.png.The file was compressed from 64.81 KB to 27.49 KB, saving 57.58 percent, using WP-Optimize 
+[2025-06-06 13:41:56 : INFO] - Completed processing task with ID : 33539, and type 'smush' 
+[2025-06-06 13:41:59 : INFO] - Task with ID 33540 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:41:59 : INFO] - Processing task with ID : 33541, and type 'smush' 
+[2025-06-06 13:41:59 : INFO] - Re_Smush_It_Task - Attachment ID : 4571, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:41:59 : INFO] - File: Frame-17.png, Compression quality: 92 
+[2025-06-06 13:42:04 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/GBC2024Logos.jpg.The file was compressed from 157.30 KB to 156.50 KB, saving 0.5 percent, using WP-Optimize 
+[2025-06-06 13:42:04 : INFO] - Completed processing task with ID : 33540, and type 'smush' 
+[2025-06-06 13:42:06 : INFO] - Backing up the original image - 2024/09/Frame-17-updraft-pre-smush-original.png 
+[2025-06-06 13:42:07 : INFO] - Task with ID 33541 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:42:07 : INFO] - Processing task with ID : 33542, and type 'smush' 
+[2025-06-06 13:42:07 : INFO] - Re_Smush_It_Task - Attachment ID : 4613, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:07 : INFO] - File: Group-20541.png, Compression quality: 92 
+[2025-06-06 13:42:09 : INFO] - Backing up the original image - 2024/09/Group-20541-updraft-pre-smush-original.png 
+[2025-06-06 13:42:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20541.png.The file was compressed from 55.53 KB to 17.82 KB, saving 67.9 percent, using WP-Optimize 
+[2025-06-06 13:42:16 : INFO] - Completed processing task with ID : 33542, and type 'smush' 
+[2025-06-06 13:42:16 : INFO] - Processing task with ID : 33543, and type 'smush' 
+[2025-06-06 13:42:16 : INFO] - Re_Smush_It_Task - Attachment ID : 4758, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:16 : INFO] - File: 1725425806402-copy.jpeg, Compression quality: 92 
+[2025-06-06 13:42:18 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Frame-17.png.The file was compressed from 443.13 KB to 124.25 KB, saving 71.96 percent, using WP-Optimize 
+[2025-06-06 13:42:18 : INFO] - Completed processing task with ID : 33541, and type 'smush' 
+[2025-06-06 13:42:18 : INFO] - Processing task with ID : 33542, and type 'smush' 
+[2025-06-06 13:42:18 : INFO] - Re_Smush_It_Task - Attachment ID : 4613, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:18 : INFO] - File: Group-20541.png, Compression quality: 92 
+[2025-06-06 13:42:18 : INFO] - Backing up the original image - 2024/09/1725425806402-copy-updraft-pre-smush-original.jpeg 
+[2025-06-06 13:42:19 : INFO] - Backing up the original image - 2024/09/Group-20541-updraft-pre-smush-original.png 
+[2025-06-06 13:42:25 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/1725425806402-copy.jpeg.The file was compressed from 123.49 KB to 113.84 KB, saving 7.82 percent, using WP-Optimize 
+[2025-06-06 13:42:25 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20541.png.The file was compressed from 17.82 KB to 17.82 KB, saving 0.01 percent, using WP-Optimize 
+[2025-06-06 13:42:25 : INFO] - Completed processing task with ID : 33543, and type 'smush' 
+[2025-06-06 13:42:25 : INFO] - Processing task with ID : 33544, and type 'smush' 
+[2025-06-06 13:42:25 : INFO] - Completed processing task with ID : 33542, and type 'smush' 
+[2025-06-06 13:42:25 : INFO] - Processing task with ID : 33543, and type 'smush' 
+[2025-06-06 13:42:25 : INFO] - Re_Smush_It_Task - Attachment ID : 4925, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:25 : INFO] - File: Group-20542.png, Compression quality: 92 
+[2025-06-06 13:42:25 : INFO] - Re_Smush_It_Task - Attachment ID : 4758, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:25 : INFO] - File: 1725425806402-copy.jpeg, Compression quality: 92 
+[2025-06-06 13:42:26 : INFO] - Backing up the original image - 2024/09/Group-20542-updraft-pre-smush-original.png 
+[2025-06-06 13:42:27 : INFO] - Backing up the original image - 2024/09/1725425806402-copy-updraft-pre-smush-original.jpeg 
+[2025-06-06 13:42:34 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/1725425806402-copy.jpeg.The file was compressed from 113.84 KB to 113.84 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:42:34 : INFO] - Completed processing task with ID : 33543, and type 'smush' 
+[2025-06-06 13:42:34 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20542.png.The file was compressed from 58.70 KB to 24.67 KB, saving 57.97 percent, using WP-Optimize 
+[2025-06-06 13:42:34 : INFO] - Completed processing task with ID : 33544, and type 'smush' 
+[2025-06-06 13:42:34 : INFO] - Processing task with ID : 33545, and type 'smush' 
+[2025-06-06 13:42:34 : INFO] - Re_Smush_It_Task - Attachment ID : 4929, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:34 : INFO] - File: Group-20543.png, Compression quality: 92 
+[2025-06-06 13:42:35 : INFO] - Processing task with ID : 33544, and type 'smush' 
+[2025-06-06 13:42:35 : INFO] - Re_Smush_It_Task - Attachment ID : 4925, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:35 : INFO] - File: Group-20542.png, Compression quality: 92 
+[2025-06-06 13:42:35 : INFO] - Backing up the original image - 2024/09/Group-20543-updraft-pre-smush-original.png 
+[2025-06-06 13:42:36 : INFO] - Backing up the original image - 2024/09/Group-20542-updraft-pre-smush-original.png 
+[2025-06-06 13:42:42 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20543.png.The file was compressed from 29.89 KB to 10.96 KB, saving 63.32 percent, using WP-Optimize 
+[2025-06-06 13:42:42 : INFO] - Completed processing task with ID : 33545, and type 'smush' 
+[2025-06-06 13:42:42 : INFO] - Processing task with ID : 33546, and type 'smush' 
+[2025-06-06 13:42:42 : INFO] - Re_Smush_It_Task - Attachment ID : 4938, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:42 : INFO] - File: Group-20544.png, Compression quality: 92 
+[2025-06-06 13:42:42 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20542.png.The file was compressed from 24.67 KB to 24.67 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:42:42 : INFO] - Completed processing task with ID : 33544, and type 'smush' 
+[2025-06-06 13:42:42 : INFO] - Processing task with ID : 33545, and type 'smush' 
+[2025-06-06 13:42:42 : INFO] - Re_Smush_It_Task - Attachment ID : 4929, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:42 : INFO] - File: Group-20543.png, Compression quality: 92 
+[2025-06-06 13:42:43 : INFO] - Backing up the original image - 2024/09/Group-20544-updraft-pre-smush-original.png 
+[2025-06-06 13:42:44 : INFO] - Backing up the original image - 2024/09/Group-20543-updraft-pre-smush-original.png 
+[2025-06-06 13:42:49 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20543.png.The file was compressed from 10.96 KB to 10.96 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:42:49 : INFO] - Completed processing task with ID : 33545, and type 'smush' 
+[2025-06-06 13:42:49 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544.png.The file was compressed from 23.56 KB to 9.97 KB, saving 57.7 percent, using WP-Optimize 
+[2025-06-06 13:42:49 : INFO] - Completed processing task with ID : 33546, and type 'smush' 
+[2025-06-06 13:42:49 : INFO] - Processing task with ID : 33547, and type 'smush' 
+[2025-06-06 13:42:49 : INFO] - Re_Smush_It_Task - Attachment ID : 4944, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:49 : INFO] - File: onfra_dark_bg.png, Compression quality: 92 
+[2025-06-06 13:42:50 : INFO] - Processing task with ID : 33546, and type 'smush' 
+[2025-06-06 13:42:50 : INFO] - Re_Smush_It_Task - Attachment ID : 4938, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:50 : INFO] - File: Group-20544.png, Compression quality: 92 
+[2025-06-06 13:42:50 : INFO] - Backing up the original image - 2024/09/onfra_dark_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:42:51 : INFO] - Backing up the original image - 2024/09/Group-20544-updraft-pre-smush-original.png 
+[2025-06-06 13:42:53 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_dark_bg.png.The file was compressed from 8.12 KB to 3.84 KB, saving 52.62 percent, using WP-Optimize 
+[2025-06-06 13:42:53 : INFO] - Completed processing task with ID : 33547, and type 'smush' 
+[2025-06-06 13:42:53 : INFO] - Processing task with ID : 33548, and type 'smush' 
+[2025-06-06 13:42:53 : INFO] - Re_Smush_It_Task - Attachment ID : 4946, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:53 : INFO] - File: onfra_light_bg.png, Compression quality: 92 
+[2025-06-06 13:42:54 : INFO] - Backing up the original image - 2024/09/onfra_light_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:42:56 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_light_bg.png.The file was compressed from 9.24 KB to 4.07 KB, saving 55.96 percent, using WP-Optimize 
+[2025-06-06 13:42:56 : INFO] - Completed processing task with ID : 33548, and type 'smush' 
+[2025-06-06 13:42:56 : INFO] - Processing task with ID : 33549, and type 'smush' 
+[2025-06-06 13:42:56 : INFO] - Re_Smush_It_Task - Attachment ID : 4948, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:56 : INFO] - File: onfra_dark_lg_bg.png, Compression quality: 92 
+[2025-06-06 13:42:57 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544.png.The file was compressed from 9.97 KB to 9.97 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:42:57 : INFO] - Completed processing task with ID : 33546, and type 'smush' 
+[2025-06-06 13:42:57 : INFO] - Processing task with ID : 33547, and type 'smush' 
+[2025-06-06 13:42:57 : INFO] - Re_Smush_It_Task - Attachment ID : 4944, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:57 : INFO] - File: onfra_dark_bg.png, Compression quality: 92 
+[2025-06-06 13:42:57 : INFO] - Backing up the original image - 2024/09/onfra_dark_lg_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:42:58 : INFO] - Backing up the original image - 2024/09/onfra_dark_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:42:59 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_dark_lg_bg.png.The file was compressed from 10.75 KB to 5.18 KB, saving 51.81 percent, using WP-Optimize 
+[2025-06-06 13:42:59 : INFO] - Completed processing task with ID : 33549, and type 'smush' 
+[2025-06-06 13:42:59 : INFO] - Processing task with ID : 33550, and type 'smush' 
+[2025-06-06 13:42:59 : INFO] - Re_Smush_It_Task - Attachment ID : 4949, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:42:59 : INFO] - File: onfra_light_lg_bg.png, Compression quality: 92 
+[2025-06-06 13:43:00 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_dark_bg.png.The file was compressed from 3.84 KB to 3.84 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:00 : INFO] - Completed processing task with ID : 33547, and type 'smush' 
+[2025-06-06 13:43:00 : INFO] - Backing up the original image - 2024/09/onfra_light_lg_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:43:00 : INFO] - Processing task with ID : 33548, and type 'smush' 
+[2025-06-06 13:43:00 : INFO] - Re_Smush_It_Task - Attachment ID : 4946, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:00 : INFO] - File: onfra_light_bg.png, Compression quality: 92 
+[2025-06-06 13:43:01 : INFO] - Backing up the original image - 2024/09/onfra_light_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:43:03 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_light_lg_bg.png.The file was compressed from 11.14 KB to 5.41 KB, saving 51.45 percent, using WP-Optimize 
+[2025-06-06 13:43:03 : INFO] - Completed processing task with ID : 33550, and type 'smush' 
+[2025-06-06 13:43:03 : INFO] - Processing task with ID : 33551, and type 'smush' 
+[2025-06-06 13:43:03 : INFO] - Re_Smush_It_Task - Attachment ID : 4978, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:03 : INFO] - File: Abdur-Raheem.png, Compression quality: 92 
+[2025-06-06 13:43:04 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_light_bg.png.The file was compressed from 4.07 KB to 4.07 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:04 : INFO] - Completed processing task with ID : 33548, and type 'smush' 
+[2025-06-06 13:43:04 : INFO] - Processing task with ID : 33549, and type 'smush' 
+[2025-06-06 13:43:04 : INFO] - Re_Smush_It_Task - Attachment ID : 4948, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:04 : INFO] - File: onfra_dark_lg_bg.png, Compression quality: 92 
+[2025-06-06 13:43:05 : INFO] - Backing up the original image - 2024/09/onfra_dark_lg_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:43:07 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_dark_lg_bg.png.The file was compressed from 5.18 KB to 5.18 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:07 : INFO] - Completed processing task with ID : 33549, and type 'smush' 
+[2025-06-06 13:43:07 : INFO] - Processing task with ID : 33550, and type 'smush' 
+[2025-06-06 13:43:07 : INFO] - Re_Smush_It_Task - Attachment ID : 4949, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:07 : INFO] - File: onfra_light_lg_bg.png, Compression quality: 92 
+[2025-06-06 13:43:08 : INFO] - Backing up the original image - 2024/09/onfra_light_lg_bg-updraft-pre-smush-original.png 
+[2025-06-06 13:43:09 : INFO] - Backing up the original image - 2024/09/Abdur-Raheem-updraft-pre-smush-original.png 
+[2025-06-06 13:43:11 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/onfra_light_lg_bg.png.The file was compressed from 5.41 KB to 5.41 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:11 : INFO] - Completed processing task with ID : 33550, and type 'smush' 
+[2025-06-06 13:43:14 : INFO] - Task with ID 33551 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:43:14 : INFO] - Processing task with ID : 33552, and type 'smush' 
+[2025-06-06 13:43:14 : INFO] - Re_Smush_It_Task - Attachment ID : 4981, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:14 : INFO] - File: Group-819.png, Compression quality: 92 
+[2025-06-06 13:43:14 : INFO] - Backing up the original image - 2024/09/Group-819-updraft-pre-smush-original.png 
+[2025-06-06 13:43:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Abdur-Raheem.png.The file was compressed from 635.66 KB to 257.74 KB, saving 59.45 percent, using WP-Optimize 
+[2025-06-06 13:43:16 : INFO] - Completed processing task with ID : 33551, and type 'smush' 
+[2025-06-06 13:43:17 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-819.png.The file was compressed from 9.34 KB to 5.43 KB, saving 41.86 percent, using WP-Optimize 
+[2025-06-06 13:43:17 : INFO] - Completed processing task with ID : 33552, and type 'smush' 
+[2025-06-06 13:43:17 : INFO] - Processing task with ID : 33553, and type 'smush' 
+[2025-06-06 13:43:17 : INFO] - Re_Smush_It_Task - Attachment ID : 4982, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:17 : INFO] - File: Group-818.png, Compression quality: 92 
+[2025-06-06 13:43:17 : INFO] - Processing task with ID : 33552, and type 'smush' 
+[2025-06-06 13:43:17 : INFO] - Re_Smush_It_Task - Attachment ID : 4981, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:17 : INFO] - File: Group-819.png, Compression quality: 92 
+[2025-06-06 13:43:18 : INFO] - Backing up the original image - 2024/09/Group-818-updraft-pre-smush-original.png 
+[2025-06-06 13:43:18 : INFO] - Backing up the original image - 2024/09/Group-819-updraft-pre-smush-original.png 
+[2025-06-06 13:43:20 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-818.png.The file was compressed from 6.94 KB to 3.91 KB, saving 43.6 percent, using WP-Optimize 
+[2025-06-06 13:43:20 : INFO] - Completed processing task with ID : 33553, and type 'smush' 
+[2025-06-06 13:43:20 : INFO] - Processing task with ID : 33554, and type 'smush' 
+[2025-06-06 13:43:20 : INFO] - Re_Smush_It_Task - Attachment ID : 4983, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:20 : INFO] - File: Group-817.png, Compression quality: 92 
+[2025-06-06 13:43:21 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-819.png.The file was compressed from 5.43 KB to 5.43 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:21 : INFO] - Completed processing task with ID : 33552, and type 'smush' 
+[2025-06-06 13:43:21 : INFO] - Processing task with ID : 33553, and type 'smush' 
+[2025-06-06 13:43:21 : INFO] - Re_Smush_It_Task - Attachment ID : 4982, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:21 : INFO] - File: Group-818.png, Compression quality: 92 
+[2025-06-06 13:43:21 : INFO] - Backing up the original image - 2024/09/Group-817-updraft-pre-smush-original.png 
+[2025-06-06 13:43:22 : INFO] - Backing up the original image - 2024/09/Group-818-updraft-pre-smush-original.png 
+[2025-06-06 13:43:24 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-817.png.The file was compressed from 6.48 KB to 3.67 KB, saving 43.42 percent, using WP-Optimize 
+[2025-06-06 13:43:24 : INFO] - Completed processing task with ID : 33554, and type 'smush' 
+[2025-06-06 13:43:24 : INFO] - Processing task with ID : 33555, and type 'smush' 
+[2025-06-06 13:43:24 : INFO] - Re_Smush_It_Task - Attachment ID : 4984, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:24 : INFO] - File: soc.png, Compression quality: 92 
+[2025-06-06 13:43:24 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-818.png.The file was compressed from 3.91 KB to 3.91 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:24 : INFO] - Completed processing task with ID : 33553, and type 'smush' 
+[2025-06-06 13:43:24 : INFO] - Processing task with ID : 33554, and type 'smush' 
+[2025-06-06 13:43:24 : INFO] - Re_Smush_It_Task - Attachment ID : 4983, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:24 : INFO] - File: Group-817.png, Compression quality: 92 
+[2025-06-06 13:43:25 : INFO] - Backing up the original image - 2024/09/Group-817-updraft-pre-smush-original.png 
+[2025-06-06 13:43:25 : INFO] - Backing up the original image - 2024/09/soc-updraft-pre-smush-original.png 
+[2025-06-06 13:43:27 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/soc.png.The file was compressed from 58.27 KB to 23.94 KB, saving 58.92 percent, using WP-Optimize 
+[2025-06-06 13:43:27 : INFO] - Completed processing task with ID : 33555, and type 'smush' 
+[2025-06-06 13:43:27 : INFO] - Processing task with ID : 33556, and type 'smush' 
+[2025-06-06 13:43:27 : INFO] - Re_Smush_It_Task - Attachment ID : 4985, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:27 : INFO] - File: gdpr.png, Compression quality: 92 
+[2025-06-06 13:43:27 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-817.png.The file was compressed from 3.67 KB to 3.67 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:27 : INFO] - Completed processing task with ID : 33554, and type 'smush' 
+[2025-06-06 13:43:27 : INFO] - Processing task with ID : 33555, and type 'smush' 
+[2025-06-06 13:43:27 : INFO] - Re_Smush_It_Task - Attachment ID : 4984, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:27 : INFO] - File: soc.png, Compression quality: 92 
+[2025-06-06 13:43:28 : INFO] - Backing up the original image - 2024/09/gdpr-updraft-pre-smush-original.png 
+[2025-06-06 13:43:29 : INFO] - Backing up the original image - 2024/09/soc-updraft-pre-smush-original.png 
+[2025-06-06 13:43:29 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/gdpr.png.The file was compressed from 13.11 KB to 5.50 KB, saving 58.07 percent, using WP-Optimize 
+[2025-06-06 13:43:29 : INFO] - Completed processing task with ID : 33556, and type 'smush' 
+[2025-06-06 13:43:29 : INFO] - Processing task with ID : 33557, and type 'smush' 
+[2025-06-06 13:43:29 : INFO] - Re_Smush_It_Task - Attachment ID : 4986, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:29 : INFO] - File: iso.png, Compression quality: 92 
+[2025-06-06 13:43:30 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/soc.png.The file was compressed from 23.94 KB to 23.94 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:43:30 : INFO] - Completed processing task with ID : 33555, and type 'smush' 
+[2025-06-06 13:43:30 : INFO] - Processing task with ID : 33556, and type 'smush' 
+[2025-06-06 13:43:30 : INFO] - Re_Smush_It_Task - Attachment ID : 4985, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:30 : INFO] - File: gdpr.png, Compression quality: 92 
+[2025-06-06 13:43:31 : INFO] - Backing up the original image - 2024/09/iso-updraft-pre-smush-original.png 
+[2025-06-06 13:43:31 : INFO] - Backing up the original image - 2024/09/gdpr-updraft-pre-smush-original.png 
+[2025-06-06 13:43:33 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/iso.png.The file was compressed from 65.42 KB to 25.67 KB, saving 60.76 percent, using WP-Optimize 
+[2025-06-06 13:43:33 : INFO] - Completed processing task with ID : 33557, and type 'smush' 
+[2025-06-06 13:43:33 : INFO] - Processing task with ID : 33558, and type 'smush' 
+[2025-06-06 13:43:33 : INFO] - Re_Smush_It_Task - Attachment ID : 4998, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:33 : INFO] - File: Group-20544-1.png, Compression quality: 92 
+[2025-06-06 13:43:33 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/gdpr.png.The file was compressed from 5.50 KB to 5.49 KB, saving 0.12 percent, using WP-Optimize 
+[2025-06-06 13:43:33 : INFO] - Completed processing task with ID : 33556, and type 'smush' 
+[2025-06-06 13:43:33 : INFO] - Processing task with ID : 33557, and type 'smush' 
+[2025-06-06 13:43:33 : INFO] - Re_Smush_It_Task - Attachment ID : 4986, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:33 : INFO] - File: iso.png, Compression quality: 92 
+[2025-06-06 13:43:34 : INFO] - Backing up the original image - 2024/09/Group-20544-1-updraft-pre-smush-original.png 
+[2025-06-06 13:43:34 : INFO] - Backing up the original image - 2024/09/iso-updraft-pre-smush-original.png 
+[2025-06-06 13:43:36 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/iso.png.The file was compressed from 25.67 KB to 25.67 KB, saving 0.03 percent, using WP-Optimize 
+[2025-06-06 13:43:36 : INFO] - Completed processing task with ID : 33557, and type 'smush' 
+[2025-06-06 13:43:39 : INFO] - Task with ID 33558 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:43:39 : INFO] - Processing task with ID : 33559, and type 'smush' 
+[2025-06-06 13:43:39 : INFO] - Re_Smush_It_Task - Attachment ID : 5007, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:39 : INFO] - File: Group-20544-2.png, Compression quality: 92 
+[2025-06-06 13:43:40 : INFO] - Backing up the original image - 2024/09/Group-20544-2-updraft-pre-smush-original.png 
+[2025-06-06 13:43:40 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-1.png.The file was compressed from 41.89 KB to 16.76 KB, saving 59.99 percent, using WP-Optimize 
+[2025-06-06 13:43:40 : INFO] - Completed processing task with ID : 33558, and type 'smush' 
+[2025-06-06 13:43:43 : INFO] - Task with ID 33559 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:43:43 : INFO] - Processing task with ID : 33560, and type 'smush' 
+[2025-06-06 13:43:43 : INFO] - Re_Smush_It_Task - Attachment ID : 5008, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:43 : INFO] - File: Group-20544-3.png, Compression quality: 92 
+[2025-06-06 13:43:45 : INFO] - Backing up the original image - 2024/09/Group-20544-3-updraft-pre-smush-original.png 
+[2025-06-06 13:43:46 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-2.png.The file was compressed from 15.91 KB to 6.83 KB, saving 57.03 percent, using WP-Optimize 
+[2025-06-06 13:43:46 : INFO] - Completed processing task with ID : 33559, and type 'smush' 
+[2025-06-06 13:43:49 : INFO] - Task with ID 33560 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:43:49 : INFO] - Processing task with ID : 33561, and type 'smush' 
+[2025-06-06 13:43:49 : INFO] - Re_Smush_It_Task - Attachment ID : 5009, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:49 : INFO] - File: Group-20544-4.png, Compression quality: 92 
+[2025-06-06 13:43:50 : INFO] - Backing up the original image - 2024/09/Group-20544-4-updraft-pre-smush-original.png 
+[2025-06-06 13:43:51 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-3.png.The file was compressed from 56.77 KB to 24.35 KB, saving 57.1 percent, using WP-Optimize 
+[2025-06-06 13:43:51 : INFO] - Completed processing task with ID : 33560, and type 'smush' 
+[2025-06-06 13:43:54 : INFO] - Task with ID 33561 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:43:54 : INFO] - Processing task with ID : 33562, and type 'smush' 
+[2025-06-06 13:43:54 : INFO] - Re_Smush_It_Task - Attachment ID : 5027, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:43:54 : INFO] - File: Group-20544-4-1.png, Compression quality: 92 
+[2025-06-06 13:43:56 : INFO] - Backing up the original image - 2024/09/Group-20544-4-1-updraft-pre-smush-original.png 
+[2025-06-06 13:43:57 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-4.png.The file was compressed from 43.05 KB to 19.83 KB, saving 53.94 percent, using WP-Optimize 
+[2025-06-06 13:43:57 : INFO] - Completed processing task with ID : 33561, and type 'smush' 
+[2025-06-06 13:44:00 : INFO] - Task with ID 33562 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:00 : INFO] - Processing task with ID : 33563, and type 'smush' 
+[2025-06-06 13:44:00 : INFO] - Re_Smush_It_Task - Attachment ID : 5033, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:00 : INFO] - File: Group-20544-5.png, Compression quality: 92 
+[2025-06-06 13:44:02 : INFO] - Backing up the original image - 2024/09/Group-20544-5-updraft-pre-smush-original.png 
+[2025-06-06 13:44:03 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-4-1.png.The file was compressed from 64.33 KB to 24.74 KB, saving 61.54 percent, using WP-Optimize 
+[2025-06-06 13:44:03 : INFO] - Completed processing task with ID : 33562, and type 'smush' 
+[2025-06-06 13:44:06 : INFO] - Task with ID 33563 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:06 : INFO] - Processing task with ID : 33564, and type 'smush' 
+[2025-06-06 13:44:06 : INFO] - Re_Smush_It_Task - Attachment ID : 5035, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:06 : INFO] - File: Group-20544-6.png, Compression quality: 92 
+[2025-06-06 13:44:07 : INFO] - Backing up the original image - 2024/09/Group-20544-6-updraft-pre-smush-original.png 
+[2025-06-06 13:44:08 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-5.png.The file was compressed from 41.04 KB to 17.21 KB, saving 58.06 percent, using WP-Optimize 
+[2025-06-06 13:44:08 : INFO] - Completed processing task with ID : 33563, and type 'smush' 
+[2025-06-06 13:44:11 : INFO] - Task with ID 33564 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:11 : INFO] - Processing task with ID : 33565, and type 'smush' 
+[2025-06-06 13:44:11 : INFO] - Re_Smush_It_Task - Attachment ID : 5424, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:11 : INFO] - File: Group-20545.png, Compression quality: 92 
+[2025-06-06 13:44:13 : INFO] - Backing up the original image - 2024/09/Group-20545-updraft-pre-smush-original.png 
+[2025-06-06 13:44:13 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20544-6.png.The file was compressed from 28.75 KB to 8.98 KB, saving 68.77 percent, using WP-Optimize 
+[2025-06-06 13:44:13 : INFO] - Completed processing task with ID : 33564, and type 'smush' 
+[2025-06-06 13:44:16 : INFO] - Task with ID 33565 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:16 : INFO] - Processing task with ID : 33566, and type 'smush' 
+[2025-06-06 13:44:16 : INFO] - Re_Smush_It_Task - Attachment ID : 5427, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:16 : INFO] - File: Group-20546.png, Compression quality: 92 
+[2025-06-06 13:44:19 : INFO] - Backing up the original image - 2024/09/Group-20546-updraft-pre-smush-original.png 
+[2025-06-06 13:44:20 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20545.png.The file was compressed from 69.24 KB to 27.10 KB, saving 60.86 percent, using WP-Optimize 
+[2025-06-06 13:44:20 : INFO] - Completed processing task with ID : 33565, and type 'smush' 
+[2025-06-06 13:44:23 : INFO] - Task with ID 33566 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:23 : INFO] - Processing task with ID : 33567, and type 'smush' 
+[2025-06-06 13:44:23 : INFO] - Re_Smush_It_Task - Attachment ID : 5430, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:23 : INFO] - File: Group-20547.png, Compression quality: 92 
+[2025-06-06 13:44:25 : INFO] - Backing up the original image - 2024/09/Group-20547-updraft-pre-smush-original.png 
+[2025-06-06 13:44:28 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20546.png.The file was compressed from 109.93 KB to 65.21 KB, saving 40.68 percent, using WP-Optimize 
+[2025-06-06 13:44:28 : INFO] - Completed processing task with ID : 33566, and type 'smush' 
+[2025-06-06 13:44:31 : INFO] - Task with ID 33567 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:31 : INFO] - Processing task with ID : 33568, and type 'smush' 
+[2025-06-06 13:44:31 : INFO] - Re_Smush_It_Task - Attachment ID : 5433, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:31 : INFO] - File: Group-20548.png, Compression quality: 92 
+[2025-06-06 13:44:33 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20547.png.The file was compressed from 81.93 KB to 61.49 KB, saving 24.95 percent, using WP-Optimize 
+[2025-06-06 13:44:33 : INFO] - Completed processing task with ID : 33567, and type 'smush' 
+[2025-06-06 13:44:34 : INFO] - Backing up the original image - 2024/09/Group-20548-updraft-pre-smush-original.png 
+[2025-06-06 13:44:36 : INFO] - Task with ID 33568 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:36 : INFO] - Processing task with ID : 33569, and type 'smush' 
+[2025-06-06 13:44:36 : INFO] - Re_Smush_It_Task - Attachment ID : 5436, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:36 : INFO] - File: Group-20549.png, Compression quality: 92 
+[2025-06-06 13:44:39 : INFO] - Backing up the original image - 2024/09/Group-20549-updraft-pre-smush-original.png 
+[2025-06-06 13:44:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20548.png.The file was compressed from 245.26 KB to 105.09 KB, saving 57.15 percent, using WP-Optimize 
+[2025-06-06 13:44:44 : INFO] - Completed processing task with ID : 33568, and type 'smush' 
+[2025-06-06 13:44:47 : INFO] - Task with ID 33569 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:47 : INFO] - Processing task with ID : 33570, and type 'smush' 
+[2025-06-06 13:44:47 : INFO] - Re_Smush_It_Task - Attachment ID : 5448, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:47 : INFO] - File: Group-20549-2.png, Compression quality: 92 
+[2025-06-06 13:44:47 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/09/Group-20549.png.The file was compressed from 154.86 KB to 67.44 KB, saving 56.45 percent, using WP-Optimize 
+[2025-06-06 13:44:47 : INFO] - Completed processing task with ID : 33569, and type 'smush' 
+[2025-06-06 13:44:50 : INFO] - Task with ID 33570 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:44:50 : INFO] - Processing task with ID : 33571, and type 'smush' 
+[2025-06-06 13:44:50 : INFO] - Re_Smush_It_Task - Attachment ID : 5453, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:44:50 : INFO] - File: Group-20551.png, Compression quality: 92 
+[2025-06-06 13:44:52 : INFO] - Backing up the original image - 2024/10/Group-20549-2-updraft-pre-smush-original.png 
+[2025-06-06 13:44:52 : INFO] - Backing up the original image - 2024/10/Group-20551-updraft-pre-smush-original.png 
+[2025-06-06 13:45:00 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20551.png.The file was compressed from 68.69 KB to 31.55 KB, saving 54.07 percent, using WP-Optimize 
+[2025-06-06 13:45:00 : INFO] - Completed processing task with ID : 33571, and type 'smush' 
+[2025-06-06 13:45:00 : INFO] - Processing task with ID : 33572, and type 'smush' 
+[2025-06-06 13:45:00 : INFO] - Re_Smush_It_Task - Attachment ID : 5461, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:45:00 : INFO] - File: Frame-7.png, Compression quality: 92 
+[2025-06-06 13:45:02 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20549-2.png.The file was compressed from 339.23 KB to 93.47 KB, saving 72.45 percent, using WP-Optimize 
+[2025-06-06 13:45:02 : INFO] - Completed processing task with ID : 33570, and type 'smush' 
+[2025-06-06 13:45:02 : INFO] - Processing task with ID : 33571, and type 'smush' 
+[2025-06-06 13:45:02 : INFO] - Re_Smush_It_Task - Attachment ID : 5453, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:45:02 : INFO] - File: Group-20551.png, Compression quality: 92 
+[2025-06-06 13:45:02 : INFO] - Backing up the original image - 2024/10/Frame-7-updraft-pre-smush-original.png 
+[2025-06-06 13:45:03 : INFO] - Backing up the original image - 2024/10/Group-20551-updraft-pre-smush-original.png 
+[2025-06-06 13:45:05 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Frame-7.png.The file was compressed from 131.22 KB to 48.80 KB, saving 62.81 percent, using WP-Optimize 
+[2025-06-06 13:45:05 : INFO] - Completed processing task with ID : 33572, and type 'smush' 
+[2025-06-06 13:45:05 : INFO] - Processing task with ID : 33573, and type 'smush' 
+[2025-06-06 13:45:05 : INFO] - Re_Smush_It_Task - Attachment ID : 5462, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:45:05 : INFO] - File: Frame-7-1.png, Compression quality: 92 
+[2025-06-06 13:45:07 : INFO] - Backing up the original image - 2024/10/Frame-7-1-updraft-pre-smush-original.png 
+[2025-06-06 13:45:09 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20551.png.The file was compressed from 31.55 KB to 31.53 KB, saving 0.05 percent, using WP-Optimize 
+[2025-06-06 13:45:09 : INFO] - Completed processing task with ID : 33571, and type 'smush' 
+[2025-06-06 13:45:09 : INFO] - Processing task with ID : 33572, and type 'smush' 
+[2025-06-06 13:45:09 : INFO] - Re_Smush_It_Task - Attachment ID : 5461, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:45:09 : INFO] - File: Frame-7.png, Compression quality: 92 
+[2025-06-06 13:45:11 : INFO] - Backing up the original image - 2024/10/Frame-7-updraft-pre-smush-original.png 
+[2025-06-06 13:45:11 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Frame-7-1.png.The file was compressed from 139.64 KB to 50.76 KB, saving 63.65 percent, using WP-Optimize 
+[2025-06-06 13:45:11 : INFO] - Completed processing task with ID : 33573, and type 'smush' 
+[2025-06-06 13:45:11 : INFO] - Processing task with ID : 33574, and type 'smush' 
+[2025-06-06 13:45:11 : INFO] - Re_Smush_It_Task - Attachment ID : 5503, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:11 : INFO] - File: Group-20552.png, Compression quality: 92 
+[2025-06-06 13:45:14 : INFO] - Backing up the original image - 2024/10/Group-20552-updraft-pre-smush-original.png 
+[2025-06-06 13:45:14 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Frame-7.png.The file was compressed from 48.80 KB to 48.80 KB, saving 0 percent, using WP-Optimize 
+[2025-06-06 13:45:14 : INFO] - Completed processing task with ID : 33572, and type 'smush' 
+[2025-06-06 13:45:14 : INFO] - Processing task with ID : 33573, and type 'smush' 
+[2025-06-06 13:45:14 : INFO] - Re_Smush_It_Task - Attachment ID : 5462, Started on : June 06, 2025 01:31:45 
+[2025-06-06 13:45:14 : INFO] - File: Frame-7-1.png, Compression quality: 92 
+[2025-06-06 13:45:15 : INFO] - Backing up the original image - 2024/10/Frame-7-1-updraft-pre-smush-original.png 
+[2025-06-06 13:45:18 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Frame-7-1.png.The file was compressed from 50.76 KB to 50.75 KB, saving 0.02 percent, using WP-Optimize 
+[2025-06-06 13:45:18 : INFO] - Completed processing task with ID : 33573, and type 'smush' 
+[2025-06-06 13:45:21 : INFO] - Task with ID 33574 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:21 : INFO] - Processing task with ID : 33575, and type 'smush' 
+[2025-06-06 13:45:21 : INFO] - Re_Smush_It_Task - Attachment ID : 5534, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:21 : INFO] - File: Group-20553.png, Compression quality: 92 
+[2025-06-06 13:45:22 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20552.png.The file was compressed from 152.63 KB to 57.45 KB, saving 62.36 percent, using WP-Optimize 
+[2025-06-06 13:45:22 : INFO] - Completed processing task with ID : 33574, and type 'smush' 
+[2025-06-06 13:45:23 : INFO] - Backing up the original image - 2024/10/Group-20553-updraft-pre-smush-original.png 
+[2025-06-06 13:45:25 : INFO] - Task with ID 33575 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:25 : INFO] - Processing task with ID : 33576, and type 'smush' 
+[2025-06-06 13:45:25 : INFO] - Re_Smush_It_Task - Attachment ID : 5606, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:25 : INFO] - File: Group-20556.png, Compression quality: 92 
+[2025-06-06 13:45:28 : INFO] - Backing up the original image - 2024/10/Group-20556-updraft-pre-smush-original.png 
+[2025-06-06 13:45:30 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20553.png.The file was compressed from 45.13 KB to 17.10 KB, saving 62.1 percent, using WP-Optimize 
+[2025-06-06 13:45:30 : INFO] - Completed processing task with ID : 33575, and type 'smush' 
+[2025-06-06 13:45:33 : INFO] - Task with ID 33576 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:33 : INFO] - Processing task with ID : 33577, and type 'smush' 
+[2025-06-06 13:45:33 : INFO] - Re_Smush_It_Task - Attachment ID : 5618, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:33 : INFO] - File: Group-20557.png, Compression quality: 92 
+[2025-06-06 13:45:35 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20556.png.The file was compressed from 117.68 KB to 41.93 KB, saving 64.37 percent, using WP-Optimize 
+[2025-06-06 13:45:35 : INFO] - Completed processing task with ID : 33576, and type 'smush' 
+[2025-06-06 13:45:35 : INFO] - Backing up the original image - 2024/10/Group-20557-updraft-pre-smush-original.png 
+[2025-06-06 13:45:38 : INFO] - Task with ID 33577 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:38 : INFO] - Processing task with ID : 33578, and type 'smush' 
+[2025-06-06 13:45:38 : INFO] - Re_Smush_It_Task - Attachment ID : 5779, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:38 : INFO] - File: Group-20558.png, Compression quality: 92 
+[2025-06-06 13:45:41 : INFO] - Backing up the original image - 2024/11/Group-20558-updraft-pre-smush-original.png 
+[2025-06-06 13:45:43 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-20557.png.The file was compressed from 104.64 KB to 34.56 KB, saving 66.97 percent, using WP-Optimize 
+[2025-06-06 13:45:43 : INFO] - Completed processing task with ID : 33577, and type 'smush' 
+[2025-06-06 13:45:46 : INFO] - Task with ID 33578 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:46 : INFO] - Processing task with ID : 33579, and type 'smush' 
+[2025-06-06 13:45:46 : INFO] - Re_Smush_It_Task - Attachment ID : 5788, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:46 : INFO] - File: Group-20562.png, Compression quality: 92 
+[2025-06-06 13:45:48 : INFO] - Backing up the original image - 2024/11/Group-20562-updraft-pre-smush-original.png 
+[2025-06-06 13:45:48 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/11/Group-20558.png.The file was compressed from 135.92 KB to 50.24 KB, saving 63.03 percent, using WP-Optimize 
+[2025-06-06 13:45:48 : INFO] - Completed processing task with ID : 33578, and type 'smush' 
+[2025-06-06 13:45:51 : INFO] - Task with ID 33579 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2025-06-06 13:45:51 : INFO] - Processing task with ID : 33580, and type 'smush' 
+[2025-06-06 13:45:51 : INFO] - Re_Smush_It_Task - Attachment ID : 6674, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:51 : INFO] - File: onfra2.png, Compression quality: 92 
+[2025-06-06 13:45:52 : INFO] - Backing up the original image - 2025/06/onfra2-updraft-pre-smush-original.png 
+[2025-06-06 13:45:52 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/onfra2.png.The file was compressed from 2.51 KB to 1.19 KB, saving 52.53 percent, using WP-Optimize 
+[2025-06-06 13:45:52 : INFO] - Completed processing task with ID : 33580, and type 'smush' 
+[2025-06-06 13:45:52 : INFO] - Processing task with ID : 33581, and type 'smush' 
+[2025-06-06 13:45:52 : INFO] - Re_Smush_It_Task - Attachment ID : 6678, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:52 : INFO] - File: onfra3.png, Compression quality: 92 
+[2025-06-06 13:45:53 : INFO] - Backing up the original image - 2025/06/onfra3-updraft-pre-smush-original.png 
+[2025-06-06 13:45:53 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/onfra3.png.The file was compressed from 13.69 KB to 5.14 KB, saving 62.47 percent, using WP-Optimize 
+[2025-06-06 13:45:53 : INFO] - Completed processing task with ID : 33581, and type 'smush' 
+[2025-06-06 13:45:53 : INFO] - Processing task with ID : 33582, and type 'smush' 
+[2025-06-06 13:45:53 : INFO] - Re_Smush_It_Task - Attachment ID : 6679, Started on : June 06, 2025 01:31:46 
+[2025-06-06 13:45:53 : INFO] - File: onfra1.png, Compression quality: 92 
+[2025-06-06 13:45:54 : INFO] - Backing up the original image - 2025/06/onfra1-updraft-pre-smush-original.png 
+[2025-06-06 13:45:54 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/onfra1.png.The file was compressed from 11.58 KB to 4.32 KB, saving 62.65 percent, using WP-Optimize 
+[2025-06-06 13:45:54 : INFO] - Completed processing task with ID : 33582, and type 'smush' 
+[2025-06-06 13:45:54 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-06 13:45:54 : INFO] - Successfully processed the queue (smush). 97 tasks were processed out of 97. 
+[2025-06-06 13:45:54 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-06 13:45:54 : INFO] - Cleaning up tasks of type (smush). A total of 44 tasks will be deleted. 
+[2025-06-06 13:45:54 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/11/Group-20562.png.The file was compressed from 44.03 KB to 17.31 KB, saving 60.69 percent, using WP-Optimize 
+[2025-06-06 13:45:54 : INFO] - Completed processing task with ID : 33579, and type 'smush' 
+[2025-06-06 13:45:54 : INFO] - The task with id : 33580, and type 'smush' seems to have been deleted from the database. 
+[2025-06-06 13:45:54 : INFO] - The task with id : 33581, and type 'smush' seems to have been deleted from the database. 
+[2025-06-06 13:45:54 : INFO] - The task with id : 33582, and type 'smush' seems to have been deleted from the database. 
+[2025-06-06 13:45:54 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-06 13:45:54 : INFO] - Successfully processed the queue (smush). 142 tasks were processed out of 142. 
+[2025-06-06 13:45:54 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-06 13:45:54 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-06-06 15:47:23 : INFO] - Pruning the smush log file 
+[2025-06-07 11:38:40 : INFO] - Re_Smush_It_Task with attachment ID : 6789, autocreated on : June 07, 2025 11:38:40 
+[2025-06-07 11:43:48 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2025-06-07 11:43:48 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-07 11:43:48 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-07 11:43:48 : INFO] - Processing task with ID : 35700, and type 'smush' 
+[2025-06-07 11:43:48 : INFO] - Re_Smush_It_Task with attachment ID : 6789, autocreated on : June 07, 2025 11:38:40 
+[2025-06-07 11:43:48 : INFO] - File: Onfra.io-visitor-management-system.png, Compression quality: 92 
+[2025-06-07 11:43:49 : INFO] - Backing up the original image - 2025/06/Onfra.io-visitor-management-system-updraft-pre-smush-original.png 
+[2025-06-07 11:43:52 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/Onfra.io-visitor-management-system.png.The file was compressed from 22.91 KB to 10.65 KB, saving 53.52 percent, using WP-Optimize 
+[2025-06-07 11:43:52 : INFO] - Completed processing task with ID : 35700, and type 'smush' 
+[2025-06-07 11:43:52 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-07 11:43:52 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2025-06-07 11:43:52 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-07 11:43:52 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-06-07 11:48:00 : INFO] - Re_Smush_It_Task with attachment ID : 6790, autocreated on : June 07, 2025 11:48:00 
+[2025-06-07 11:54:40 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2025-06-07 11:54:40 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-07 11:54:40 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-07 11:54:40 : INFO] - Processing task with ID : 35722, and type 'smush' 
+[2025-06-07 11:54:40 : INFO] - Re_Smush_It_Task with attachment ID : 6790, autocreated on : June 07, 2025 11:48:00 
+[2025-06-07 11:54:40 : INFO] - File: Onfra.io-visitor-management-system-1.png, Compression quality: 92 
+[2025-06-07 11:54:41 : INFO] - Backing up the original image - 2025/06/Onfra.io-visitor-management-system-1-updraft-pre-smush-original.png 
+[2025-06-07 11:54:44 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/Onfra.io-visitor-management-system-1.png.The file was compressed from 22.91 KB to 10.65 KB, saving 53.52 percent, using WP-Optimize 
+[2025-06-07 11:54:44 : INFO] - Completed processing task with ID : 35722, and type 'smush' 
+[2025-06-07 11:54:44 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-07 11:54:44 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2025-06-07 11:54:44 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-07 11:54:44 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-06-16 03:58:18 : INFO] - Re_Smush_It_Task with attachment ID : 7293, autocreated on : June 16, 2025 03:58:18 
+[2025-06-16 04:03:18 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2025-06-16 04:03:18 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-16 04:03:18 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-16 04:03:18 : INFO] - Processing task with ID : 58201, and type 'smush' 
+[2025-06-16 04:03:18 : INFO] - Re_Smush_It_Task with attachment ID : 7293, autocreated on : June 16, 2025 03:58:18 
+[2025-06-16 04:03:18 : INFO] - File: Group-20601.png, Compression quality: 92 
+[2025-06-16 04:03:20 : INFO] - Backing up the original image - 2025/06/Group-20601-updraft-pre-smush-original.png 
+[2025-06-16 04:03:22 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/Group-20601.png.The file was compressed from 9.75 KB to 5.00 KB, saving 48.69 percent, using WP-Optimize 
+[2025-06-16 04:03:22 : INFO] - Completed processing task with ID : 58201, and type 'smush' 
+[2025-06-16 04:03:22 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-16 04:03:22 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2025-06-16 04:03:22 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-16 04:03:22 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-06-18 18:51:26 : INFO] - Re_Smush_It_Task with attachment ID : 7395, autocreated on : June 18, 2025 06:51:26 
+[2025-06-18 18:56:26 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2025-06-18 18:56:26 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-18 18:56:26 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-18 18:56:26 : INFO] - Processing task with ID : 62840, and type 'smush' 
+[2025-06-18 18:56:26 : INFO] - Re_Smush_It_Task with attachment ID : 7395, autocreated on : June 18, 2025 06:51:26 
+[2025-06-18 18:56:26 : INFO] - File: Group-20602.png, Compression quality: 92 
+[2025-06-18 18:56:28 : INFO] - Backing up the original image - 2025/06/Group-20602-updraft-pre-smush-original.png 
+[2025-06-18 18:56:31 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/Group-20602.png.The file was compressed from 20.54 KB to 9.01 KB, saving 56.11 percent, using WP-Optimize 
+[2025-06-18 18:56:31 : INFO] - Completed processing task with ID : 62840, and type 'smush' 
+[2025-06-18 18:56:31 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-18 18:56:31 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2025-06-18 18:56:31 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-18 18:56:31 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-06-26 09:10:56 : INFO] - Re_Smush_It_Task with attachment ID : 7481, autocreated on : June 26, 2025 09:10:56 
+[2025-06-26 09:15:56 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2025-06-26 09:15:56 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-06-26 09:15:56 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-06-26 09:15:56 : INFO] - Processing task with ID : 72928, and type 'smush' 
+[2025-06-26 09:15:56 : INFO] - Re_Smush_It_Task with attachment ID : 7481, autocreated on : June 26, 2025 09:10:56 
+[2025-06-26 09:15:56 : INFO] - File: Net-Zero-Industrial-Park-Framework.png, Compression quality: 92 
+[2025-06-26 09:15:58 : INFO] - Backing up the original image - 2025/06/Net-Zero-Industrial-Park-Framework-updraft-pre-smush-original.png 
+[2025-06-26 09:16:02 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2025/06/Net-Zero-Industrial-Park-Framework.png.The file was compressed from 143.32 KB to 63.05 KB, saving 56.01 percent, using WP-Optimize 
+[2025-06-26 09:16:02 : INFO] - Completed processing task with ID : 72928, and type 'smush' 
+[2025-06-26 09:16:02 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-06-26 09:16:02 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2025-06-26 09:16:02 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-06-26 09:16:02 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2025-07-10 18:34:09 : INFO] - Re_Smush_It_Task with attachment ID : 7561, autocreated on : July 10, 2025 06:34:09 
+[2025-07-10 18:36:12 : INFO] - Re_Smush_It_Task with attachment ID : 7563, autocreated on : July 10, 2025 06:36:12 
+[2025-07-10 18:38:11 : INFO] - Re_Smush_It_Task with attachment ID : 7565, autocreated on : July 10, 2025 06:38:11 
+[2025-07-10 18:38:39 : INFO] - Re_Smush_It_Task with attachment ID : 7566, autocreated on : July 10, 2025 06:38:39 
+[2025-07-10 18:39:12 : INFO] - A total of 4 tasks of type smush found and will be processed in this iteration 
+[2025-07-10 18:39:12 : DEBUG] - Lock option (updraft_lock_smush, wpsw_options) was created in the database 
+[2025-07-10 18:39:12 : INFO] - Lock (updraft_lock_smush, wpsw_options) acquired after initialising the database 
+[2025-07-10 18:39:12 : INFO] - Processing task with ID : 97761, and type 'smush' 
+[2025-07-10 18:39:12 : INFO] - Re_Smush_It_Task with attachment ID : 7561, autocreated on : July 10, 2025 06:34:09 
+[2025-07-10 18:39:12 : INFO] - File: Group-2367-1-scaled.png, Compression quality: 92 
+[2025-07-10 18:39:23 : INFO] - Task with ID 97761 and type (smush) failed with error code http_request_failed - cURL error 28: Resolving timed out after 10000 milliseconds 
+[2025-07-10 18:39:23 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2025-07-10 18:39:39 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/11/Group-2367-1-scaled.png.The file was compressed from 313.42 KB to 313.42 KB, saving 0 percent, using WP-Optimize 
+[2025-07-10 18:39:39 : INFO] - Completed processing task with ID : 97761, and type 'smush' 
+[2025-07-10 18:39:39 : INFO] - Processing task with ID : 97762, and type 'smush' 
+[2025-07-10 18:39:39 : INFO] - Re_Smush_It_Task with attachment ID : 7563, autocreated on : July 10, 2025 06:36:12 
+[2025-07-10 18:39:39 : INFO] - File: Group-2367-2-scaled.png, Compression quality: 92 
+[2025-07-10 18:39:42 : INFO] - Backing up the original image - 2024/11/Group-2367-2-scaled-updraft-pre-smush-original.png 
+[2025-07-10 18:39:51 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/11/Group-2367-2-scaled.png.The file was compressed from 318.41 KB to 109.21 KB, saving 65.7 percent, using WP-Optimize 
+[2025-07-10 18:39:51 : INFO] - Completed processing task with ID : 97762, and type 'smush' 
+[2025-07-10 18:39:51 : INFO] - Processing task with ID : 97781, and type 'smush' 
+[2025-07-10 18:39:51 : INFO] - Re_Smush_It_Task with attachment ID : 7565, autocreated on : July 10, 2025 06:38:11 
+[2025-07-10 18:39:51 : INFO] - File: Group-2367-2-scaled.png, Compression quality: 92 
+[2025-07-10 18:39:54 : INFO] - Backing up the original image - 2024/10/Group-2367-2-scaled-updraft-pre-smush-original.png 
+[2025-07-10 18:40:04 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-2367-2-scaled.png.The file was compressed from 318.41 KB to 109.21 KB, saving 65.7 percent, using WP-Optimize 
+[2025-07-10 18:40:04 : INFO] - Completed processing task with ID : 97781, and type 'smush' 
+[2025-07-10 18:40:04 : INFO] - Processing task with ID : 97782, and type 'smush' 
+[2025-07-10 18:40:04 : INFO] - Re_Smush_It_Task with attachment ID : 7566, autocreated on : July 10, 2025 06:38:39 
+[2025-07-10 18:40:04 : INFO] - File: Group-2367-2-1-scaled.png, Compression quality: 92 
+[2025-07-10 18:40:06 : INFO] - Backing up the original image - 2024/10/Group-2367-2-1-scaled-updraft-pre-smush-original.png 
+[2025-07-10 18:40:16 : INFO] - Successfully optimized the image - /home/onfraio/public_html/wp-content/uploads/2024/10/Group-2367-2-1-scaled.png.The file was compressed from 318.41 KB to 109.21 KB, saving 65.7 percent, using WP-Optimize 
+[2025-07-10 18:40:16 : INFO] - Completed processing task with ID : 97782, and type 'smush' 
+[2025-07-10 18:40:16 : INFO] - Lock option (updraft_lock_smush, wpsw_options) released 
+[2025-07-10 18:40:16 : INFO] - Successfully processed the queue (smush). 4 tasks were processed out of 4. 
+[2025-07-10 18:40:16 : INFO] - Lock option (updraft_lock_smush, wpsw_options) was deleted from the database 
+[2025-07-10 18:40:16 : INFO] - Cleaning up tasks of type (smush). A total of 4 tasks will be deleted. 

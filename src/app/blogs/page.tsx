@@ -3,42 +3,23 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import BlogList from '../components/BlogList'; // Import the new client component
-
-interface Post {
-  ID: number;
-  post_title: string;
-  post_content: string;
-  post_date: string;
-  post_name: string;
-  featured_image_url: string | null;
-}
-
-interface ApiResponse {
-  success: boolean;
-  data: Post[];
-  error?: string;
-}
+import { Blog } from '@/entity/Blog';
 
 // --- Data Fetching on the Server ---
-async function getPosts(): Promise<Post[]> {
+async function getPosts(): Promise<Blog[]> {
   try {
     // Use the absolute URL of your API. Revalidate to get new posts periodically.
-    const response = await fetch('http://localhost:3000/api/posts', { next: { revalidate: 60 } });
+    const response = await fetch('http://localhost:3000/api/blogs', { next: { revalidate: 60 } });
 
     if (!response.ok) {
       throw new Error('Failed to fetch posts.');
     }
 
-    const result: ApiResponse = await response.json();
+    const result: Blog[] = await response.json();
 
-    if (result.success) {
-      // Ensure no duplicates before returning
-      return Array.from(new Map(result.data.map(post => [post.ID, post])).values());
-    } else {
-      throw new Error(result.error || 'An API error occurred.');
-    }
+    return result;
   } catch (err) {
-    console.error(err);
+    console.error('Error fetching posts:', err);
     return []; // Return an empty array on error so the page doesn't crash
   }
 }

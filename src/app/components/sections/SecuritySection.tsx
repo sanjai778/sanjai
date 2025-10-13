@@ -8,7 +8,7 @@ const SecuritySection: React.FC = () => {
         <div className={styles.iconsColumn}>
           {/* A single composite image representing all security badges and icons */}
           <Image 
-            src="/images/logos/iso.png" 
+            src="/public/images/logos/iso.png" 
             alt="Security certifications including SOC 2, ISO, and GDPR compliance" 
             width={500} 
             height={300} 

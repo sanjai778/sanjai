@@ -4,15 +4,7 @@
 
 import React, { useState, useMemo } from 'react';
 import useDebounce from '../hooks/useDebounce'; // Your existing hook
-
-interface Post {
-  ID: number;
-  post_title: string;
-  post_content: string;
-  post_date: string;
-  post_name: string;
-  featured_image_url: string | null;
-}
+import { Blog } from '@/entity/Blog';
 
 interface HighlightProps {
   text: string;
@@ -37,7 +29,7 @@ const Highlight: React.FC<HighlightProps> = React.memo(function Highlight({ text
 });
 
 interface PostCardProps {
-  post: Post;
+  post: Blog;
   highlight: string;
 }
 
@@ -48,7 +40,7 @@ const PostCard: React.FC<PostCardProps> = React.memo(function PostCard({ post, h
     return text.length <= length ? text : text.substring(0, length) + '...';
   };
 
-  const imageUrl = post.featured_image_url ? `/uploads/${post.featured_image_url}` : null;
+  const imageUrl = post.featuredImage ? post.featuredImage : null;
 
   return (
     <div style={{
@@ -57,18 +49,18 @@ const PostCard: React.FC<PostCardProps> = React.memo(function PostCard({ post, h
       boxSizing: 'border-box', display: 'flex', flexDirection: 'column'
     }}>
       {imageUrl && (
-        <img src={imageUrl} alt={post.post_title} style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '4px', marginBottom: '15px' }}/>
+        <img src={imageUrl} alt={post.title} style={{ width: '100%', height: '180px', objectFit: 'cover', borderRadius: '4px', marginBottom: '15px' }}/>
       )}
       <div style={{ flexGrow: 1 }}>
         <h2 style={{ marginTop: 0, fontSize: '1.2em' }}>
-          <Highlight text={post.post_title} highlight={highlight} />
+          <Highlight text={post.title} highlight={highlight} />
         </h2>
         <p style={{ fontStyle: 'italic', color: '#555', fontSize: '0.9em' }}>
-          Published on: {new Date(post.post_date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          Published on: {new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
         </p>
-        <p>{createExcerpt(post.post_content, 100)}</p>
+        <p>{createExcerpt(post.content, 100)}</p>
       </div>
-      <a href={`/blogs/${post.post_name}`} style={{ color: '#0070f3', textDecoration: 'none', fontWeight: 'bold', marginTop: 'auto' }}>Read More &rarr;</a>
+      <a href={`/blogs/${post.slug}`} style={{ color: '#0070f3', textDecoration: 'none', fontWeight: 'bold', marginTop: 'auto' }}>Read More &rarr;</a>
     </div>
   );
 });
@@ -77,7 +69,7 @@ const PostCard: React.FC<PostCardProps> = React.memo(function PostCard({ post, h
 // --- Main Interactive Component ---
 
 interface BlogListProps {
-  posts: Post[];
+  posts: Blog[];
 }
 
 export default function BlogList({ posts }: BlogListProps) {
@@ -89,7 +81,7 @@ export default function BlogList({ posts }: BlogListProps) {
   const filteredPosts = useMemo(() => {
     if (!debouncedSearchQuery) return posts;
     return posts.filter(post =>
-      post.post_title.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
+      post.title.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
     );
   }, [posts, debouncedSearchQuery]);
 
@@ -124,7 +116,7 @@ export default function BlogList({ posts }: BlogListProps) {
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '24px' }}>
         {currentPosts.length > 0 ? (
-          currentPosts.map(post => <PostCard key={post.ID} post={post} highlight={debouncedSearchQuery} />)
+          currentPosts.map(post => <PostCard key={post.id} post={post} highlight={debouncedSearchQuery} />)
         ) : (
           <p style={{ width: '100%', textAlign: 'center' }}>No posts found.</p>
         )}

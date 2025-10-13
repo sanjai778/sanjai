@@ -1,0 +1,79 @@
+[2025-05-28 06:11:34 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-28 06:43:18 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-28 07:09:13 : INFO] - Cache for multiple term taxonomy have been purged due to post terms update, triggered by action: set_object_terms 
+[2025-05-28 10:29:53 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?p=2880 has been purged, triggered by action: save_post 
+[2025-05-28 10:29:53 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-05-30 05:09:05 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?page_id=2883 has been purged, triggered by action: save_post 
+[2025-05-30 05:09:49 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/get-query/ has been purged, triggered by action: save_post 
+[2025-05-30 05:09:50 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/get-query/ has been purged, triggered by action: save_post 
+[2025-05-30 05:11:17 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?page_id=2885 has been purged, triggered by action: save_post 
+[2025-05-30 05:12:03 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/get/ has been purged, triggered by action: save_post 
+[2025-05-30 05:12:04 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/get/ has been purged, triggered by action: save_post 
+[2025-05-30 05:12:36 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/get/ has been purged, triggered by action: save_post 
+[2025-07-28 12:26:22 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?p=2887 has been purged, triggered by action: save_post 
+[2025-07-28 12:26:22 : INFO] - Cache for all archives page associated with post_type: post and Title: "Auto Draft" have been purged, triggered by action: save_post 
+[2025-07-28 12:27:59 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-28 12:28:10 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?post_type=case_study&p=2889 has been purged, triggered by action: save_post 
+[2025-07-28 12:28:10 : INFO] - Cache for archive page associated with post_type: case_study and Title: "Auto Draft" has been purged, triggered by action: save_post 
+[2025-07-28 12:30:35 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/case-study/ssss/ has been purged, triggered by action: save_post 
+[2025-07-28 12:30:35 : INFO] - Cache for archive page associated with post_type: case_study and Title: "ssss" has been purged, triggered by action: save_post 
+[2025-07-28 12:30:36 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/case-study/ssss/ has been purged, triggered by action: save_post 
+[2025-07-28 12:30:36 : INFO] - Cache for archive page associated with post_type: case_study and Title: "ssss" has been purged, triggered by action: save_post 
+[2025-07-29 05:16:36 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 05:34:39 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 05:40:46 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 05:40:49 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 06:43:28 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 06:58:47 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 06:58:51 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:07:53 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:08:04 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?post_type=compare&p=2890 has been purged, triggered by action: save_post 
+[2025-07-29 07:08:04 : INFO] - Cache for archive page associated with post_type: compare and Title: "Auto Draft" has been purged, triggered by action: save_post 
+[2025-07-29 07:11:56 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?post_type=compare&p=2891 has been purged, triggered by action: save_post 
+[2025-07-29 07:11:56 : INFO] - Cache for archive page associated with post_type: compare and Title: "Auto Draft" has been purged, triggered by action: save_post 
+[2025-07-29 07:16:45 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:16:52 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:24:43 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:24:53 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:34:39 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:43:19 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:43:26 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 07:47:57 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 09:45:43 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/?page_id=2892 has been purged, triggered by action: save_post 
+[2025-07-29 09:45:56 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 09:45:56 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 09:46:14 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 09:46:14 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 09:50:40 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 09:50:40 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:04:23 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:04:24 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:05:24 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:05:25 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:07:16 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:07:17 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:08:56 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 10:09:04 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-29 10:18:48 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:18:49 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:27:08 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:27:08 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:27:28 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 10:27:28 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/index.php/compare/ has been purged, triggered by action: save_post 
+[2025-07-29 11:04:27 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-31 04:39:56 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/ has been purged, triggered by action: save_post 
+[2025-07-31 05:03:52 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-31 06:36:26 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-31 06:36:26 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::disable 
+[2025-07-31 06:36:26 : INFO] - Full Cache Purge triggered by: WP_Optimize_Minify_Cache_Functions::purge_others 
+[2025-07-31 07:12:34 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:12:34 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:14:48 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:14:48 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:18:18 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:18:18 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:26:20 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 07:26:20 : INFO] - Cache for URL: https://ifelsetechno.com/demo/onfra/compare/ has been purged, triggered by action: save_post 
+[2025-07-31 08:03:00 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-07-31 08:03:00 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::disable 
+[2025-07-31 08:03:00 : INFO] - Full Cache Purge triggered by: WP_Optimize_Minify_Cache_Functions::purge_others 

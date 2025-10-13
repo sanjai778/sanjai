@@ -13,6 +13,12 @@ interface Post {
   featured_image_url: string | null;
 }
 
+interface ApiResponse {
+  success: boolean;
+  data: Post[];
+  error?: string;
+}
+
 // --- Data Fetching on the Server ---
 async function getPosts(): Promise<Post[]> {
   try {
@@ -23,11 +29,11 @@ async function getPosts(): Promise<Post[]> {
       throw new Error('Failed to fetch posts.');
     }
 
-    const result = await response.json();
+    const result: ApiResponse = await response.json();
 
     if (result.success) {
       // Ensure no duplicates before returning
-      return Array.from(new Map(result.data.map((post: Post) => [post.ID, post])).values());
+      return Array.from(new Map(result.data.map(post => [post.ID, post])).values());
     } else {
       throw new Error(result.error || 'An API error occurred.');
     }

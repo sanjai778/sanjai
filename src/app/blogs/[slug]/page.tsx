@@ -3,7 +3,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 // Import your new data functions
-import { getAllPostSlugs, getPostBySlug } from 'src/lib/data';
+import { getAllPostSlugs, getPostBySlug } from '../../../lib/data';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 

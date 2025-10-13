@@ -1,0 +1,47 @@
+.wrapper { 
+  max-width: 600px; 
+  font-family: var(--font-family);
+  padding: 40px 0;
+}
+.contentWrap { 
+  position: relative; 
+  padding-left: 20px; 
+}
+.quoteMark { 
+  font-family: Georgia, serif; 
+  font-weight: bold; 
+  font-size: 100px; 
+  color: var(--primary-green); 
+  line-height: 1; 
+  margin-bottom: -30px; 
+}
+.content { 
+  color: var(--text-dark); 
+  line-height: 1.7; 
+  font-size: 1rem; 
+  margin-bottom: 25px; 
+}
+.author { 
+  display: flex; 
+  align-items: center; 
+}
+.authorImg { 
+  width: 55px; 
+  height: 55px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 3px solid var(--primary-green); 
+  margin-right: 15px; 
+}
+.authorName { 
+  font-weight: bold; 
+  color: var(--primary-green); 
+  margin: 0; 
+}
+.authorPosition { 
+  color: var(--text-light); 
+  font-size: 14px; 
+  margin: 0; 
+}
+.alignRight { margin-left: auto; margin-right: 0; }
+.alignLeft { margin-right: auto; margin-left: 0; }

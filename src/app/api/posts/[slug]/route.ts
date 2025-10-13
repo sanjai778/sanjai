@@ -1,8 +1,18 @@
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
 
+interface Post extends RowDataPacket {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: Date;
+  post_name: string;
+  featured_image_url: string;
+}
+
 // This MUST be a named export for the GET method.
-export async function GET(request, { params }) {
+export async function GET(request: Request, { params }: { params: { slug: string } }) {
   const { slug } = params;
 
   if (!slug) {
@@ -30,7 +40,7 @@ export async function GET(request, { params }) {
       LIMIT 1;
     `;
     
-    const [rows] = await connection.query(query, [slug]);
+    const [rows] = await connection.query<Post[]>(query, [slug]);
     await connection.end();
 
     if (rows.length === 0) {

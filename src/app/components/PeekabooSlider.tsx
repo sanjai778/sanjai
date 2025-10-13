@@ -8,9 +8,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import styles from './PeekabooSlider.module.css';
 
-const PeekabooSlider = () => {
+interface Slide {
+  id: number;
+  text: string;
+}
+
+const PeekabooSlider: React.FC = () => {
   // Use a small number of slides to test the loop fix
-  const slides = [
+  const slides: Slide[] = [
     { id: 1, text: 'Slide 1' },
     { id: 2, text: 'Slide 2' },
     { id: 3, text: 'Slide 3' },

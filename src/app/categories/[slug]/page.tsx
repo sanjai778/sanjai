@@ -5,9 +5,18 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+interface Post {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_date: string;
+  post_name: string;
+  featured_image_url: string | null;
+}
+
 // You can reuse the PostCard component from your main blogs page
-function PostCard({ post }) {
-  const createExcerpt = (html, length) => {
+function PostCard({ post }: { post: Post }) {
+  const createExcerpt = (html: string, length: number) => {
     if (!html) return '';
     const text = html.replace(/<[^>]+>/g, '');
     return text.length <= length ? text : text.substring(0, length) + '...';
@@ -24,11 +33,11 @@ function PostCard({ post }) {
 }
 
 
-export default function SingleCategoryPage({ params }) {
+export default function SingleCategoryPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [posts, setPosts] = useState<Post[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (slug) {
@@ -42,7 +51,7 @@ export default function SingleCategoryPage({ params }) {
           } else {
             throw new Error(result.error);
           }
-        } catch (err) {
+        } catch (err: any) {
           setError(err.message);
         } finally {
           setLoading(false);

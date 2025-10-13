@@ -17,13 +17,13 @@ export async function GET() {
 
     // The query to show all tables
     const query = 'SHOW TABLES;';
-    const [rows] = await connection.execute(query);
+    const [rows] = await connection.execute(query) as any[];
     await connection.end();
 
     // The result from a 'SHOW TABLES' query is an array of objects,
     // where each object has a key like 'Tables_in_your_db_name'.
     // We can map this to a simple array of strings for a cleaner API response.
-    const tableNames = rows.map(row => Object.values(row)[0]);
+    const tableNames = rows.map((row: any) => Object.values(row)[0]);
 
     return NextResponse.json({
       success: true,

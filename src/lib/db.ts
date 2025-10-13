@@ -1,7 +1,8 @@
 // lib/db.js
 import mysql from 'mysql2/promise';
+import { Connection } from 'mysql2/promise';
 
-export async function getDBConnection() {
+export async function getDBConnection(): Promise<Connection> {
   try {
     const connection = await mysql.createConnection({
       host: process.env.DB_HOST,

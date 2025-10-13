@@ -1,7 +1,20 @@
 import Image from 'next/image';
 import styles from './TestimonialSimple.module.css';
 
-export default function TestimonialSimple({ testimonial, align = 'left' }) {
+interface Testimonial {
+  id: number;
+  name: string;
+  position: string;
+  content: string;
+  img: string;
+}
+
+interface TestimonialSimpleProps {
+  testimonial: Testimonial;
+  align?: 'left' | 'right';
+}
+
+const TestimonialSimple: React.FC<TestimonialSimpleProps> = ({ testimonial, align = 'left' }) => {
   if (!testimonial) {
     return <p>Testimonial not found.</p>;
   }
@@ -31,4 +44,6 @@ export default function TestimonialSimple({ testimonial, align = 'left' }) {
       </div>
     </div>
   );
-}
+};
+
+export default TestimonialSimple;

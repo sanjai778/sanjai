@@ -1,9 +1,10 @@
 // src/app/api/table/[tableName]/route.js
 
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
 
-export async function GET(request, { params }) {
+export async function GET(request: Request, { params }: { params: { tableName: string } }) {
   // Extract the table name from the dynamic URL segment
   const { tableName } = params;
 
@@ -29,7 +30,7 @@ export async function GET(request, { params }) {
     const query = 'SELECT * FROM ??;';
     
     // We use .query() because .execute() does not support identifiers (??)
-    const [rows] = await connection.query(query, [tableName]);
+    const [rows] = await connection.query<RowDataPacket[]>(query, [tableName]);
     
     await connection.end();
 
@@ -39,7 +40,7 @@ export async function GET(request, { params }) {
       data: rows,
     });
 
-  } catch (error) {
+  } catch (error: any) {
     console.error(`DATABASE ERROR while fetching data from ${tableName}:`, error);
 
     // Provide a specific error if the table doesn't exist

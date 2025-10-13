@@ -1,9 +1,20 @@
 // src/app/api/blogscategories/[slug]/route.js
 
 import mysql from 'mysql2/promise';
+import { RowDataPacket } from 'mysql2';
 import { NextResponse } from 'next/server';
 
-export async function GET(request, { params }) {
+interface Post extends RowDataPacket {
+  ID: number;
+  post_title: string;
+  post_content: string;
+  post_excerpt: string;
+  post_date: Date;
+  post_name: string;
+  featured_image_url: string;
+}
+
+export async function GET(request: Request, { params }: { params: { slug: string } }) {
   const { slug } = params;
   let connection;
 
@@ -31,7 +42,7 @@ export async function GET(request, { params }) {
       ORDER BY p.post_date DESC;
     `;
     
-    const [posts] = await connection.query(query, [slug]);
+    const [posts] = await connection.query<Post[]>(query, [slug]);
     await connection.end();
 
     return NextResponse.json({ success: true, data: posts });

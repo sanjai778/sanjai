@@ -1,32 +1,32 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
 
-@Entity({ name: 'wpsw_testimonials' })
+@Entity('testimonials')
 export class Testimonial {
 
     @PrimaryGeneratedColumn()
     id!: number;
 
-    @Column()
+    @Column("varchar", { length: 255 })
     name!: string;
 
-    @Column()
+    @Column("varchar", { length: 255 })
     position!: string;
 
     @Column("text")
     content!: string;
 
-    @Column()
+    @Column("varchar", { length: 255 })
     img!: string;
 
-    @Column()
+    @Column("varchar", { length: 255 })
     category!: string;
 
-    @CreateDateColumn()
+    @CreateDateColumn({ type: "datetime", precision: 6, default: () => "CURRENT_TIMESTAMP(6)" })
     created_at!: Date;
 
-    @UpdateDateColumn()
+    @UpdateDateColumn({ type: "datetime", precision: 6, default: () => "CURRENT_TIMESTAMP(6)", onUpdate: "CURRENT_TIMESTAMP(6)" })
     updated_at!: Date;
 
-    @Column({ nullable: true })
+    @Column("varchar", { length: 255, nullable: true })
     title!: string;
 }

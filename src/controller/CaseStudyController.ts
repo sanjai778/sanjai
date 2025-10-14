@@ -13,6 +13,7 @@ export class CaseStudyController {
       const caseStudies = await this.caseStudyService.getAllCaseStudies();
       return NextResponse.json(caseStudies);
     } catch (error) {
+      console.error("Error fetching case studies:", error);
       return NextResponse.json({ error: 'Failed to fetch case studies' }, { status: 500 });
     }
   }
@@ -27,6 +28,7 @@ export class CaseStudyController {
         return NextResponse.json({ error: 'Case study not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error fetching case study with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to fetch case study' }, { status: 500 });
     }
   }
@@ -37,6 +39,7 @@ export class CaseStudyController {
       const newCaseStudy = await this.caseStudyService.createCaseStudy(body);
       return NextResponse.json(newCaseStudy, { status: 201 });
     } catch (error) {
+      console.error("Error creating case study:", error);
       return NextResponse.json({ error: 'Failed to create case study' }, { status: 500 });
     }
   }
@@ -52,6 +55,7 @@ export class CaseStudyController {
         return NextResponse.json({ error: 'Case study not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error updating case study with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to update case study' }, { status: 500 });
     }
   }
@@ -66,6 +70,7 @@ export class CaseStudyController {
         return NextResponse.json({ error: 'Case study not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error deleting case study with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to delete case study' }, { status: 500 });
     }
   }

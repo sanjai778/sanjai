@@ -1,19 +1,11 @@
-// lib/db.js
-import mysql from 'mysql2/promise';
-import { Connection } from 'mysql2/promise';
+import { DataSource } from "typeorm";
+import options from "../../ormconfig";
 
-export async function getDBConnection(): Promise<Connection> {
-  try {
-    const connection = await mysql.createConnection({
-      host: process.env.DB_HOST,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
-      port: Number(process.env.DB_PORT),
-    });
-    return connection;
-  } catch (err) {
-    console.error('Failed to connect to the database.', err);
-    throw err;
+const dataSource = new DataSource(options[0]);
+
+export async function getDBConnection() {
+  if (!dataSource.isInitialized) {
+    await dataSource.initialize();
   }
+  return dataSource;
 }

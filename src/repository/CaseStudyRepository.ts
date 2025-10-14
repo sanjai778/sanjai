@@ -2,6 +2,11 @@ import { getDBConnection } from "../lib/db";
 import { CaseStudy } from "../entity/CaseStudy";
 
 export const getCaseStudyRepository = async () => {
-  const connection = await getDBConnection();
-  return connection.getRepository(CaseStudy);
+  try {
+    const connection = await getDBConnection();
+    return connection.getRepository(CaseStudy);
+  } catch (error) {
+    console.error("Error getting case study repository:", error);
+    throw error;
+  }
 };

@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import React from 'react';
 import './globals.css'
 
@@ -15,7 +16,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
-        <link href='/app/styles/visitdesk_icons.css' rel='stylesheet' />
       </head>
       <body>{children}</body>
     </html>

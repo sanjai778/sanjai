@@ -13,6 +13,7 @@ export class CountryWorkplaceDataController {
       const countryWorkplaceData = await this.countryWorkplaceDataService.getAllCountryWorkplaceData();
       return NextResponse.json(countryWorkplaceData);
     } catch (error) {
+      console.error("Error fetching country workplace data:", error);
       return NextResponse.json({ error: 'Failed to fetch country workplace data' }, { status: 500 });
     }
   }
@@ -27,6 +28,7 @@ export class CountryWorkplaceDataController {
         return NextResponse.json({ error: 'Country workplace data not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error fetching country workplace data with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to fetch country workplace data' }, { status: 500 });
     }
   }
@@ -37,6 +39,7 @@ export class CountryWorkplaceDataController {
       const newCountryWorkplaceData = await this.countryWorkplaceDataService.createCountryWorkplaceData(body);
       return NextResponse.json(newCountryWorkplaceData, { status: 201 });
     } catch (error) {
+      console.error("Error creating country workplace data:", error);
       return NextResponse.json({ error: 'Failed to create country workplace data' }, { status: 500 });
     }
   }
@@ -52,6 +55,7 @@ export class CountryWorkplaceDataController {
         return NextResponse.json({ error: 'Country workplace data not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error updating country workplace data with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to update country workplace data' }, { status: 500 });
     }
   }
@@ -66,6 +70,7 @@ export class CountryWorkplaceDataController {
         return NextResponse.json({ error: 'Country workplace data not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error deleting country workplace data with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to delete country workplace data' }, { status: 500 });
     }
   }

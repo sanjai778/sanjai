@@ -13,6 +13,7 @@ export class CompareController {
       const compares = await this.compareService.getAllCompares();
       return NextResponse.json(compares);
     } catch (error) {
+      console.error("Error fetching compares:", error);
       return NextResponse.json({ error: 'Failed to fetch compares' }, { status: 500 });
     }
   }
@@ -27,6 +28,7 @@ export class CompareController {
         return NextResponse.json({ error: 'Compare not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error fetching compare with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to fetch compare' }, { status: 500 });
     }
   }
@@ -37,6 +39,7 @@ export class CompareController {
       const newCompare = await this.compareService.createCompare(body);
       return NextResponse.json(newCompare, { status: 201 });
     } catch (error) {
+      console.error("Error creating compare:", error);
       return NextResponse.json({ error: 'Failed to create compare' }, { status: 500 });
     }
   }
@@ -52,6 +55,7 @@ export class CompareController {
         return NextResponse.json({ error: 'Compare not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error updating compare with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to update compare' }, { status: 500 });
     }
   }
@@ -66,6 +70,7 @@ export class CompareController {
         return NextResponse.json({ error: 'Compare not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error deleting compare with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to delete compare' }, { status: 500 });
     }
   }

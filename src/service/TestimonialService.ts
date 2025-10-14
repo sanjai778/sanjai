@@ -9,22 +9,47 @@ export class TestimonialService {
   }
 
   async getAll() {
-    return this.testimonialRepository.getAll();
+    try {
+      return this.testimonialRepository.getAll();
+    } catch (error) {
+      console.error("Error getting all testimonials:", error);
+      throw error;
+    }
   }
 
   async getById(id: number) {
-    return this.testimonialRepository.getById(id);
+    try {
+      return this.testimonialRepository.getById(id);
+    } catch (error) {
+      console.error(`Error getting testimonial by id ${id}:`, error);
+      throw error;
+    }
   }
 
   async create(testimonialData: Partial<Testimonial>) {
-    return this.testimonialRepository.create(testimonialData);
+    try {
+      return this.testimonialRepository.create(testimonialData);
+    } catch (error) {
+      console.error("Error creating testimonial:", error);
+      throw error;
+    }
   }
 
   async update(id: number, testimonialData: Partial<Testimonial>) {
-    return this.testimonialRepository.update(id, testimonialData);
+    try {
+      return this.testimonialRepository.update(id, testimonialData);
+    } catch (error) {
+      console.error(`Error updating testimonial with id ${id}:`, error);
+      throw error;
+    }
   }
 
   async delete(id: number) {
-    return this.testimonialRepository.delete(id);
+    try {
+      return this.testimonialRepository.delete(id);
+    } catch (error) {
+      console.error(`Error deleting testimonial with id ${id}:`, error);
+      throw error;
+    }
   }
 }

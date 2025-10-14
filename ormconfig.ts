@@ -6,17 +6,18 @@ import { CaseStudy } from './src/entity/CaseStudy';
 import { Compare } from './src/entity/Compare';
 import { CountryWorkplaceData } from './src/entity/CountryWorkplaceData';
 import { Faq } from './src/entity/Faq';
+import "dotenv/config";
 
 const options: DataSourceOptions[] = [
   {
     name: "default",
     type: "mysql",
-    host: "db",
-    port: 3306,
-    username: "root",
-    password: "root",
-    database: "onfra",
-    synchronize: true,
+    host: process.env.DB_HOST,
+    port: Number(process.env.DB_PORT),
+    username: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    synchronize: false,
     logging: false,
     entities: [
       Blog,

@@ -9,29 +9,69 @@ export class BlogRepository {
   }
 
   async getAll() {
-    const repository = await this.getRepository();
-    return repository.find({ relations: ["categories"] });
+    try {
+      const repository = await this.getRepository();
+      return repository.find({
+        relations: ["categories"],
+        order: {
+          date: "DESC",
+        },
+      });
+    } catch (error) {
+      console.error("Error getting all blogs:", error);
+      throw error;
+    }
   }
 
   async getById(id: number) {
-    const repository = await this.getRepository();
-    return repository.findOne({ where: { id }, relations: ["categories"] });
+    try {
+      const repository = await this.getRepository();
+      return repository.findOne({ where: { id }, relations: ["categories"] });
+    } catch (error) {
+      console.error(`Error getting blog by id ${id}:`, error);
+      throw error;
+    }
+  }
+
+  async getBySlug(slug: string) {
+    try {
+      const repository = await this.getRepository();
+      return repository.findOne({ where: { slug }, relations: ["categories"] });
+    } catch (error) {
+      console.error(`Error getting blog by slug ${slug}:`, error);
+      throw error;
+    }
   }
 
   async create(blogData: Partial<Blog>) {
-    const repository = await this.getRepository();
-    const newBlog = repository.create(blogData);
-    return repository.save(newBlog);
+    try {
+      const repository = await this.getRepository();
+      const newBlog = repository.create(blogData);
+      return repository.save(newBlog);
+    } catch (error) {
+      console.error("Error creating blog:", error);
+      throw error;
+    }
   }
 
   async update(id: number, blogData: Partial<Blog>) {
-    const repository = await this.getRepository();
-    await repository.update(id, blogData);
-    return this.getById(id);
+    try {
+      const repository = await this.getRepository();
+      await repository.update(id, blogData);
+      return this.getById(id);
+    } catch (error) {
+      console.error(`Error updating blog with id ${id}:`, error);
+      throw error;
+    }
   }
 
   async delete(id: number) {
-    const repository = await this.getRepository();
-    return repository.delete(id);
+    try {
+      const repository = await this.getRepository();
+      return repository.delete(id);
+    } catch (error) {
+      console.error(`Error deleting blog with id ${id}:`, error);
+      throw error;
+    }
   }
 }

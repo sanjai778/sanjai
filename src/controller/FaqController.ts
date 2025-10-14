@@ -13,6 +13,7 @@ export class FaqController {
       const faqs = await this.faqService.getAllFaqs();
       return NextResponse.json(faqs);
     } catch (error) {
+      console.error("Error fetching faqs:", error);
       return NextResponse.json({ error: 'Failed to fetch faqs' }, { status: 500 });
     }
   }
@@ -27,6 +28,7 @@ export class FaqController {
         return NextResponse.json({ error: 'Faq not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error fetching faq with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to fetch faq' }, { status: 500 });
     }
   }
@@ -37,6 +39,7 @@ export class FaqController {
       const newFaq = await this.faqService.createFaq(body);
       return NextResponse.json(newFaq, { status: 201 });
     } catch (error) {
+      console.error("Error creating faq:", error);
       return NextResponse.json({ error: 'Failed to create faq' }, { status: 500 });
     }
   }
@@ -52,6 +55,7 @@ export class FaqController {
         return NextResponse.json({ error: 'Faq not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error updating faq with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to update faq' }, { status: 500 });
     }
   }
@@ -66,6 +70,7 @@ export class FaqController {
         return NextResponse.json({ error: 'Faq not found' }, { status: 404 });
       }
     } catch (error) {
+      console.error(`Error deleting faq with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to delete faq' }, { status: 500 });
     }
   }

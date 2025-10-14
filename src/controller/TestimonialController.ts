@@ -13,6 +13,7 @@ export class TestimonialController {
       const testimonials = await this.testimonialService.getAll();
       return NextResponse.json(testimonials);
     } catch (error) {
+      console.error("Error fetching testimonials:", error);
       return new NextResponse(
         JSON.stringify({ error: "Failed to fetch testimonials" }),
         { status: 500 }
@@ -30,6 +31,7 @@ export class TestimonialController {
       }
       return NextResponse.json(testimonial);
     } catch (error) {
+      console.error(`Error fetching testimonial with id ${id}:`, error);
       return new NextResponse(
         JSON.stringify({ error: "Failed to fetch testimonial" }),
         { status: 500 }
@@ -43,6 +45,7 @@ export class TestimonialController {
       const newTestimonial = await this.testimonialService.create(body);
       return new NextResponse(JSON.stringify(newTestimonial), { status: 201 });
     } catch (error) {
+      console.error("Error creating testimonial:", error);
       return new NextResponse(
         JSON.stringify({ error: "Failed to create testimonial" }),
         { status: 500 }
@@ -56,6 +59,7 @@ export class TestimonialController {
       const updatedTestimonial = await this.testimonialService.update(id, body);
       return NextResponse.json(updatedTestimonial);
     } catch (error) {
+      console.error(`Error updating testimonial with id ${id}:`, error);
       return new NextResponse(
         JSON.stringify({ error: "Failed to update testimonial" }),
         { status: 500 }
@@ -68,6 +72,7 @@ export class TestimonialController {
       await this.testimonialService.delete(id);
       return new NextResponse(null, { status: 204 });
     } catch (error) {
+      console.error(`Error deleting testimonial with id ${id}:`, error);
       return new NextResponse(
         JSON.stringify({ error: "Failed to delete testimonial" }),
         { status: 500 }

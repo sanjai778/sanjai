@@ -9,22 +9,56 @@ export class BlogService {
   }
 
   async getAll() {
-    return this.blogRepository.getAll();
+    try {
+      return this.blogRepository.getAll();
+    } catch (error) {
+      console.error("Error getting all blogs:", error);
+      throw error;
+    }
   }
 
   async getById(id: number) {
-    return this.blogRepository.getById(id);
+    try {
+      return this.blogRepository.getById(id);
+    } catch (error) {
+      console.error(`Error getting blog by id ${id}:`, error);
+      throw error;
+    }
+  }
+
+  async getBySlug(slug: string) {
+    try {
+      return this.blogRepository.getBySlug(slug);
+    } catch (error) {
+      console.error(`Error getting blog by slug ${slug}:`, error);
+      throw error;
+    }
   }
 
   async create(blogData: Partial<Blog>) {
-    return this.blogRepository.create(blogData);
+    try {
+      return this.blogRepository.create(blogData);
+    } catch (error) {
+      console.error("Error creating blog:", error);
+      throw error;
+    }
   }
 
   async update(id: number, blogData: Partial<Blog>) {
-    return this.blogRepository.update(id, blogData);
+    try {
+      return this.blogRepository.update(id, blogData);
+    } catch (error) {
+      console.error(`Error updating blog with id ${id}:`, error);
+      throw error;
+    }
   }
 
   async delete(id: number) {
-    return this.blogRepository.delete(id);
+    try {
+      return this.blogRepository.delete(id);
+    } catch (error) {
+      console.error(`Error deleting blog with id ${id}:`, error);
+      throw error;
+    }
   }
 }

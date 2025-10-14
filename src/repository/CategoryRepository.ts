@@ -9,29 +9,54 @@ export class CategoryRepository {
   }
 
   async getAll() {
-    const repository = await this.getRepository();
-    return repository.find({ relations: ["blogs"] });
+    try {
+      const repository = await this.getRepository();
+      return repository.find({ relations: ["blogs"] });
+    } catch (error) {
+      console.error("Error getting all categories:", error);
+      throw error;
+    }
   }
 
   async getById(id: number) {
-    const repository = await this.getRepository();
-    return repository.findOne({ where: { id }, relations: ["blogs"] });
+    try {
+      const repository = await this.getRepository();
+      return repository.findOne({ where: { id }, relations: ["blogs"] });
+    } catch (error) {
+      console.error(`Error getting category by id ${id}:`, error);
+      throw error;
+    }
   }
 
   async create(categoryData: Partial<Category>) {
-    const repository = await this.getRepository();
-    const newCategory = repository.create(categoryData);
-    return repository.save(newCategory);
+    try {
+      const repository = await this.getRepository();
+      const newCategory = repository.create(categoryData);
+      return repository.save(newCategory);
+    } catch (error) {
+      console.error("Error creating category:", error);
+      throw error;
+    }
   }
 
   async update(id: number, categoryData: Partial<Category>) {
-    const repository = await this.getRepository();
-    await repository.update(id, categoryData);
-    return this.getById(id);
+    try {
+      const repository = await this.getRepository();
+      await repository.update(id, categoryData);
+      return this.getById(id);
+    } catch (error) {
+      console.error(`Error updating category with id ${id}:`, error);
+      throw error;
+    }
   }
 
   async delete(id: number) {
-    const repository = await this.getRepository();
-    return repository.delete(id);
+    try {
+      const repository = await this.getRepository();
+      return repository.delete(id);
+    } catch (error) {
+      console.error(`Error deleting category with id ${id}:`, error);
+      throw error;
+    }
   }
 }

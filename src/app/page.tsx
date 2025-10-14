@@ -10,27 +10,11 @@ import SecuritySection from './components/sections/SecuritySection';
 import SolutionsGrid from './components/sections/SolutionsGrid';
 import FaqSection from './components/sections/FaqSection';
 import EnterpriseCta from './components/sections/EnterpriseCta';
+import CtaSection from './components/sections/CtaSection';
 // import NewsletterModal from './components/sections/NewsletterModal';
 // import PeekabooSlider from './components/PeekabooSlider';
-import TestimonialSlider from './components/sections/TestimonialSlider';
 import BlogSection from './components/sections/BlogSlider';
-
-const testimonials = [
-  {
-    id: 1,
-    content: "This is a testimonial.",
-    img: "/public/images/avatars/avatar.png",
-    name: "John Doe",
-    position: "CEO, Company"
-  },
-  {
-    id: 2,
-    content: "This is another testimonial.",
-    img: "/public/images/avatars/avatar.png",
-    name: "Jane Doe",
-    position: "CTO, Company"
-  }
-];
+import TestimonialSection from './components/sections/TestimonialSection';
 
 export default function HomePage() {
   return (
@@ -70,12 +54,14 @@ export default function HomePage() {
         
         <SecuritySection />
         
-        <TestimonialSlider testimonials={testimonials} />
+        <TestimonialSection />
         
         <SolutionsGrid />
         <FaqSection />
-         <BlogSection />
         <EnterpriseCta />
+         <BlogSection />
+        <CtaSection />
+        
 
       </main>
       

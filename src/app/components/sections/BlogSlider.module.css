@@ -1,61 +1,59 @@
 .blogSection {
   padding: 80px 0;
-  background-color: #f7f8fa;
+  background-color: var(--background-light);
 }
 .header {
   text-align: center;
   margin-bottom: 40px;
 }
 .tagline {
-  color: #4caf50;
+  color: var(--primary-green);
   font-weight: 600;
   margin-bottom: 10px;
 }
 .title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #333;
+  color: var(--text-dark);
 }
 .blogSwiperWrapper {
   height: 450px;
   max-width: 900px;
   margin: 0 auto;
   position: relative;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 .swiperInstance {
   height: 100%;
   width: 100%;
+  position: relative;
+  right: 60px;
 }
 .swiperSlide {
-  opacity: 1;
-  transform: scale(1);
-  transition: opacity 0.3s, transform 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #fff; /* Ensure slide has a solid background */
 }
 .card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid #e0e0e0;
   display: flex;
   align-items: center;
-  height: 80%;
+  height: 100%;
   width: 100%;
-  max-width: 800px;
-  position: relative;
 }
 .imageWrapper {
   width: 40%;
   height: 100%;
   flex-shrink: 0;
+  padding: 20px;
 }
 .postImage {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .contentWrapper {
   padding: 30px;
@@ -63,9 +61,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 .postDate {
-  color: #666;
+  color: var(--text-light);
   font-size: 0.9rem;
   margin-bottom: 10px;
 }
@@ -74,26 +73,28 @@
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 15px;
-  color: #333;
+  color: var(--text-dark);
 }
 .postExcerpt {
-  color: #666;
+  color: var(--text-light);
   line-height: 1.6;
   margin-bottom: 20px;
-}
-.readMoreButton {
-  color: #4caf50;
-  text-decoration: none;
-  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 7.2em;
 }
 :global(.swiper-pagination-custom) {
   position: absolute;
-  right: 40px;
+  right: -95% !important;
   top: 50%;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 10;
 }
 :global(.swiper-pagination-custom .swiper-pagination-bullet) {
   width: 10px;
@@ -103,5 +104,7 @@
   transition: background-color 0.3s;
 }
 :global(.swiper-pagination-custom .swiper-pagination-bullet-active) {
-  background-color: #4caf50;
+  background-color: var(--primary-green);
+  height: 30px;
+  border-radius: 20px;
 }

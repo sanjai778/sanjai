@@ -7,8 +7,9 @@ export async function GET(
   request: Request,
   { params }: { params: { slug: string } }
 ) {
-  console.log(`Fetching blog with slug: ${params.slug}`);
-  return blogController.getBySlug(params.slug);
+  const slug = params.slug;
+  console.log(`Fetching blog with slug: ${slug}`);
+  return blogController.getBySlug(slug);
 }
 
 export async function PUT(

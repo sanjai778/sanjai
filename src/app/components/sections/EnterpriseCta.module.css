@@ -1,95 +1,53 @@
 .ctaSection {
   padding: 80px 0;
-  background-color: #fff;
+  background-color: #f7f8fa;
 }
-
 .ctaContainer {
   display: flex;
   align-items: center;
   gap: 60px;
-  background-color: var(--text-dark, #111827);
-  color: #fff;
+  background-color: #fff;
   border-radius: 20px;
-  padding: 0 60px;
+  padding: 60px;
   overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 .imageColumn {
   flex: 1;
-  align-self: flex-end; /* Aligns image to the bottom of the container */
 }
-
 .ctaImage {
   display: block;
-  margin-top: -40px; /* Creates a slight overlap effect */
+  width: 100%;
+  height: auto;
 }
-
 .contentColumn {
-  flex: 1.2; /* Give content slightly more space */
-  padding: 60px 0;
+  flex: 1;
 }
-
 .title {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 20px;
+  color: var(--text-dark);
 }
-
 .highlight {
   color: var(--primary-green);
 }
-
-.description {
-  color: #bdc3c7; /* Lighter text color */
-  font-size: 1.1rem;
-  line-height: 1.7;
-  max-width: 500px;
-  margin-bottom: 30px;
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
 }
-
-.ctaButton {
-  display: inline-block;
-  background-color: var(--primary-green);
-  color: #fff;
-  padding: 14px 32px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  transition: all 0.2s ease;
+.featureList li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-light);
 }
-
-.ctaButton:hover {
-  background-color: var(--primary-green-dark);
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(16, 196, 105, 0.25);
-}
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-  .ctaContainer {
-    flex-direction: column;
-    padding: 40px;
-    text-align: center;
-  }
-
-  .imageColumn {
-    order: 2;
-  }
-  
-  .contentColumn {
-    order: 1;
-    padding: 0;
-  }
-  
-  .ctaImage {
-    margin-top: 20px;
-    max-width: 350px;
-    height: auto;
-  }
-  
-  .title {
-    font-size: 2rem;
-  }
+.featureList li::before {
+  content: '✓';
+  color: var(--primary-green);
+  font-size: 1.5rem;
+  font-weight: 600;
 }

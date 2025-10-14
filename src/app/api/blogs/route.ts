@@ -1,9 +1,18 @@
-import { BlogController } from "@/controller/BlogController";
-import "reflect-metadata";
-
-const blogController = new BlogController();
+import { NextResponse } from 'next/server';
+import { BlogService } from '../../../../src/service/BlogService';
 
 export async function GET() {
-  console.log("Fetching all blogs");
-  return blogController.getAll();
+  try {
+    const blogService = new BlogService();
+    const blogs = await blogService.getAll();
+    
+    if (!blogs || blogs.length === 0) {
+      return NextResponse.json({ message: "No blogs found" }, { status: 404 });
+    }
+    
+    return NextResponse.json(blogs);
+  } catch (error) {
+    console.error("Error fetching blogs:", error);
+    return new NextResponse('Internal Server Error', { status: 500 });
+  }
 }

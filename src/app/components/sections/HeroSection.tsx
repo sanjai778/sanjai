@@ -12,8 +12,8 @@ const HeroSection: React.FC = () => {
               Bridging people, spaces, things, and insights to make the <span className={styles.highlight}>workplace</span> efficient and sustainable!
             </h1>
             <div className={styles.buttonGroup}>
-              <Link href="/signup" className={styles.btnPrimary}>Signup For Free!</Link>
-              <Link href="/talk-to-an-expert" className={styles.btnSecondary}>Talk to Expert</Link>
+              <Link href="/signup" className="btn btn-primary">Signup For Free!</Link>
+              <Link href="/talk-to-an-expert" className="btn btn-outline-primary">Talk to Expert</Link>
             </div>
             <div className={styles.features}>
               <span><Image src="/images/icons/check-circle.svg" alt="check" width={20} height={20} /> Free 14-day Demo</span>

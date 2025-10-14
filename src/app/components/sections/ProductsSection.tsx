@@ -24,8 +24,8 @@ const ProductsSection: React.FC = () => {
     <section className={styles.productsSection}>
       <div className="container">
         <div className={styles.header}>
-          <p className={styles.tagline}>#1 Workplace Management System</p>
-          <h2 className={styles.title}>Manage anything and everything that revolves around your workspace!</h2>
+          <h2 className={styles.tagline}>#1 Workplace Management System</h2>
+          <h3 className={styles.title}>Manage anything and everything that revolves around your workspace!</h3>
         </div>
         <div className={styles.grid}>
           {products.map((product) => (

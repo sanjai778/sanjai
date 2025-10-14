@@ -1,0 +1,276 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+    background-color: #fdfdff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+/* === HERO SECTION STYLES === */
+.hero-section {
+    padding: 60px 0 30px;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.manage-visitors {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.workplace {
+    color: #444;
+}
+
+.case-study_overview {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.case-study_client_person_name {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.text-style-italic {
+  font-style: italic;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #777;
+  margin-top: 0;
+}
+
+/* === UPDATED: PROPER UI FOR FEATURE IMAGE === */
+.case-study_feature_image_wrapper {
+    max-width: 85%;
+    margin: 40px auto 80px auto;
+    border-radius: 30px;
+    box-shadow: rgb(16, 196, 105) 0px 5px, rgba(16, 196, 105, 0.73) 0px 10px, rgba(16, 196, 105, 0.5) 0px 15px, rgba(16, 196, 105, 0.23) 0px 20px, rgba(16, 196, 105, 0.07) 0px 25px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Placeholder color */
+    aspect-ratio: 1200 / 675; /* CLS Fix: Reserve space with 16:9 aspect ratio */
+}
+
+.case-study_feature_image_wrapper:hover {
+    transform: scale(1.03);
+}
+
+.case-study_feature_image {
+  display: block;
+  width: 100%;
+  height: 100%; /* Fill the wrapper */
+  object-fit: cover; /* Cover the area */
+  border: 1px solid #ddd;
+  border-radius: 30px;
+}
+
+/* === TOP INFO BAR STYLES === */
+.case-study-info-bar.stylized-info-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 40px 30px;
+}
+
+.stylized-info-bar .info-box {
+    text-align: center;
+}
+
+.stylized-info-bar .info-box-icon-wrapper {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #f0fdf6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    border: 2px dashed #d4f5e5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.stylized-info-bar .info-box-icon {
+    width: 100%;
+    height: 100%;
+    color: #10c469;
+}
+
+.stylized-info-bar .info-box-title {
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.stylized-info-bar .info-box-value {
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+}
+
+
+/* === CHALLENGES & SOLUTIONS === */
+.challenges-solutions-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+    .challenges-solutions-grid {
+        flex-direction: row;
+    }
+}
+
+.challenge-solution-card {
+    flex: 1;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.challenge-solution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.card-challenges {
+    border-color: rgba(220, 53, 69, 0.2);
+    background-color: #fff9f9;
+}
+
+.card-solutions {
+    border-color: rgba(40, 213, 122, 0.3);
+    background-color: #f6fff9;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-challenges .card-title { color: #c82333; }
+.card-solutions .card-title { color: #22a864; }
+
+.card-subtitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.card-list-item img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 4px;
+}
+
+/* === OVERVIEW SECTION (FULL WIDTH) === */
+.overview-section {
+    padding: 80px 0;
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.overview-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.overview-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #10c469;
+    border-radius: 2px;
+    margin: 15px auto 0;
+}
+
+.overview-content p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #444;
+    margin-bottom: 1.5em;
+}
+
+/* Testimonials Section */
+#testimonials-section {
+    padding: 60px 0; 
+    background-color: #fdfdff;
+    min-height: 400px; /* CLS Fix: Reserve space for testimonials shortcode */
+}
+
+/* === RELATED STUDIES & OTHER SECTIONS === */
+.section-title {
+    font-size: 2.5rem;
+    color: #222;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.related-case-studies-section { padding: 60px 0; }
+.related-studies-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; }
+.vs-comparison-card { border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); border: 1px solid #eaeaea; transition: all 0.3s ease; }
+.vs-comparison-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); }
+.vs-comparison-card a { text-decoration: none; color: inherit; }
+.diagonal-split { 
+    overflow: hidden; 
+    height: auto;
+    aspect-ratio: 600 / 400; /* CLS Fix */
+    background-color: #f0f0f0;
+}
+.diagonal-split img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+.vs-comparison-card:hover img { transform: scale(1.05); }
+.card-content { padding: 25px; }
+.card-title-vs { font-size: 1.2rem; font-weight: 600; line-height: 1.4; }
+.back-link-button { display: inline-block; background-color: #10c469; color: #fff; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; }
+.back-link-button:hover { color: white; background-color: #0d9b54; transform: translateY(-2px); box-shadow: 0 5px 15px rgba(16, 196, 105, 0.4); }

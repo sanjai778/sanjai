@@ -33,6 +33,16 @@ export default function TestimonialSlider({ testimonials }: TestimonialSliderPro
     ? [...testimonials, ...testimonials] 
     : testimonials;
 
+  const getStrapiMedia = (url: string) => {
+    if (url.startsWith("https://onfra.io/wp-content")) {
+      return url.replace("https://onfra.io/wp-content", "");
+    }
+    if (url.startsWith("http")) {
+      return url;
+    }
+    return `/${url.startsWith("/") ? url.substring(1) : url}`;
+  };
+
   return (
     <div className={styles.testimonialSwiperWrapper}>
       <Swiper
@@ -65,7 +75,7 @@ export default function TestimonialSlider({ testimonials }: TestimonialSliderPro
               <Image src="/uploads/2025/06/onfra2.png" alt="quote icon" width={32} height={32} className={styles.quoteIcon} />
               <p className={styles.cardText}>{t.content}</p>
               <div className={styles.cardFooter}>
-                <Image src={t.img} alt={t.name} width={55} height={55} className={styles.avatar} />
+                <Image src={getStrapiMedia(t.img)} alt={t.name} width={55} height={55} className={styles.avatar} />
                 <div className={styles.authorInfo}>
                   <h4>{t.name}</h4>
                   <p>{t.position}</p>

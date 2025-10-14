@@ -40,7 +40,7 @@ const VideoSection: React.FC<VideoSectionProps> = ({ videoId }) => {
                   <div className={styles.wave3}></div>
                 </div>
               </div>
-              <button className={styles.playButton} onClick={openModal} aria-label="Play Video">
+              <button className="btn btn-primary" onClick={openModal} aria-label="Play Video">
                 <i className='bx bx-play'></i>
               </button>
             </div>

@@ -1,18 +1,18 @@
 .faqSection {
   padding: 80px 0;
-  background-color: #f7f8fa;
+  background-color: var(--background-light);
 }
 .header {
   text-align: center;
   margin-bottom: 50px;
 }
 .tagline {
-  color: #4caf50;
+  color: var(--primary-green);
   font-weight: 500;
 }
 .title {
   font-size: 2rem;
-  color: #333;
+  color: var(--text-dark);
   max-width: 700px;
   margin: 10px auto 0;
 }
@@ -37,26 +37,17 @@
   padding: 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #333;
+  color: var(--text-dark);
   background: none;
   border: none;
   cursor: pointer;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-.icon {
-  width: 12px;
-  height: 12px;
-  border-right: 2px solid #4caf50;
-  border-bottom: 2px solid #4caf50;
-  transform: rotate(45deg);
-  transition: transform 0.3s ease-in-out;
-  flex-shrink: 0;
-  margin-left: 15px;
-}
-.icon.open {
-  transform: rotate(-135deg);
+.iconWrapper {
+  margin-right: 15px;
+  color: var(--primary-green);
+  font-size: 1.5rem;
 }
 .contentWrapper {
   max-height: 0;
@@ -68,22 +59,6 @@
 }
 .cardBody {
   padding: 0 20px 20px;
-  color: #666;
+  color: var(--text-light);
   line-height: 1.7;
-}
-.readMoreWrapper {
-  text-align: center;
-  margin-top: 40px;
-}
-.generalBtn {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 12px 28px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
-}
-.generalBtn:hover {
-  background-color: #45a049;
 }

@@ -6,23 +6,27 @@ const EnterpriseCta: React.FC = () => {
   return (
     <section className={styles.ctaSection}>
       <div className={`container ${styles.ctaContainer}`}>
+        <div className={styles.contentColumn}>
+          <h2 className={styles.title}>Interested in <span className={styles.highlight}>Enterprise Suite?</span></h2>
+          <ul className={styles.featureList}>
+            <li>Specialized Onboarding Experience</li>
+            <li>Priority Customer Support</li>
+            <li>Custom Domain and White Label Solution</li>
+            <li>Comprehensive Help Guides</li>
+            <li>User experience with seamless localization</li>
+          </ul>
+          <Link href="/contact-sales" className="btn btn-primary">
+            Get Callback!
+          </Link>
+        </div>
         <div className={styles.imageColumn}>
           <Image 
-            src="/images/enterprise-suite.webp" // Add a relevant image here
+            src="/uploads/svg_image/enterprise.svg"
             alt="Enterprise Suite illustration"
             width={450}
             height={400}
             className={styles.ctaImage}
           />
-        </div>
-        <div className={styles.contentColumn}>
-          <h2 className={styles.title}>Interested in <span className={styles.highlight}>Enterprise Suite?</span></h2>
-          <p className={styles.description}>
-            Unlock advanced security, custom integrations, and dedicated support designed for large-scale organizations. Let's build a solution that fits your unique needs.
-          </p>
-          <Link href="/contact-sales" className={styles.ctaButton}>
-            Contact Sales
-          </Link>
         </div>
       </div>
     </section>

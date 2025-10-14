@@ -15,49 +15,45 @@ import styles from './BlogSlider.module.css';
 interface Post {
   date: string;
   title: string;
-  excerpt: string;
-  imageUrl: string;
+  content: string;
+  featuredImage: string;
   slug: string;
 }
 
-const posts: Post[] = [
-  {
-    date: 'August 11, 2025',
-    title: 'Enhanced Mega Alerts (Emergency Notifications) for Proactive Workplace Safety',
-    excerpt: 'Onfra.io has announced powerful new updates to its Mega Alerts (Workplace Emergency Notifications)...',
-    imageUrl: '/blogs/blog-1.png',
-    slug: '/blogs/enhanced-mega-alerts',
-  },
-  {
-    date: 'August 14, 2025',
-    title: 'Benefits of a Digital Gate Pass Management System',
-    excerpt: 'In today’s fast-paced business environment, security and efficiency are paramount. For any organization...',
-    imageUrl: '/blogs/blog-2.png',
-    slug: '/blogs/digital-gate-pass-system',
-  },
-  {
-    date: 'July 28, 2025',
-    title: 'The Rise of the Digital Reception in 2025',
-    excerpt: 'The year is 2025. Step into any modern office building, and the scene at the front desk will likely be dramatically different...',
-    imageUrl: '/blogs/blog-3.png',
-    slug: '/blogs/the-rise-of-the-digital-reception',
-  }
-];
-
 const BlogSection: React.FC = () => {
+  const [posts, setPosts] = useState<Post[]>([]);
   const [isMounted, setIsMounted] = useState<boolean>(false);
-  const paginationRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const fetchPosts = async () => {
+      const res = await fetch('/api/blogs');
+      const data = await res.json();
+      setPosts(data);
+    };
+
+    fetchPosts();
     setIsMounted(true);
   }, []);
+
+  const getStrapiMedia = (url: string) => {
+    if (url.startsWith("https://onfra.io/wp-content")) {
+      return url.replace("https://onfra.io/wp-content", "");
+    }
+    if (url.startsWith("https://ifelsetechno.com/demo/visitdesk-wp/wp-content")) {
+      return url.replace("https://ifelsetechno.com/demo/visitdesk-wp/wp-content", "");
+    }
+    if (url.startsWith("http")) {
+      return url;
+    }
+    return `/${url.startsWith("/") ? url.substring(1) : url}`;
+  };
 
   return (
     <section className={styles.blogSection}>
       <div className="container">
         <div className={styles.header}>
-          <p className={styles.tagline}>Blog</p>
-          <h2 className={styles.title}>Interesting Articles</h2>
+          <h2 className={styles.tagline}>Blog</h2>
+          <h3 className={styles.title}>Interesting Articles</h3>
         </div>
       </div>
       
@@ -68,10 +64,7 @@ const BlogSection: React.FC = () => {
             effect={'fade'}
             loop={true}
             direction={'vertical'}
-            pagination={{ clickable: true, el: paginationRef.current }}
-            onBeforeInit={(swiper: any) => {
-              swiper.params.pagination.el = paginationRef.current;
-            }}
+            pagination={{ clickable: true, el: '.swiper-pagination-custom' }}
             spaceBetween={30}
             slidesPerView={1}
             mousewheel={true}
@@ -82,24 +75,24 @@ const BlogSection: React.FC = () => {
             speed={800}
             className={styles.swiperInstance}
           >
-            {posts.map((post, index) => (
+            {posts.slice(0, 5).map((post, index) => (
               <SwiperSlide key={index} className={styles.swiperSlide}>
                 <div className={styles.card}>
                   <div className={styles.imageWrapper}>
-                    <Image src={post.imageUrl} alt={post.title} width={350} height={200} className={styles.postImage} />
+                    <Image src={getStrapiMedia(post.featuredImage)} alt={post.title} width={350} height={200} className={styles.postImage} />
                   </div>
                   <div className={styles.contentWrapper}>
-                    <span className={styles.postDate}>{post.date}</span>
+                    <span className={styles.postDate}>{new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                     <h3 className={styles.postTitle}>{post.title}</h3>
-                    <p className={styles.postExcerpt}>{post.excerpt}</p>
-                    <Link href={post.slug} className={styles.readMoreButton}>Read More</Link>
+                    <p className={styles.postExcerpt} dangerouslySetInnerHTML={{ __html: post.content }}></p>
+                    <Link href={`/blogs/${post.slug}`} className="btn btn-outline-primary">Read More</Link>
                   </div>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
         )}
-        <div ref={paginationRef} className="swiper-pagination-custom"></div>
+        <div className="swiper-pagination-custom"></div>
       </div>
     </section>
   );

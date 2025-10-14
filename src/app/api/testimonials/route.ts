@@ -1,14 +1,18 @@
-import { TestimonialController } from "@/controller/TestimonialController";
-import "reflect-metadata";
-
-const testimonialController = new TestimonialController();
+import { NextResponse } from 'next/server';
+import { TestimonialService } from '../../../../src/service/TestimonialService';
 
 export async function GET() {
-  console.log("Fetching all testimonials");
-  return testimonialController.getAll();
-}
-
-export async function POST(request: Request) {
-  console.log("Creating a new testimonial");
-  return testimonialController.create(request);
+  try {
+    const testimonialService = new TestimonialService();
+    const testimonials = await testimonialService.getAll();
+    
+    if (!testimonials || testimonials.length === 0) {
+      return NextResponse.json({ message: "No testimonials found" }, { status: 404 });
+    }
+    
+    return NextResponse.json(testimonials);
+  } catch (error) {
+    console.error("Error fetching testimonials:", error);
+    return new NextResponse('Internal Server Error', { status: 500 });
+  }
 }

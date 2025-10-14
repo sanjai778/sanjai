@@ -17,8 +17,8 @@ const InfoSection: React.FC<InfoSectionProps> = ({ tagline, title, description, 
       <div className={`container ${styles.infoContainer}`}>
         <div className={styles.textContent}>
           {arrowImageUrl && <Image src={arrowImageUrl} alt="Arrow" width={150} height={100} className={styles.arrowImage} />}
-          <p className={styles.tagline}>{tagline}</p>
-          <h2 className={styles.title}>{title}</h2>
+          <h2 className={styles.tagline}>{tagline}</h2>
+          <h3 className={styles.title}>{title}</h3>
           <p className={styles.description}>{description}</p>
         </div>
         <div className={styles.imageContent}>

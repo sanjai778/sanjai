@@ -36,16 +36,6 @@
   border-radius: 6px;
   margin-bottom: 1rem;
 }
-.formColumn button {
-  width: 100%;
-  padding: 12px;
-  background: var(--primary-green);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 500;
-}
 .formColumn button:disabled { background: #ccc; }
 .closeButton {
   position: absolute;

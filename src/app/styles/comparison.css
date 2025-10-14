@@ -1,0 +1,221 @@
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: 0px solid #ddd;
+        }
+       th, td {
+           border: 0px solid #ddd;
+ padding: 15px;
+    font-weight: 600;
+  text-align: center;
+  background: #fff;
+}
+
+        th {
+            background-color: #f4f4f4;
+        }
+        tr {
+            background-color: #fff;
+            border-bottom:1px solid #ddd;
+        }
+        .status-icon {
+            width: 25px;
+        }
+       .highlight {
+  background-color: #f2fff9;
+  border-left: 2px solid #28d57a;
+  border-right: 2px solid #28d57a;
+}
+.onfra-logo-compare{
+    width:80px;
+}
+.top-border {
+  border-top: 2px solid #28d57a;
+  height: 60px;
+  border-bottom: 2px solid #28d57a;
+}
+.signup-now-btn{
+border-radius: 6px;
+  box-shadow: 0 0 0 #b8b9be,0 0 0 #fff;
+  border: 1px solid #28d57a !important;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: linear-gradient(180deg, #28d57a 0%, #10c469 100%);
+  padding: 10px 15px;
+  color: #fff !important;
+  display:block;
+  width: 130px;
+  margin: auto;
+  margin-top: 15px;
+  width:100%;
+}
+.nocredit {
+  font-size: 0.7rem;
+  margin-top: -20px;
+  padding-bottom: 15px;
+}
+.empty-td{
+    border:0px;
+}
+.product-price span {
+  font-size: 1rem;
+}
+
+/*card*/
+.client-pricing-card {
+  padding: 30px;
+  border: 1px solid #ddd;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
+  border-top: 7px solid #ddd !important;
+  border-bottom-left-radius: 15px;
+}
+.product-price {
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.compare-feature-list {
+        display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+.compare-feature-para {
+    font-weight: 600;
+}
+.our-pricing-card {
+  border: 1px solid #28d57a;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(40, 213, 122);
+  padding: 30px;
+  margin-top: -25px;
+  border-top: 7px solid #28d57a;
+  box-shadow: 0 4px 36px rgba(50, 78, 135, .3);
+  border-bottom-right-radius: 10px;
+}
+.plans-container{
+    padding: 80px 40px 60px 40px !important;
+  box-shadow: 0 4px 36px rgba(50, 78, 135, .3);
+  border-radius: 30px;
+      position: relative;
+          background: #fff;
+              z-index: 2;
+}
+.save-amount{
+    color:#28d57a;
+    font-weight:600;
+}
+.business-proposal {
+  padding-top: 15px;
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+}
+.plan-name {
+  padding-bottom: 5px;
+  font-weight: 600;
+  color: #28d57a;
+  font-size: 1.2rem;
+}
+.comparison-des{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span.workplace {
+    background: linear-gradient(120deg, #28D57A 20%, #0be974 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    animation: gradientAnimation 10s linear infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0 92%;
+    }
+    100% {
+        background-position: 100% 92%;
+    }
+}
+.plan-disadvantages{
+    display:flex;
+}
+
+
+@media screen and (min-width:0px) and (max-width:767px)
+{
+    #sub-pag-hero-section{
+        padding-top:30px;
+        
+    }
+    
+.plan-disadvantages{
+    display:block;
+}
+.our-pricing-card {
+
+        margin-top: 20px;
+    margin-bottom: 20px;
+}
+.after-scroll {
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+     transform: unset;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px)
+{
+    #sub-pag-hero-section{
+        padding-top:50px !important;
+    }
+}
+@media (min-width:992px)
+{
+#sub-pag-hero-section{
+        padding-top:100px;
+        /*padding-bottom:100px;*/
+        
+    } 
+    /* Class after scrolling */
+.after-scroll {
+    transition: all .3s cubic-bezier(.4,0,.2,1);
+     transform: scale(1.2);
+}
+.before-scroll {
+   
+        transition: all .5s ease-in-out;
+}
+}
+
+#comparison-features{
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.without-product-price{
+    font-size:0.8rem;
+    font-weight:400;
+    text-align:left;
+}
+
+/*img.top {*/
+/*    width: 90px;*/
+/*    position: absolute;*/
+/*    right: 150px;*/
+/*    top: 113px;*/
+/*    z-index: 1*/
+/*}*/
+/*img.bottom {*/
+/*  width: 155px;*/
+/*    position: absolute;*/
+/*    left: 170px;*/
+/*    bottom: 120px;*/
+/*    z-index: 1;*/
+/*}*/
+
+/* Initial class before scrolling */
+
+
+

@@ -70,7 +70,7 @@ const NewsletterModal: React.FC = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                   />
-                  <button type="submit" disabled={isLoading}>
+                  <button type="submit" disabled={isLoading} className="btn btn-primary">
                     {isLoading ? 'Subscribing...' : 'Subscribe'}
                   </button>
                 </form>

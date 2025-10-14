@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           {/* Column 1: Brand Info */}
           <div className={styles.brandColumn}>
             <div className={styles.logoWrapper}>
-              <Image src="/images/logos/onfra-logo.png" alt="Onfra Logo" width={100} height={40} />
+              <Image src="/public/images/logos/onfra-logo.png" alt="Onfra Logo" width={100} height={40} />
               {/* <span className={styles.logoText}>Onfra</span> */}
             </div>
             <p className={styles.description}>

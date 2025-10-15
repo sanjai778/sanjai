@@ -1,4 +1,4 @@
-import { CompareController } from "../../../controller/CompareController";
+import { CompareController } from "@/controller/CompareController";
 import { NextRequest } from "next/server";
 
 const compareController = new CompareController();

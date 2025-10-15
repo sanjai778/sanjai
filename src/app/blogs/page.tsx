@@ -10,7 +10,7 @@ interface Post {
   content: string;
   date: string;
   slug: string;
-  featuredImage: string | null;
+  image: string | null;
   categories: Category[];
 }
 

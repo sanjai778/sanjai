@@ -5,19 +5,19 @@
 import React, { useState, useMemo } from 'react';
 import useDebounce from '../hooks/useDebounce'; // Your existing hook
 
+interface Category {
+  id: number;
+  name: string;
+}
+
 interface Post {
   id: number;
   title: string;
   content: string;
   date: string;
   slug: string;
-  featuredImage: string | null;
+  image: string | null;
   categories: Category[];
-}
-
-interface Category {
-  id: number;
-  name: string;
 }
 
 interface HighlightProps {
@@ -56,7 +56,7 @@ const PostCard: React.FC<PostCardProps> = React.memo(function PostCard({ post, h
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
   };
 
-  const imageUrl = post.featuredImage;
+  const imageUrl = post.image;
 
   return (
     <div style={{

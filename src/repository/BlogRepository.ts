@@ -12,6 +12,7 @@ export class BlogRepository {
     try {
       const repository = await this.getRepository();
       return repository.find({
+        select: ["id", "title", "slug", "date", "featuredImage", "categories"],
         relations: ["categories"],
         order: {
           date: "DESC",

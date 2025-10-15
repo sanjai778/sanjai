@@ -11,7 +11,11 @@ export class CategoryController {
   async getAll() {
     try {
       const categories = await this.categoryService.getAll();
-      return NextResponse.json(categories);
+      const categoriesToSend = categories.map((category) => ({
+        id: category.id,
+        name: category.name,
+      }));
+      return NextResponse.json(categoriesToSend);
     } catch (error) {
       console.error("Error fetching categories:", error);
       return new NextResponse(

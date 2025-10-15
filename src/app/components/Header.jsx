@@ -1,5 +1,7 @@
 import { UserIcon, KeyIcon, ClockIcon, UsersIcon, CubeIcon, ClipboardDocumentListIcon, BuildingOfficeIcon, ComputerDesktopIcon, TruckIcon, ViewfinderCircleIcon, ArrowDownOnSquareIcon, CodeBracketIcon, PuzzlePieceIcon, } from '@heroicons/react/24/outline';
 import HeaderContent from './HeaderContent';
+import Link from 'next/link';
+
 var Header = function () {
     var platformLinks = [
         { href: "/platform/visitors/", icon: <UserIcon />, title: "Visitor", description: "Manage visitor check-ins and track data securely." },

@@ -15,6 +15,14 @@
   --background-light: #f8f9fa;
   --font-family: 'Inter', sans-serif;
   --footer-bg: #f7f8fa;
+  --white: #ffffff;
+
+  /* Font Sizes */
+  --font-size-xxl: 2.5em; /* Extra extra large */
+  --font-size-xl: 2rem; /* Extra large */
+  --font-size-lg: 1.25rem; /* Large */
+  --font-size-md: 1.125rem; /* Medium */
+  --font-size-base: 1rem; /* Base */
 }
 
 body {

@@ -1,5 +1,5 @@
-import { getFaqRepository } from "../repository/FaqRepository";
-import { Faq } from "../entity/Faq";
+import { getFaqRepository } from "@/repository/FaqRepository";
+import { Faq } from "@/entity/Faq";
 
 export class FaqService {
   public async getAllFaqs(): Promise<Faq[]> {

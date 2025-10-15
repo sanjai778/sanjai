@@ -1,5 +1,5 @@
-import { getCountryWorkplaceDataRepository } from "../repository/CountryWorkplaceDataRepository";
-import { CountryWorkplaceData } from "../entity/CountryWorkplaceData";
+import { getCountryWorkplaceDataRepository } from "@/repository/CountryWorkplaceDataRepository";
+import { CountryWorkplaceData } from "@/entity/CountryWorkplaceData";
 
 export class CountryWorkplaceDataService {
   public async getAllCountryWorkplaceData(): Promise<CountryWorkplaceData[]> {

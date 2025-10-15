@@ -1,5 +1,5 @@
-import { Category } from "../entity/Category";
-import { CategoryRepository } from "../repository/CategoryRepository";
+import { Category } from "@/entity/Category";
+import { CategoryRepository } from "@/repository/CategoryRepository";
 
 export class CategoryService {
   private categoryRepository: CategoryRepository;

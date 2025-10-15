@@ -1,5 +1,5 @@
-import { getCaseStudyRepository } from "../repository/CaseStudyRepository";
-import { CaseStudy } from "../entity/CaseStudy";
+import { getCaseStudyRepository } from "@/repository/CaseStudyRepository";
+import { CaseStudy } from "@/entity/CaseStudy";
 
 export class CaseStudyService {
   public async getAllCaseStudies(): Promise<CaseStudy[]> {

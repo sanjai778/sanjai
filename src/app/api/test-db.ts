@@ -1,6 +1,7 @@
+import { NextApiRequest, NextApiResponse } from 'next';
 import mysql from 'mysql2/promise';
 
-export default async function handler(req, res) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   let connection;
   try {
     connection = await mysql.createConnection({
@@ -11,7 +12,7 @@ export default async function handler(req, res) {
     });
     console.log('DB Connection Successful');
     res.status(200).json({ message: '✅ Connection Successful!' });
-  } catch (error) {
+  } catch (error: any) {
     console.error('DB Connection Failed:', error);
     res.status(500).json({ message: '❌ Connection Failed', error: error.message });
   } finally {

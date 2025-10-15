@@ -1,4 +1,4 @@
-import { FaqService } from "../service/FaqService";
+import { FaqService } from "@/service/FaqService";
 import { NextRequest, NextResponse } from "next/server";
 
 export class FaqController {

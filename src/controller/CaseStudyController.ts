@@ -1,4 +1,4 @@
-import { CaseStudyService } from "../service/CaseStudyService";
+import { CaseStudyService } from "@/service/CaseStudyService";
 import { NextRequest, NextResponse } from "next/server";
 
 export class CaseStudyController {

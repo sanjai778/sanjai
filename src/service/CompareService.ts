@@ -1,5 +1,5 @@
-import { getCompareRepository } from "../repository/CompareRepository";
-import { Compare } from "../entity/Compare";
+import { getCompareRepository } from "@/repository/CompareRepository";
+import { Compare } from "@/entity/Compare";
 
 export class CompareService {
   public async getAllCompares(): Promise<Compare[]> {

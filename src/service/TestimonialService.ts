@@ -1,5 +1,5 @@
-import { Testimonial } from "../entity/Testimonial";
-import { TestimonialRepository } from "../repository/TestimonialRepository";
+import { Testimonial } from "@/entity/Testimonial";
+import { TestimonialRepository } from "@/repository/TestimonialRepository";
 
 export class TestimonialService {
   private testimonialRepository: TestimonialRepository;

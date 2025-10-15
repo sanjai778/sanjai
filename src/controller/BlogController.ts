@@ -11,10 +11,14 @@ export class BlogController {
   async getAll() {
     try {
       const blogs = await this.blogService.getAll();
-      // Manually map to avoid circular references
-      const blogsToSend = blogs.map(blog => ({
-        ...blog,
-        categories: blog.categories.map(category => ({
+      // Manually map to avoid circular references and to select only the required fields
+      const blogsToSend = blogs.map((blog) => ({
+        id: blog.id,
+        title: blog.title,
+        slug: blog.slug,
+        date: blog.date,
+        image: blog.featuredImage,
+        categories: blog.categories.map((category) => ({
           id: category.id,
           name: category.name,
         })),

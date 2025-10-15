@@ -1,6 +1,6 @@
 import mysql from 'mysql2/promise';
 import { RowDataPacket } from 'mysql2';
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
 interface Post extends RowDataPacket {
   ID: number;
@@ -12,8 +12,11 @@ interface Post extends RowDataPacket {
 }
 
 // This MUST be a named export for the GET method.
-export async function GET(request: Request, { params }: { params: { slug: string } }) {
-  const { slug } = params;
+export async function GET(
+  request: NextRequest,
+  context: { params: Promise<{ slug: string }> }
+) {
+  const { slug } = await context.params;
 
   if (!slug) {
     return NextResponse.json({ success: false, error: "Post slug is required." }, { status: 400 });

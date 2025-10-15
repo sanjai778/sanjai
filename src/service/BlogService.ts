@@ -1,5 +1,5 @@
-import { Blog } from "../entity/Blog";
-import { BlogRepository } from "../repository/BlogRepository";
+import { Blog } from "@/entity/Blog";
+import { BlogRepository } from "@/repository/BlogRepository";
 
 export class BlogService {
   private blogRepository: BlogRepository;

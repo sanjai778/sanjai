@@ -2,11 +2,14 @@
 
 import mysql from 'mysql2/promise';
 import { RowDataPacket } from 'mysql2';
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 
-export async function GET(request: Request, { params }: { params: { tableName: string } }) {
+export async function GET(
+  request: NextRequest,
+  context: { params: Promise<{ tableName: string }> }
+) {
   // Extract the table name from the dynamic URL segment
-  const { tableName } = params;
+  const { tableName } = await context.params;
 
   if (!tableName) {
     return NextResponse.json(

@@ -1,4 +1,4 @@
-import { CompareService } from "../service/CompareService";
+import { CompareService } from "@/service/CompareService";
 import { NextRequest, NextResponse } from "next/server";
 
 export class CompareController {

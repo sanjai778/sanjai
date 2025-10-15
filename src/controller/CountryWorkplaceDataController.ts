@@ -1,4 +1,4 @@
-import { CountryWorkplaceDataService } from "../service/CountryWorkplaceDataService";
+import { CountryWorkplaceDataService } from "@/service/CountryWorkplaceDataService";
 import { NextRequest, NextResponse } from "next/server";
 
 export class CountryWorkplaceDataController {

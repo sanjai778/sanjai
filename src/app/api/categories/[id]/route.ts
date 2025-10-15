@@ -1,31 +1,32 @@
 import { CategoryController } from "@/controller/CategoryController";
+import { NextRequest, NextResponse } from "next/server";
 import "reflect-metadata";
 
 const categoryController = new CategoryController();
 
 export async function GET(
-  request: Request,
-  { params }: { params: { id: string } }
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ) {
-  console.log(`Fetching category with id: ${params.id}`);
-  const id = parseInt(params.id, 10);
-  return categoryController.getById(id);
+  const { id } = await context.params;
+  console.log(`Fetching category with id: ${id}`);
+  return categoryController.getById(parseInt(id, 10));
 }
 
 export async function PUT(
-  request: Request,
-  { params }: { params: { id: string } }
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ) {
-  console.log(`Updating category with id: ${params.id}`);
-  const id = parseInt(params.id, 10);
-  return categoryController.update(id, request);
+  const { id } = await context.params;
+  console.log(`Updating category with id: ${id}`);
+  return categoryController.update(parseInt(id, 10), request);
 }
 
 export async function DELETE(
-  request: Request,
-  { params }: { params: { id: string } }
+  request: NextRequest,
+  context: { params: Promise<{ id: string }> }
 ) {
-  console.log(`Deleting category with id: ${params.id}`);
-  const id = parseInt(params.id, 10);
-  return categoryController.delete(id);
+  const { id } = await context.params;
+  console.log(`Deleting category with id: ${id}`);
+  return categoryController.delete(parseInt(id, 10));
 }

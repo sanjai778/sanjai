@@ -302,4 +302,7 @@ export class Compare {
 
     @Column("varchar", { length: 255, name: "Title", nullable: true })
     title!: string;
+
+    @Column("varchar", { length: 255, name: "slug", nullable: true })
+    slug!: string;
 }

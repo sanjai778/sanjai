@@ -1,0 +1,79 @@
+.bestComparisonSection {
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.titleDiv {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.titleDiv h2 {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.titleDiv h3 {
+  font-size: 1.2em;
+  color: var(--text-light);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.colMd4 {
+  width: 33.33333333%;
+  padding: 0 15px;
+}
+
+.comparisonCardLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.comparisonCard {
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.comparisonCard:hover {
+  transform: translateY(-5px);
+}
+
+.cardHeaderLogo {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--background-light);
+}
+
+.cardLogo {
+  max-width: 100px;
+  height: auto;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 1em;
+  color: var(--text-light);
+}

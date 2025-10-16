@@ -1,0 +1,120 @@
+.section {
+  padding: 80px 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planDisadvantages {
+  display: flex;
+  width: 66.66666667%;
+}
+
+.clientPricingCard {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  width: 50%;
+}
+
+.ourPricingCard {
+  width: 50%;
+  padding: 20px;
+}
+
+.compareClient {
+  border: 1px solid var(--border-color);
+  border-top: 10px solid var(--border-color);
+  padding: 60px 0 0 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  text-align: center;
+}
+
+.clientLogoCompare {
+  font-size: var(--font-size-md);
+  color: var(--text-dark);
+}
+
+.businessProposal {
+  font-size: 1.2em;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.planName {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--primary-green);
+  margin-bottom: 20px;
+}
+
+.withoutProductPrice {
+  font-size: 1.2em;
+  text-align: start;
+}
+
+.ourPricingCard {
+  background-color: var(--background-light);
+  border: 1px solid var(--primary-green);
+  text-align: center;
+  border-top: 10px solid var(--primary-green);
+}
+
+.onfraLogoCompare {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.productPrice {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.span01 {
+  font-size: 0.6em;
+  color: var(--text-light);
+}
+
+.billingInfo {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.saveAmount {
+  color: var(--primary-green);
+  font-weight: 600;
+}
+
+
+.comparisonDes {
+  width: 33.33333333%;
+  padding-left: 30px;
+}
+
+.comparisonDes h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.comparisonDes div {
+  line-height: 1.7;
+  color: var(--text-light);
+}

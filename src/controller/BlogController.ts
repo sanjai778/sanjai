@@ -109,4 +109,17 @@ export class BlogController {
       );
     }
   }
+
+  async getLimitedBlogs(req: Request) {
+    try {
+      const blogs = await this.blogService.getLimitedBlogs();
+      return NextResponse.json(blogs);
+    } catch (error) {
+      console.error("Error fetching limited blogs:", error);
+      return new NextResponse(
+        JSON.stringify({ error: "Failed to fetch limited blogs" }),
+        { status: 500 }
+      );
+    }
+  }
 }

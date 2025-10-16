@@ -58,4 +58,24 @@ export class CompareService {
       throw error;
     }
   }
+
+  public async getCompareBySlug(slug: string): Promise<Compare | null> {
+    try {
+      const compareRepository = await getCompareRepository();
+      return compareRepository.findOne({ where: { slug: slug } });
+    } catch (error) {
+      console.error(`Error getting compare by slug ${slug}:`, error);
+      throw error;
+    }
+  }
+
+  public async getLimitedCompares(): Promise<Compare[]> {
+    try {
+      const compareRepository = await getCompareRepository();
+      return compareRepository.query("SELECT * FROM compare LIMIT 5");
+    } catch (error) {
+      console.error("Error getting limited compares:", error);
+      throw error;
+    }
+  }
 }

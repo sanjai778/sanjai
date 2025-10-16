@@ -1,0 +1,74 @@
+ .container {
+  margin: 60px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+.table tfoot td {
+  border-bottom: none;
+}
+
+.table th {
+  background-color: var(--background-light);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.onfraColumn {
+  background-color: #f0fff8;
+  border-left: 1px solid var(--primary-green);
+  border-right: 1px solid var(--primary-green);
+}
+
+.table .onfraColumn {
+  text-align: center;
+}
+
+.table th.onfraColumn {
+  border: 1px solid var(--primary-green);
+}
+
+.table tfoot .onfraColumn {
+  border-bottom: 1px solid var(--primary-green);
+}
+
+.table .competitorColumn {
+  text-align: center;
+}
+
+.signupButton {
+  background-color: var(--primary-green);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signupButton:hover {
+  background-color: var(--primary-green-dark);
+}
+
+.signupNote {
+  font-size: 0.8em;
+  color: var(--text-light);
+  margin-top: 8px;
+}

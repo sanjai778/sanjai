@@ -19,10 +19,10 @@ const BestComparisons: React.FC<BestComparisonsProps> = ({ data }) => {
     <div>
       <div className={styles.grid}>
         {data.map((compare: any) => (
-          <Link key={compare.Id} href={`/compares/${compare.Id}`} className={styles.card}>
+          <Link key={compare.Id} href={`/compares/${compare.slug}`} className={styles.card}>
             {compare.imgUrl && <img src={compare.imgUrl} alt={compare.mainTitle} className={styles.logo} />}
             <h3>Onfra vs {compare.mainTitle} | Alternative to {compare.mainTitle}</h3>
-            <p>{truncateWords(compare.pageDescription, 10)}</p>
+            <p>{truncateWords(compare.pageDescription, 14)}</p>
           </Link>
         ))}
       </div>

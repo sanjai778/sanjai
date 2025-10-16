@@ -7,6 +7,7 @@ import CompareSearch from '@/app/components/CompareSearch';
 import BestComparisons from '@/app/components/BestComparisons';
 import NewPagination from '@/app/components/NewPagination';
 import TestimonialSection from '../components/sections/TestimonialSection';
+import CtaSection from '../components/sections/CtaSection';
 
 async function getCompares() {
   try {
@@ -28,7 +29,7 @@ export default function ComparesPage() {
   const [compares, setCompares] = useState<any[]>([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(6);
+  const [itemsPerPage] = useState(12);
 
   useEffect(() => {
     async function fetchData() {
@@ -38,9 +39,16 @@ export default function ComparesPage() {
     fetchData();
   }, []);
 
-  const filteredCompares = compares.filter((compare: any) =>
-    compare.mainTitle.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredCompares = compares
+    .filter(
+      (compare: any) =>
+        compare.mainTitle &&
+        compare.mainTitle.toLowerCase() !== 'title' &&
+        compare.mainTitle.toLowerCase() !== 'onfra'
+    )
+    .filter((compare: any) =>
+      compare.mainTitle.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
@@ -67,6 +75,7 @@ export default function ComparesPage() {
         )}
       </main>
        <TestimonialSection />
+       <CtaSection />
       <Footer />
     </>
   );

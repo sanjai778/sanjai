@@ -33,6 +33,21 @@ export class CompareController {
     }
   }
 
+  public async getCompareBySlug(req: NextRequest, { params }: { params: { slug: string } }) {
+    try {
+      const slug = params.slug;
+      const compare = await this.compareService.getCompareBySlug(slug);
+      if (compare) {
+        return NextResponse.json(compare);
+      } else {
+        return NextResponse.json({ error: 'Compare not found' }, { status: 404 });
+      }
+    } catch (error) {
+      console.error(`Error fetching compare with slug ${params.slug}:`, error);
+      return NextResponse.json({ error: 'Failed to fetch compare' }, { status: 500 });
+    }
+  }
+
   public async createCompare(req: NextRequest) {
     try {
       const body = await req.json();
@@ -72,6 +87,16 @@ export class CompareController {
     } catch (error) {
       console.error(`Error deleting compare with id ${params.id}:`, error);
       return NextResponse.json({ error: 'Failed to delete compare' }, { status: 500 });
+    }
+  }
+
+  public async getLimitedCompares(req: NextRequest) {
+    try {
+      const compares = await this.compareService.getLimitedCompares();
+      return NextResponse.json(compares);
+    } catch (error) {
+      console.error("Error fetching limited compares:", error);
+      return NextResponse.json({ error: 'Failed to fetch limited compares' }, { status: 500 });
     }
   }
 }

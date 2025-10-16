@@ -61,4 +61,13 @@ export class BlogService {
       throw error;
     }
   }
+
+  async getLimitedBlogs() {
+    try {
+      return this.blogRepository.getAll(5);
+    } catch (error) {
+      console.error("Error getting limited blogs:", error);
+      throw error;
+    }
+  }
 }

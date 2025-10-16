@@ -12,7 +12,7 @@ interface NewPaginationProps {
 const NewPagination: React.FC<NewPaginationProps> = ({ currentPage, totalPages, onPageChange }) => {
   const getPageNumbers = () => {
     const pageNumbers = [];
-    const maxPagesToShow = 5;
+    const maxPagesToShow = 3;
     const halfPagesToShow = Math.floor(maxPagesToShow / 2);
 
     if (totalPages <= maxPagesToShow) {

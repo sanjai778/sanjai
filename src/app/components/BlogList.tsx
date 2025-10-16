@@ -79,15 +79,13 @@ export default function BlogList({ posts, categories }: BlogListProps) {
       {/* Blog Grid */}
       <div className={styles.blog_grid}>
         {paginatedPosts.map(post => (
-          <div key={post.id} className={styles.blog_card}>
+          <Link key={post.id} href={`/blogs/${post.slug}`} className={styles.blog_card}>
             {post.featuredImage && (
               <img src={post.featuredImage} alt={post.title} className={styles.card_image} />
             )}
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>
-                <Link href={`/blogs/${post.slug}`}>
-                  {post.title}
-                </Link>
+                {post.title}
               </h2>
               <p className={styles.card_date}>
                 {new Date(post.date).toLocaleDateString('en-US', {
@@ -97,11 +95,11 @@ export default function BlogList({ posts, categories }: BlogListProps) {
               <p className={styles.card_excerpt}>
                 {post.content ? `${post.content.substring(0, 100)}...` : ''}
               </p>
-              <Link href={`/blogs/${post.slug}`} className={styles.read_more_btn}>
+              <span className={styles.read_more_btn}>
                 Read More
-              </Link>
+              </span>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 

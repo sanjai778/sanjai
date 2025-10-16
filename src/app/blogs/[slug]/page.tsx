@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import BlogSidebar from '../../components/BlogSidebar';
+import SubPageTitle from '../../components/SubPageTitle';
 import styles from './blog-post.module.css';
 
 interface Post {
@@ -45,14 +46,13 @@ export default async function SinglePostPage({ params }: { params: { slug: strin
   return (
     <>
       <Header />
+      <SubPageTitle title={post.title} />
       <main className={styles.container}>
         <div className={styles.grid}>
           <article className={styles.main_content}>
             <Link href="/blogs" className={styles.back_link}>
               &larr; Back to All Posts
             </Link>
-            
-            <h1 className={styles.title}>{post.title}</h1>
             
             {post.date && (
               <p className={styles.date}>

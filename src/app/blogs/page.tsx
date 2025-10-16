@@ -66,11 +66,9 @@ export default async function BlogsPage() {
   return (
     <>
       <Header />
+
       <main className={styles.container}>
-        <h1 className={styles.title}>
-          Explore Tips On Workspace Efficiency And Visitor Management
-        </h1>
-        
+          <h1 className={styles.title}>Explore Tips On Workspace Efficiency And Visitor Management</h1>
         {/* Render the interactive component, passing the static data as a prop */}
         <BlogList posts={posts} categories={categories} />
         

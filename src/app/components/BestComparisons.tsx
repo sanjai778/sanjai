@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import styles from './BestComparisons.module.css';
 
 interface BestComparisonsProps {
   data: any[];
@@ -8,13 +9,14 @@ interface BestComparisonsProps {
 
 const BestComparisons: React.FC<BestComparisonsProps> = ({ data }) => {
   return (
-    <div style={{ marginTop: '40px' }}>
-      <h2 style={{ textAlign: 'center', fontSize: '2em', marginBottom: '20px' }}>Best Comparisons</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '24px' }}>
+    <div>
+      <div className={styles.grid}>
         {data.map((compare: any) => (
-          <a key={compare.Id} href={`/compares/${compare.Id}`} style={{ textDecoration: 'none', color: 'inherit', border: '1px solid #eee', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', padding: '20px' }}>
-            <img src={compare.imgUrl} alt={compare.mainTitle} style={{ width: '100%', height: '200px', objectFit: 'cover' }}/>
-            <h3 style={{ marginTop: 0, fontSize: '1.1em', marginBottom: '10px' }}>Onfra vs {compare.mainTitle}</h3>
+          <a key={compare.Id} href={`/compares/${compare.Id}`} className={styles.card}>
+            <div className={styles.imageContainer}>
+              <img src={compare.imgUrl} alt={compare.mainTitle} className={styles.logo} />
+            </div>
+            <h3>Onfra vs {compare.mainTitle} | Alternative to {compare.mainTitle}</h3>
             <p>{compare.pageDescription}</p>
           </a>
         ))}

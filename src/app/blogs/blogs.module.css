@@ -6,7 +6,9 @@
 
 .title {
   text-align: center;
-  font-size: var(--font-size-xl);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.4;
   margin-bottom: 40px;
   color: var(--text-dark);
 }
@@ -53,12 +55,17 @@
 
 .blog_card {
   background: #fff;
-  border: 1px solid #eee;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s;
   opacity: 0;
   animation: fadeIn 2s forwards;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-decoration: none;
+  color: var(--text-dark);
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes fadeIn {
@@ -72,6 +79,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+
 .card_image {
   width: 100%;
   height: 200px;
@@ -80,32 +88,57 @@
 
 .card_content {
   padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .card_title {
   font-size: var(--font-size-lg);
   margin: 0 0 10px;
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+.card_title_link {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.card_title_link:hover {
+  text-decoration: underline;
+  color: var(--primary-green);
 }
 
 .card_excerpt {
   color: var(--text-light);
   margin-bottom: 20px;
+  flex-grow: 1;
 }
 
 .read_more_btn {
-  color: var(--primary-green);
+  background-color: var(--primary-green);
+  color: #fff !important;
+  padding: 10px 15px;
+  border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  margin-top: auto;
+  align-self: flex-start;
+  transition: background-color 0.3s;
 }
 
-.card_title a {
-  color: var(--text-dark);
-  text-decoration: none;
+.read_more_btn:hover {
+    background-color: var(--primary-green-dark);
 }
+
 
 .card_date {
   color: var(--text-light);
   font-size: 0.9em;
+  margin-bottom: 15px;
 }
 
 .pagination {

@@ -1,19 +1,15 @@
 "use client";
 
 import React from 'react';
-import styles from './CompareHeader.module.css';
+import styles from './CompareSearch.module.css';
 
-interface CompareHeaderProps {
-  competitor: any;
-}
-
-const CompareHeader: React.FC<CompareHeaderProps> = ({ competitor }) => {
+const CompareSearch: React.FC = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>The Best {competitor.mainTitle} Alternative for Workspace Digital Transformation</h1>
-      <div className={styles.buttons}>
-        <a href="#" className={`${styles.button} ${styles.primary}`}>Signup For Free!</a>
-        <a href="#" className={`${styles.button} ${styles.secondary}`}>Talk to Us</a>
+      <h1 className={styles.title}>Best Digital Transformation Tools for Workplace Management</h1>
+      <div className={styles.searchBox}>
+        <input type="text" placeholder="Search comparisons..." className={styles.searchInput} />
+        <button className={styles.searchButton}>Search</button>
       </div>
       <div className={styles.features}>
         <div className={styles.feature}>
@@ -42,4 +38,4 @@ const CompareHeader: React.FC<CompareHeaderProps> = ({ competitor }) => {
   );
 };
 
-export default CompareHeader;
+export default CompareSearch;

@@ -1,5 +1,7 @@
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import CompareSearch from '@/app/components/CompareSearch';
+import BestComparisons from '@/app/components/BestComparisons';
 
 async function getCompares() {
   try {
@@ -23,22 +25,12 @@ export default async function ComparesPage() {
   return (
     <>
       <Header />
-      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px', fontFamily: 'sans-serif' }}>
-        <h1 style={{ textAlign: 'center', fontSize: '2.5em', marginBottom: '40px' }}>
-          Compares
-        </h1>
+      <CompareSearch />
+      <main style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
         {compares.length > 0 ? (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '24px' }}>
-            {compares.map((compare: any) => (
-              <a key={compare.Id} href={`/compares/${compare.Id}`} style={{ textDecoration: 'none', color: 'inherit', border: '1px solid #eee', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0,0,0,0.1)', padding: '20px' }}>
-                <img src={compare.imgUrl} alt={compare.mainTitle} style={{ width: '100%', height: '200px', objectFit: 'cover' }}/>
-                <h2 style={{ marginTop: 0, fontSize: '1.1em', marginBottom: '10px' }}>Onfra vs {compare.mainTitle}</h2>
-                <p>{compare.pageDescription}</p>
-              </a>
-            ))}
-          </div>
+          <BestComparisons data={compares} />
         ) : (
-          <p>No compares found.</p>
+          <p style={{ textAlign: 'center' }}>No compares found.</p>
         )}
       </main>
       <Footer />

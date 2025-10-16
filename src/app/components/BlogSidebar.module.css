@@ -1,0 +1,37 @@
+.sidebar {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.sidebar_widget {
+  margin-bottom: 30px;
+}
+
+.sidebar_title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--primary-green);
+  padding-bottom: 10px;
+}
+
+.sidebar_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar_list_item {
+  margin-bottom: 10px;
+}
+
+.sidebar_link {
+  color: var(--text-dark);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.sidebar_link:hover {
+  color: var(--primary-green);
+}

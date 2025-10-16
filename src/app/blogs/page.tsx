@@ -3,6 +3,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import BlogList from '../components/BlogList'; // Import the new client component
+import styles from './blogs.module.css';
 
 interface Post {
   id: number;
@@ -10,7 +11,7 @@ interface Post {
   content: string;
   date: string;
   slug: string;
-  image: string | null;
+  featuredImage: string | null;
   categories: Category[];
 }
 
@@ -65,8 +66,8 @@ export default async function BlogsPage() {
   return (
     <>
       <Header />
-      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px', fontFamily: 'sans-serif' }}>
-        <h1 style={{ textAlign: 'center', fontSize: '2.5em', marginBottom: '40px' }}>
+      <main className={styles.container}>
+        <h1 className={styles.title}>
           Explore Tips On Workspace Efficiency And Visitor Management
         </h1>
         

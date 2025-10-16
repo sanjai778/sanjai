@@ -8,15 +8,16 @@ export class BlogRepository {
     return connection.getRepository(Blog);
   }
 
-  async getAll() {
+  async getAll(limit?: number) {
     try {
       const repository = await this.getRepository();
       return repository.find({
-        select: ["id", "title", "slug", "date", "featuredImage", "categories"],
+        select: ["id", "title", "slug", "date", "featuredImage", "categories", "content"],
         relations: ["categories"],
         order: {
           date: "DESC",
         },
+        take: limit,
       });
     } catch (error) {
       console.error("Error getting all blogs:", error);

@@ -1,10 +1,12 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { BlogService } from '@/service/BlogService';
 
-export async function GET() {
+export async function GET(request: NextRequest) {
   try {
+    const { searchParams } = new URL(request.url);
+    const limit = searchParams.get('limit');
     const blogService = new BlogService();
-    const blogs = await blogService.getAll();
+    const blogs = await blogService.getAll(limit ? parseInt(limit) : undefined);
     
     if (!blogs || blogs.length === 0) {
       return NextResponse.json({ message: "No blogs found" }, { status: 404 });

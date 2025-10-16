@@ -94,3 +94,30 @@ body {
   color: #fff !important;
   border-color: var(--primary-green-dark) !important;
 }
+
+.btn-secondary {
+  background-color: var(--text-light) !important;
+  color: var(--white) !important;
+  border-color: var(--text-light) !important;
+}
+
+.btn-secondary:hover {
+  background-color: var(--text-dark) !important;
+  border-color: var(--text-dark) !important;
+}
+
+.btn-submit {
+  background-color: var(--primary-green) !important;
+  color: var(--white) !important;
+  border: none !important;
+  padding: 15px 30px !important;
+  border-radius: 6px !important;
+  font-size: var(--font-size-md) !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  transition: background-color 0.3s !important;
+}
+
+.btn-submit:hover {
+  background-color: var(--primary-green-dark) !important;
+}

@@ -1,0 +1,147 @@
+.container {
+  max-width: 1140px;
+  margin: 2rem auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: var(--font-size-xl);
+  margin-bottom: 40px;
+  color: var(--text-dark);
+}
+
+.search_bar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: var(--font-size-base);
+  display: block;
+}
+
+.category_filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.category_button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--text-light);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+
+.category_button.active {
+  color: var(--primary-green);
+  border-bottom-color: var(--primary-green);
+}
+
+.blog_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.blog_card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.blog_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card_content {
+  padding: 20px;
+}
+
+.card_title {
+  font-size: var(--font-size-lg);
+  margin: 0 0 10px;
+}
+
+.card_excerpt {
+  color: var(--text-light);
+  margin-bottom: 20px;
+}
+
+.read_more_btn {
+  color: var(--primary-green);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card_title a {
+  color: var(--text-dark);
+  text-decoration: none;
+}
+
+.card_date {
+  color: var(--text-light);
+  font-size: 0.9em;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pagination_button {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 0 5px;
+  transition: all 0.3s;
+}
+
+.pagination_button:hover:not(:disabled) {
+  background: var(--primary-green);
+  color: #fff;
+  border-color: var(--primary-green);
+}
+
+.pagination_button:hover:not(:disabled) {
+  background: var(--primary-green);
+  color: #fff;
+  border-color: var(--primary-green);
+}
+
+.pagination_button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination_info {
+  margin: 0 15px;
+}

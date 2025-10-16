@@ -8,9 +8,9 @@ export class BlogService {
     this.blogRepository = new BlogRepository();
   }
 
-  async getAll() {
+  async getAll(limit?: number) {
     try {
-      return this.blogRepository.getAll();
+      return this.blogRepository.getAll(limit);
     } catch (error) {
       console.error("Error getting all blogs:", error);
       throw error;

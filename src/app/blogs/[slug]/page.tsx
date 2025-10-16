@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import BlogSidebar from '../../components/BlogSidebar';
+import styles from './blog-post.module.css';
 
 interface Post {
   id: number;
@@ -43,35 +45,39 @@ export default async function SinglePostPage({ params }: { params: { slug: strin
   return (
     <>
       <Header />
-      <main style={{ maxWidth: '800px', margin: '2rem auto', padding: '20px', fontFamily: 'sans-serif', position: 'relative', zIndex: 1 }}>
-        <article>
-          <Link href="/blogs" style={{ color: '#0070f3', textDecoration: 'none', marginBottom: '2rem', display: 'inline-block' }}>
-            &larr; Back to All Posts
-          </Link>
-          
-          <h1 style={{ fontSize: '2.5em', marginBottom: '0.5rem' }}>{post.title}</h1>
-          
-          {post.date && (
-            <p style={{ fontStyle: 'italic', color: '#555', marginTop: 0 }}>
-              Published on: {new Date(post.date).toLocaleDateString('en-US', {
-                year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
-              })}
-            </p>
-          )}
-          
-          {imageUrl && (
-            <img 
-              src={imageUrl} 
-              alt={post.title || 'Blog post image'} 
-              style={{ width: '100%', height: 'auto', borderRadius: '8px', margin: '20px 0' }} 
+      <main className={styles.container}>
+        <div className={styles.grid}>
+          <article className={styles.main_content}>
+            <Link href="/blogs" className={styles.back_link}>
+              &larr; Back to All Posts
+            </Link>
+            
+            <h1 className={styles.title}>{post.title}</h1>
+            
+            {post.date && (
+              <p className={styles.date}>
+                Published on: {new Date(post.date).toLocaleDateString('en-US', {
+                  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
+                })}
+              </p>
+            )}
+            
+            {imageUrl && (
+              <img 
+                src={imageUrl} 
+                alt={post.title || 'Blog post image'} 
+                className={styles.featured_image}
+              />
+            )}
+            
+            <div 
+              className={styles.content}
+              dangerouslySetInnerHTML={{ __html: post.content || '' }} 
             />
-          )}
+          </article>
           
-          <div 
-            style={{ lineHeight: '1.7', fontSize: '1.1em' }}
-            dangerouslySetInnerHTML={{ __html: post.content || '' }} 
-          />
-        </article>
+          <BlogSidebar />
+        </div>
       </main>
       <Footer />
     </>

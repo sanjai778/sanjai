@@ -139,7 +139,7 @@ const HeaderContent: React.FC<HeaderContentProps> = ({
           <li><Link href="/blogs">Blogs</Link></li>
           <li><Link href="/contact-us">Contact Us</Link></li>
           <li>
-            <a href="https://app.onfra.io/signup" className="btn btn-primary-header">Signup Now</a>
+            <a href="https://app.onfra.io/signup" className="btn btn-primary">Signup Now</a>
           </li>
         </ul>
         <i className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'} ${styles.toggle_navbar}`} onClick={handleMenuToggle}></i>

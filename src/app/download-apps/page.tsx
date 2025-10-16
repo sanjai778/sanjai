@@ -1,15 +1,17 @@
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
+import SubPageTitle from '@/app/components/SubPageTitle';
+import CtaSection from '@/app/components/sections/CtaSection';
 
 export default function DownloadAppsPage() {
   return (
     <>
       <Header />
-      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px', fontFamily: 'sans-serif' }}>
-        <h1 style={{ textAlign: 'center', fontSize: '2.5em', marginBottom: '40px' }}>
-          Download Apps
-        </h1>
+      <SubPageTitle title="Download Apps" />
+      <main className="container">
+        {/* Add page content here */}
       </main>
+      <CtaSection />
       <Footer />
     </>
   );

@@ -1,0 +1,57 @@
+
+.form_container {
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 100px auto 0;
+  position: relative;
+  z-index: 1;
+}
+
+.image_container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.image {
+  max-width: 250px;
+  height: auto;
+}
+
+.question_group {
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: var(--font-size-md);
+  margin-bottom: 15px;
+  color: var(--text-dark);
+}
+
+.smiley_group {
+  display: flex;
+  gap: 20px;
+}
+
+.smiley {
+  font-size: 2em;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.smiley:hover,
+.smiley.selected {
+  opacity: 1;
+}
+
+.email_input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: var(--font-size-base);
+  margin-top: 10px;
+}

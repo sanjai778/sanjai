@@ -172,6 +172,7 @@ export default function ContactUsPage() {
 
       </main>
 
+      <CtaSection />
       <Footer />
     </>
   );

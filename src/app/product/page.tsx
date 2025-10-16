@@ -1,15 +1,17 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/app/components/Header';
+import Footer from '@/app/components/Footer';
+import SubPageTitle from '@/app/components/SubPageTitle';
+import CtaSection from '@/app/components/sections/CtaSection';
 
 export default function ProductPage() {
   return (
     <>
       <Header />
-      <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px', fontFamily: 'sans-serif' }}>
-        <h1 style={{ textAlign: 'center', fontSize: '2.5em', marginBottom: '40px' }}>
-          Product
-        </h1>
+      <SubPageTitle title="Product" />
+      <main className="container">
+        {/* Add page content here */}
       </main>
+      <CtaSection />
       <Footer />
     </>
   );

@@ -1,0 +1,17 @@
+.green_bg {
+  background-color: var(--primary-green);
+  padding: 60px 0;
+  color: var(--white);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  text-align: start;
+  font-size: var(--font-size-xxl);
+  margin-bottom: 40px;
+}

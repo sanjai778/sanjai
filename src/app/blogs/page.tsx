@@ -23,7 +23,7 @@ interface Category {
 // --- Data Fetching on the Server ---
 async function getCategories(): Promise<Category[]> {
   try {
-    const response = await fetch('http://localhost:3000/api/categories', { next: { revalidate: 60 } });
+    const response = await fetch('http://localhost:3000/api/categories', { cache: 'no-store' });
 
     if (!response.ok) {
       throw new Error('Failed to fetch categories.');
@@ -40,7 +40,7 @@ async function getCategories(): Promise<Category[]> {
 async function getPosts(): Promise<Post[]> {
   try {
     // Use the absolute URL of your API. Revalidate to get new posts periodically.
-    const response = await fetch('http://localhost:3000/api/blogs', { next: { revalidate: 60 } });
+    const response = await fetch('http://localhost:3000/api/blogs', { cache: 'no-store' });
 
     if (!response.ok) {
       throw new Error('Failed to fetch posts.');

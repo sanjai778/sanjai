@@ -37,4 +37,7 @@ export class Blog {
 
     @Column()
     featuredImage!: string;
+
+    @Column({ type: 'text', nullable: true })
+    mini_content!: string;
 }

@@ -17,7 +17,8 @@ export class BlogController {
         title: blog.title,
         slug: blog.slug,
         date: blog.date,
-        image: blog.featuredImage,
+        featuredImage: blog.featuredImage,
+        content: blog.content,
         categories: blog.categories.map((category) => ({
           id: category.id,
           name: category.name,

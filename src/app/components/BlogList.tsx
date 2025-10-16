@@ -26,13 +26,6 @@ interface BlogListProps {
   categories: Category[];
 }
 
-function stripHtml(html: string) {
-  if (typeof window !== 'undefined') {
-    const doc = new DOMParser().parseFromString(html, 'text/html');
-    return doc.body.textContent || "";
-  }
-  return html.replace(/<[^>]*>?/gm, '');
-}
 
 export default function BlogList({ posts, categories }: BlogListProps) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -101,9 +94,9 @@ export default function BlogList({ posts, categories }: BlogListProps) {
                   year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'
                 })}
               </p>
-              <p className={styles.card_excerpt}>
-                {post.content ? `${stripHtml(post.content).substring(0, 100)}...` : ''}
-              </p>
+              <div className={styles.card_excerpt}>
+                {post.content ? post.content.replace(/<[^>]*>?/gm, '') : ''}
+              </div>
               <span className={styles.read_more_btn}>
                 Read More
               </span>

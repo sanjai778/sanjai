@@ -11,7 +11,23 @@ export class CategoryRepository {
   async getAll() {
     try {
       const repository = await this.getRepository();
-      return repository.find({ relations: ["blogs"] });
+      return repository.find({
+        relations: {
+          blogs: true,
+        },
+        select: {
+          id: true,
+          name: true,
+          blogs: {
+            id: true,
+            title: true,
+            slug: true,
+            date: true,
+            featuredImage: true,
+            content: true,
+          },
+        },
+      });
     } catch (error) {
       console.error("Error getting all categories:", error);
       throw error;
@@ -21,7 +37,24 @@ export class CategoryRepository {
   async getById(id: number) {
     try {
       const repository = await this.getRepository();
-      return repository.findOne({ where: { id }, relations: ["blogs"] });
+      return repository.findOne({
+        where: { id },
+        relations: {
+          blogs: true,
+        },
+        select: {
+          id: true,
+          name: true,
+          blogs: {
+            id: true,
+            title: true,
+            slug: true,
+            date: true,
+            featuredImage: true,
+            content: true,
+          },
+        },
+      });
     } catch (error) {
       console.error(`Error getting category by id ${id}:`, error);
       throw error;

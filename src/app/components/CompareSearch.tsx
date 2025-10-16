@@ -3,13 +3,23 @@
 import React from 'react';
 import styles from './CompareSearch.module.css';
 
-const CompareSearch: React.FC = () => {
+interface CompareSearchProps {
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+}
+
+const CompareSearch: React.FC<CompareSearchProps> = ({ value, onChange }) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Best Digital Transformation Tools for Workplace Management</h1>
       <div className={styles.searchBox}>
-        <input type="text" placeholder="Search comparisons..." className={styles.searchInput} />
-        <button className={styles.searchButton}>Search</button>
+        <input
+          type="text"
+          placeholder="Search..."
+          className={styles.searchInput}
+          value={value}
+          onChange={onChange}
+        />
       </div>
       <div className={styles.features}>
         <div className={styles.feature}>

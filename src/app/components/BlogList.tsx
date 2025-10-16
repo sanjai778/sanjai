@@ -4,6 +4,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import styles from '../blogs/blogs.module.css';
+import NewPagination from './NewPagination';
 
 interface Post {
   id: number;
@@ -23,6 +24,14 @@ interface Category {
 interface BlogListProps {
   posts: Post[];
   categories: Category[];
+}
+
+function stripHtml(html: string) {
+  if (typeof window !== 'undefined') {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    return doc.body.textContent || "";
+  }
+  return html.replace(/<[^>]*>?/gm, '');
 }
 
 export default function BlogList({ posts, categories }: BlogListProps) {
@@ -93,7 +102,7 @@ export default function BlogList({ posts, categories }: BlogListProps) {
                 })}
               </p>
               <p className={styles.card_excerpt}>
-                {post.content ? `${post.content.substring(0, 100)}...` : ''}
+                {post.content ? `${stripHtml(post.content).substring(0, 100)}...` : ''}
               </p>
               <span className={styles.read_more_btn}>
                 Read More
@@ -104,25 +113,11 @@ export default function BlogList({ posts, categories }: BlogListProps) {
       </div>
 
       {/* Pagination */}
-      <div className={styles.pagination}>
-        <button 
-          onClick={() => setCurrentPage(p => Math.max(1, p - 1))} 
-          disabled={currentPage === 1}
-          className={styles.pagination_button}
-        >
-          Previous
-        </button>
-        <span className={styles.pagination_info}>
-          Page {currentPage} of {totalPages}
-        </span>
-        <button 
-          onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))} 
-          disabled={currentPage === totalPages}
-          className={styles.pagination_button}
-        >
-          Next
-        </button>
-      </div>
+      <NewPagination
+        currentPage={currentPage}
+        totalPages={totalPages}
+        onPageChange={(page) => setCurrentPage(page)}
+      />
     </div>
   );
 }
